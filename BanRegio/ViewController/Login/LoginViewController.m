@@ -30,7 +30,7 @@
 -(void)setData
 {
     [_lblTitleHeader setText:NSLocalizedString(@"titleHeader", @"")];
-    [_lblTitle setText:NSLocalizedString(@"titleHeader", @"")];
+    [_lblTitle setText:NSLocalizedString(@"login", @"")];
     [_btnLogin setTitle:NSLocalizedString(@"btnLogin", @"") forState:UIControlStateNormal];
 }
 

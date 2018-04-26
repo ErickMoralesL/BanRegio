@@ -18,6 +18,8 @@
 		CC29D62D2090390500B1E0DD /* Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29D62C2090390500B1E0DD /* Styles.m */; };
 		CC29D63320903BBD00B1E0DD /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29D63220903BBD00B1E0DD /* Utils.m */; };
 		CC29D63A20917AA500B1E0DD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC29D63C20917AA500B1E0DD /* Localizable.strings */; };
+		CC29D6402091896000B1E0DD /* UITextForm.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29D63F2091896000B1E0DD /* UITextForm.m */; };
+		CC29D64320918C2F00B1E0DD /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29D64220918C2F00B1E0DD /* Constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,10 @@
 		CC29D636209179E200B1E0DD /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		CC29D63B20917AA500B1E0DD /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		CC29D63D20917D1900B1E0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CC29D63E2091896000B1E0DD /* UITextForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextForm.h; sourceTree = "<group>"; };
+		CC29D63F2091896000B1E0DD /* UITextForm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextForm.m; sourceTree = "<group>"; };
+		CC29D64120918C2F00B1E0DD /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CC29D64220918C2F00B1E0DD /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,8 @@
 				CC29D629209037AC00B1E0DD /* Fonts.m */,
 				CC29D62B2090390500B1E0DD /* Styles.h */,
 				CC29D62C2090390500B1E0DD /* Styles.m */,
+				CC29D63E2091896000B1E0DD /* UITextForm.h */,
+				CC29D63F2091896000B1E0DD /* UITextForm.m */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -157,6 +165,8 @@
 			children = (
 				CC29D63120903BBD00B1E0DD /* Utils.h */,
 				CC29D63220903BBD00B1E0DD /* Utils.m */,
+				CC29D64120918C2F00B1E0DD /* Constants.h */,
+				CC29D64220918C2F00B1E0DD /* Constants.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -262,7 +272,9 @@
 				CC29D62D2090390500B1E0DD /* Styles.m in Sources */,
 				CC29D60920901EC300B1E0DD /* AppDelegate.m in Sources */,
 				CC29D63320903BBD00B1E0DD /* Utils.m in Sources */,
+				CC29D6402091896000B1E0DD /* UITextForm.m in Sources */,
 				CC29D62A209037AC00B1E0DD /* Fonts.m in Sources */,
+				CC29D64320918C2F00B1E0DD /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
