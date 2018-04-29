@@ -84,7 +84,8 @@
             return NO;
             
         }else{
-            
+            if(formType == FormTypeDate)
+                return YES;
             //Validate form user name
             if(![TextValidations validateWithRegex:formType andString:textField.text])
             {

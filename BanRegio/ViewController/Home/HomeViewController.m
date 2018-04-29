@@ -102,12 +102,13 @@
 
 -(IBAction)buttonSave:(id)sender
 {
-    if([_interactor getValidationWithName:_txtFormName LastName:_txtFormLastName andAddress:_txtFormAddress])
+    if([_interactor getValidationWithName:_txtFormName LastName:_txtFormLastName Birthday:_txtFormBirthdate andAddress:_txtFormAddress])
     {}
 }
 
 -(IBAction)buttonCalendar:(id)sender
 {
+    [_txtFormBirthdate clearTextFieldValidation];
     CalendarViewController *vc = [[CalendarViewController alloc] init];
     vc.delegate = self;
     vc.modalPresentationStyle = UIModalPresentationFullScreen;

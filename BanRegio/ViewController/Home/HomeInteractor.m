@@ -10,11 +10,12 @@
 
 @implementation HomeInteractor
 
--(BOOL)getValidationWithName:(UITextForm*)name LastName:(UITextForm*)lastname andAddress:(UITextForm*)address
+-(BOOL)getValidationWithName:(UITextForm*)name LastName:(UITextForm*)lastname Birthday:(UITextForm*)birthday andAddress:(UITextForm*)address
 {
     BOOL isName = [TextValidations validate:FormTypeUserName andField:name isRequired:YES];
     BOOL isLastName = [TextValidations validate:FormTypeUserName andField:lastname isRequired:YES];
     BOOL isAddress = [TextValidations validate:FormTypeAlphanumeric andField:address isRequired:YES];
+    BOOL isBirthday = [TextValidations validate:FormTypeDate andField:birthday isRequired:YES];
     
     if(!isName)
         return NO;
@@ -23,6 +24,9 @@
         return NO;
     
     if(!isAddress)
+        return NO;
+    
+    if(!isBirthday)
         return NO;
     
     return YES;

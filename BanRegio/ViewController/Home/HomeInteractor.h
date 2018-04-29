@@ -10,6 +10,6 @@
 
 @interface HomeInteractor : NSObject
 
--(BOOL)getValidationWithName:(UITextForm*)name LastName:(UITextForm*)lastname andAddress:(UITextForm*)address;
+-(BOOL)getValidationWithName:(UITextForm*)name LastName:(UITextForm*)lastname Birthday:(UITextForm*)birthday andAddress:(UITextForm*)address;
 
 @end

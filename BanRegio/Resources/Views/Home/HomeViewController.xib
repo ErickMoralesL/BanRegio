@@ -146,7 +146,7 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder=" / /" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SlT-y2-Oh0" customClass="UITextForm">
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder=" dd/mm/yyyy" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SlT-y2-Oh0" customClass="UITextForm">
                     <rect key="frame" x="25" y="458" width="100" height="35"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="Bfn-dx-dnM"/>
@@ -185,11 +185,11 @@
                         <action selector="buttonSave:" destination="-1" eventType="touchUpInside" id="EIv-S6-tvE"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3K-Qf-S6l">
-                    <rect key="frame" x="144" y="452" width="45" height="46"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3K-Qf-S6l">
+                    <rect key="frame" x="16" y="452" width="150" height="46"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="46" id="2b5-m2-j3N"/>
-                        <constraint firstAttribute="width" constant="45" id="u8M-R2-woE"/>
+                        <constraint firstAttribute="width" constant="150" id="u8M-R2-woE"/>
                     </constraints>
                     <state key="normal" image="ic_calendar"/>
                     <connections>
@@ -209,7 +209,6 @@
                 <constraint firstItem="YEO-VH-Kf6" firstAttribute="leading" secondItem="ZOu-vx-WTX" secondAttribute="leading" constant="25" id="LAV-Px-XyW"/>
                 <constraint firstItem="SlT-y2-Oh0" firstAttribute="top" secondItem="KWQ-RN-u0w" secondAttribute="bottom" constant="8" id="STd-Oe-uf8"/>
                 <constraint firstItem="QeH-tN-XEw" firstAttribute="leading" secondItem="ZOu-vx-WTX" secondAttribute="leading" constant="25" id="SV1-bU-SvB"/>
-                <constraint firstItem="U3K-Qf-S6l" firstAttribute="leading" secondItem="SlT-y2-Oh0" secondAttribute="trailing" constant="19" id="T13-9V-TBb"/>
                 <constraint firstItem="6el-sd-1nR" firstAttribute="leading" secondItem="ZOu-vx-WTX" secondAttribute="leading" constant="25" id="Tt5-cD-YXu"/>
                 <constraint firstItem="snw-Er-A1u" firstAttribute="top" secondItem="gOV-OI-6dH" secondAttribute="bottom" constant="12" id="Vdw-wE-1Pz"/>
                 <constraint firstAttribute="trailing" secondItem="6el-sd-1nR" secondAttribute="trailing" constant="25" id="W85-wt-Sn4"/>
@@ -226,6 +225,7 @@
                 <constraint firstAttribute="bottom" secondItem="TFB-ye-hzK" secondAttribute="bottom" constant="20" id="eCO-GM-sAR"/>
                 <constraint firstAttribute="trailing" secondItem="959-Fl-X8Z" secondAttribute="trailing" constant="25" id="fJL-Yf-fwD"/>
                 <constraint firstItem="snw-Er-A1u" firstAttribute="centerX" secondItem="ZOu-vx-WTX" secondAttribute="centerX" id="kw9-NI-qA4"/>
+                <constraint firstItem="U3K-Qf-S6l" firstAttribute="leading" secondItem="ZOu-vx-WTX" secondAttribute="leading" constant="16" id="pTL-19-FDZ"/>
                 <constraint firstItem="KWQ-RN-u0w" firstAttribute="top" secondItem="6el-sd-1nR" secondAttribute="bottom" constant="25" id="sHs-yZ-etZ"/>
                 <constraint firstItem="QeH-tN-XEw" firstAttribute="top" secondItem="snw-Er-A1u" secondAttribute="bottom" constant="12" id="shV-FX-bSI"/>
                 <constraint firstItem="PJX-zZ-L8A" firstAttribute="leading" secondItem="ZOu-vx-WTX" secondAttribute="leading" constant="25" id="ytq-oF-JgS"/>
