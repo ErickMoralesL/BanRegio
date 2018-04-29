@@ -41,6 +41,7 @@
 		CC29D68420963BA700B1E0DD /* HomeInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29D68320963BA700B1E0DD /* HomeInteractor.m */; };
 		CC29D689209648D100B1E0DD /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29D687209648D100B1E0DD /* CalendarViewController.m */; };
 		CC29D68A209648D100B1E0DD /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC29D688209648D100B1E0DD /* CalendarViewController.xib */; };
+		CCE1DF7F209691B0008C50E6 /* RealmFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF7E209691B0008C50E6 /* RealmFacade.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,8 @@
 		CC29D686209648D100B1E0DD /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CalendarViewController.h; path = BanRegio/ViewController/Calendar/CalendarViewController.h; sourceTree = SOURCE_ROOT; };
 		CC29D687209648D100B1E0DD /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CalendarViewController.m; path = BanRegio/ViewController/Calendar/CalendarViewController.m; sourceTree = SOURCE_ROOT; };
 		CC29D688209648D100B1E0DD /* CalendarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CalendarViewController.xib; path = BanRegio/ViewController/Home/CalendarViewController.xib; sourceTree = SOURCE_ROOT; };
+		CCE1DF7D209691B0008C50E6 /* RealmFacade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmFacade.h; sourceTree = "<group>"; };
+		CCE1DF7E209691B0008C50E6 /* RealmFacade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmFacade.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +246,7 @@
 		CC29D62F20903B6700B1E0DD /* Bussiness */ = {
 			isa = PBXGroup;
 			children = (
+				CCE1DF7C2096911E008C50E6 /* Realm */,
 				CC29D6612094D55D00B1E0DD /* Model */,
 				CC29D6442092C20A00B1E0DD /* WebServices */,
 				CC29D63720917A3100B1E0DD /* Localization */,
@@ -423,6 +427,15 @@
 			path = Calendar;
 			sourceTree = "<group>";
 		};
+		CCE1DF7C2096911E008C50E6 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				CCE1DF7D209691B0008C50E6 /* RealmFacade.h */,
+				CCE1DF7E209691B0008C50E6 /* RealmFacade.m */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -533,6 +546,7 @@
 				CC29D64A2092D29500B1E0DD /* LoginInteractor.m in Sources */,
 				CC29D63320903BBD00B1E0DD /* Utils.m in Sources */,
 				CC29D6402091896000B1E0DD /* UITextForm.m in Sources */,
+				CCE1DF7F209691B0008C50E6 /* RealmFacade.m in Sources */,
 				CC29D6752094EEFC00B1E0DD /* AlertViewController.m in Sources */,
 				CC29D65A2092DCEB00B1E0DD /* TextValidations.m in Sources */,
 				CC29D62A209037AC00B1E0DD /* Fonts.m in Sources */,
