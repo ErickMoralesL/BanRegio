@@ -9,3 +9,26 @@
 "login" = "Login";
 "titleHeader" = "BanRegio";
 "btnLogin" = "Ingresar";
+"mandatoryValidation" = "validacion obligatorio";
+"incorrectValidation" = "validacion incorrecto";
+"passworIncorrectValidation" = "validacion incorrecto contrasena";
+"titleIncorrectLogin" = "Su correo o su contraseña no coinciden, intente nuevamente.";
+"requestError" = "Se genero un problema intente de nuevo";
+"internetError" = "Sin conexión, \nintente nuevamente";
+"btnAcept" = "Aceptar";
+"btnCancel" = "Cancel";
+"txtUserBanRegio" = "Usuario de Banca Electrónica";
+"txtPassworBanRegio" = "Contraseña de Banca Electrónica";
+
+"titleHome" = "Alta de Usuario";
+"btnSelectImage" = "Seleccionar Imagen";
+"insufficientPermits" = "Usted no tienes los permisos para ejecutar esta acción";
+"titleAlertPhoto" = "Selecciona una opción";
+"btnCameraGeneric" = "Cámara";
+"btnLibraryGenerc" = "Biblioteca";
+
+"name" = "Nombre";
+"lastName" = "Apellido";
+"birthday" = "Fecha de nacimiento";
+"address" = "Dirección";
+"btnSave" = "Guardar";

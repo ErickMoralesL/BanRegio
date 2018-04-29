@@ -39,5 +39,26 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>web.hidrosina.com.mx</key>
+            <dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+    <key>NSCameraUsageDescription</key>
+    <string>Se utiliza para colocar la imagen en tu perfil.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Se utilizara para geolocalizar al usuario para mapa.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Se utilizara para colocar la imagen en tu perfil.</string>
 </dict>
 </plist>

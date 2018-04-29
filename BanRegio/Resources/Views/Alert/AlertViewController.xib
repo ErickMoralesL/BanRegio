@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlertViewController">
+            <connections>
+                <outlet property="btnAcept" destination="tD9-93-I0p" id="6d4-Z7-l6Z"/>
+                <outlet property="btnAceptHight" destination="GfE-pM-SMY" id="3Qf-gp-ii1"/>
+                <outlet property="btnCancel" destination="cAE-GP-ldc" id="HL0-Ye-wej"/>
+                <outlet property="btnCancelHight" destination="lct-PB-mTH" id="oqK-Wz-ahh"/>
+                <outlet property="lblTitle" destination="EnW-Lw-2Hp" id="dw1-Jv-Vet"/>
+                <outlet property="lblTitleToBtnAcept" destination="KNl-As-820" id="xj7-e9-IC7"/>
+                <outlet property="tnAbceptToBtnCancel" destination="fdo-dk-aHB" id="YbZ-hH-1q1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewContent" destination="8Sa-72-Pl3" id="yEc-qv-vFr"/>
+                <outlet property="viewContentHigth" destination="14b-fn-tRH" id="KGM-2b-3BM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gTy-Ci-XQh">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Sa-72-Pl3">
+                    <rect key="frame" x="25" y="232" width="325" height="203"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EnW-Lw-2Hp">
+                            <rect key="frame" x="16" y="16" width="293" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="glg-aN-so7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tD9-93-I0p">
+                            <rect key="frame" x="25" y="96" width="275" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="GfE-pM-SMY"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="buttonAcept:" destination="-1" eventType="touchUpInside" id="P1t-4F-hya"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAE-GP-ldc">
+                            <rect key="frame" x="25" y="147" width="275" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="lct-PB-mTH"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="buttonCancel:" destination="-1" eventType="touchUpInside" id="9jq-qO-7Gl"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="203" id="14b-fn-tRH"/>
+                        <constraint firstItem="EnW-Lw-2Hp" firstAttribute="leading" secondItem="8Sa-72-Pl3" secondAttribute="leading" constant="16" id="2Cf-8h-9Bl"/>
+                        <constraint firstAttribute="trailing" secondItem="cAE-GP-ldc" secondAttribute="trailing" constant="25" id="Fg0-he-03T"/>
+                        <constraint firstItem="tD9-93-I0p" firstAttribute="top" secondItem="EnW-Lw-2Hp" secondAttribute="bottom" constant="20" id="KNl-As-820"/>
+                        <constraint firstItem="cAE-GP-ldc" firstAttribute="leading" secondItem="8Sa-72-Pl3" secondAttribute="leading" constant="25" id="LGp-cP-mR3"/>
+                        <constraint firstItem="EnW-Lw-2Hp" firstAttribute="top" secondItem="8Sa-72-Pl3" secondAttribute="top" constant="16" id="VPN-pJ-DI4"/>
+                        <constraint firstItem="cAE-GP-ldc" firstAttribute="top" secondItem="tD9-93-I0p" secondAttribute="bottom" constant="16" id="fdo-dk-aHB"/>
+                        <constraint firstAttribute="trailing" secondItem="EnW-Lw-2Hp" secondAttribute="trailing" constant="16" id="nIH-Ho-aQE"/>
+                        <constraint firstItem="tD9-93-I0p" firstAttribute="leading" secondItem="8Sa-72-Pl3" secondAttribute="leading" constant="25" id="rIU-K1-qHo"/>
+                        <constraint firstAttribute="trailing" secondItem="tD9-93-I0p" secondAttribute="trailing" constant="25" id="zlb-gv-5zg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="gTy-Ci-XQh" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="OHs-tD-ZaS"/>
+                <constraint firstItem="8Sa-72-Pl3" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="TQM-PH-Bn6"/>
+                <constraint firstItem="gTy-Ci-XQh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Tkp-d7-1eV"/>
+                <constraint firstItem="8Sa-72-Pl3" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="25" id="UYN-Ha-cZz"/>
+                <constraint firstAttribute="bottom" secondItem="gTy-Ci-XQh" secondAttribute="bottom" id="Uel-mJ-RVC"/>
+                <constraint firstItem="8Sa-72-Pl3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WHf-vE-GCA"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="8Sa-72-Pl3" secondAttribute="trailing" constant="25" id="qJr-Zc-z08"/>
+                <constraint firstItem="gTy-Ci-XQh" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="y23-B3-E67"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

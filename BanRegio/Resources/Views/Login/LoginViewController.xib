@@ -15,6 +15,8 @@
                 <outlet property="btnLogin" destination="fKn-Yd-3yh" id="iFY-X9-7hI"/>
                 <outlet property="lblTitle" destination="mEr-dj-QbZ" id="zH5-gH-eqw"/>
                 <outlet property="lblTitleHeader" destination="cq3-1k-kny" id="nPy-0i-L8U"/>
+                <outlet property="txtFormPassword" destination="Ya6-58-470" id="2VN-jV-yga"/>
+                <outlet property="txtFormUserName" destination="jHH-zy-hkU" id="a2P-dF-c9V"/>
                 <outlet property="view" destination="iN0-l3-epB" id="2c4-o7-hLb"/>
                 <outlet property="viewHeader" destination="jXQ-EB-OXp" id="tIN-Uk-tmV"/>
             </connections>
@@ -27,14 +29,13 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jXQ-EB-OXp">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BanRegio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cq3-1k-kny">
-                            <rect key="frame" x="132" y="36" width="112" height="30"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cq3-1k-kny">
+                            <rect key="frame" x="156" y="36" width="64" height="30"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="75" id="i2e-5R-D9H"/>
                         <constraint firstAttribute="bottom" secondItem="cq3-1k-kny" secondAttribute="bottom" constant="9" id="kfo-CB-443"/>
@@ -57,7 +58,7 @@
                             </constraints>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" textContentType="username"/>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ya6-58-470" customClass="UITextForm">
                             <rect key="frame" x="35" y="145" width="305" height="30"/>
@@ -66,7 +67,7 @@
                             </constraints>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                         </textField>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKn-Yd-3yh">
                             <rect key="frame" x="100" y="202" width="174" height="43"/>

@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Examen BanRegio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANm-4M-NGm">
-                                <rect key="frame" x="16" y="730" width="137.66666666666666" height="21"/>
+                                <rect key="frame" x="16" y="723" width="137.66666666666666" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -34,7 +34,7 @@
                             <constraint firstItem="Ovm-eH-sjE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="R7q-WM-1Q3"/>
                             <constraint firstAttribute="bottom" secondItem="Ovm-eH-sjE" secondAttribute="bottom" id="aqL-mv-7yg"/>
                             <constraint firstItem="Ovm-eH-sjE" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="m95-Gj-2Ga"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ANm-4M-NGm" secondAttribute="bottom" constant="27" id="nTG-MJ-wsi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ANm-4M-NGm" secondAttribute="bottom" constant="34" id="nTG-MJ-wsi"/>
                             <constraint firstItem="ANm-4M-NGm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rYh-Et-Rb3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

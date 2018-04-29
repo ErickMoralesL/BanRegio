@@ -12,5 +12,7 @@
 
 +(UIColor*)colorTitleHeader;
 +(UIColor*)gray192Color;
-
++(UIColor*)gray121Color;
++(UIColor*)gray247Color;
++(UIColor*)steelGreyColor;
 @end

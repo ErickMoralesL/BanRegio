@@ -1,9 +1,9 @@
 //
 //  UITextForm.m
-//  KokoTemplate
+//  BanRegio
 //
-//  Created by Sergio on 11/29/17.
-//  Copyright © 2017 Kokonut. All rights reserved.
+//  Created by Erick Alberto Morales Ledesma on 24/04/18.
+//  Copyright © 2018 Erick Alberto Morales Ledesma. All rights reserved.
 //
 
 #import "UITextForm.h"
@@ -153,7 +153,6 @@
 #pragma mark - Toolbar Actions
 -(void)doneToolbar
 {
-    
     [self resignFirstResponder];
     [delegateTextForm keyboardOff];
 }
@@ -162,67 +161,6 @@
 +(void)setPlaceHolder:(NSString *)placeHolderString
 {
     [self setPlaceHolder:placeHolderString];
-}
-
--(void)setPasswordType
-{
-    [self setSecureTextEntry:YES];
-}
-
--(void)setEmailType
-{
-    [self setKeyboardType:UIKeyboardTypeEmailAddress];
-}
-
--(void)setUserNameType
-{
-    [self setKeyboardType:UIKeyboardTypeDefault];
-}
-
--(void)setupNumbers
-{
-    [self setKeyboardType:UIKeyboardTypeNumberPad];
-}
-
--(void)setupZipCode
-{
-    [self setKeyboardType:UIKeyboardTypeNumberPad];
-}
-
--(void)setupDatePicker
-{
-    datePicker = [[UIDatePicker alloc] init];
-    datePicker.datePickerMode = UIDatePickerModeDate;
-    
-    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-    NSDate *currentDate = [NSDate date];
-    NSDateComponents *comps = [[NSDateComponents alloc] init];
-    [comps setYear:-18];
-    NSDate *maxDate = [calendar dateByAddingComponents:comps toDate:currentDate options:0];
-    [comps setYear:-80];
-    NSDate *minDate = [calendar dateByAddingComponents:comps toDate:currentDate options:0];
-    
-    [datePicker setMaximumDate:maxDate];
-    [datePicker setMinimumDate:minDate];
-    
-    [self setInputView:datePicker];
-    
-    UIToolbar *toolBar=[[UIToolbar alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 44)];
-    
-    UIBarButtonItem *doneBtn=[[UIBarButtonItem alloc]initWithTitle:[NSString stringWithFormat:@"Done"] style:UIBarButtonItemStyleDone target:self action:@selector(ShowSelectedDate)];
-    //initWithTitle debe ser reemplazado por el texto localizado ^
-    UIBarButtonItem *space=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
-    [toolBar setItems:[NSArray arrayWithObjects:space,doneBtn, nil]];
-    [self setInputAccessoryView:toolBar];
-}
-
--(void)ShowSelectedDate
-{
-    NSDateFormatter *formatter=[[NSDateFormatter alloc]init];
-    [formatter setDateFormat:@"dd/MM/YYYY"];
-    
-    self.text=[NSString stringWithFormat:@"%@",[formatter stringFromDate:datePicker.date]];
-    [self resignFirstResponder];
 }
 
 #pragma mark -Delegates & Protocols
@@ -285,10 +223,10 @@
          self->lblErrorMessage.alpha = 1.0;
      }];
     
+    [Animations viewVibrateAnimationForItem:self];
+    
     [self addSubview:lblErrorMessage];
 }
-
-
 
 -(void)showValidationErrorWide:(NSString*)errorMessage{
     
@@ -316,7 +254,7 @@
 
 - (void)keyboardWasShown:(NSNotification *)notification
 {
-    //    [self clearTextFieldValidation];
+    [self clearTextFieldValidation];
     if(!isFieldEditing){return;}
     
     if(isPicker == YES && [self.text isEqualToString:@""] && pickerData.count > 0){

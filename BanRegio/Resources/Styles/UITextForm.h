@@ -1,9 +1,9 @@
 //
 //  UITextForm.h
-//  KokoTemplate
+//  BanRegio
 //
-//  Created by Sergio on 11/29/17.
-//  Copyright © 2017 Kokonut. All rights reserved.
+//  Created by Erick Alberto Morales Ledesma on 24/04/18.
+//  Copyright © 2018 Erick Alberto Morales Ledesma. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

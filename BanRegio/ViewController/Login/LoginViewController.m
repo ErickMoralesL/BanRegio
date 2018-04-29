@@ -7,13 +7,23 @@
 //
 
 #import "LoginViewController.h"
+#import "LoginInteractor.h"
+#import "HomeViewController.h"
 
-@interface LoginViewController ()
+@interface LoginViewController ()<LoginInteractorDelegate>
+{
+    YBHud *hud;
+}
 
 @property (weak, nonatomic) IBOutlet UILabel *lblTitleHeader;
 @property (weak, nonatomic) IBOutlet UIView *viewHeader;
 @property (weak, nonatomic) IBOutlet UILabel *lblTitle;
 @property (weak, nonatomic) IBOutlet UIButton *btnLogin;
+
+@property (weak, nonatomic) IBOutlet UITextForm *txtFormUserName;
+@property (weak, nonatomic) IBOutlet UITextForm *txtFormPassword;
+
+@property (strong, nonatomic) LoginInteractor *interactor;
 
 @end
 
@@ -32,6 +42,13 @@
     [_lblTitleHeader setText:NSLocalizedString(@"titleHeader", @"")];
     [_lblTitle setText:NSLocalizedString(@"login", @"")];
     [_btnLogin setTitle:NSLocalizedString(@"btnLogin", @"") forState:UIControlStateNormal];
+    [_txtFormUserName setPlaceholder:NSLocalizedString(@"txtUserBanRegio", @"")];
+    [_txtFormPassword setPlaceholder:NSLocalizedString(@"txtPassworBanRegio", @"")];
+    
+    _interactor = [[LoginInteractor alloc] init];
+    _interactor.delegate = self;
+    
+    hud = [[YBHud alloc] initWithHudType:DGActivityIndicatorAnimationTypeBallBeat andText:@"Cargando"];
 }
 
 #pragma mark - Set Style
@@ -40,13 +57,59 @@
 {
     [Styles setLabelTitleHeader:_lblTitleHeader];
     [_viewHeader setBackgroundColor:[Colors gray192Color]];
+    [Styles setButtonGeneric:_btnLogin];
+    [Styles setLabelTitle:_lblTitle];
 }
 
 #pragma mark - IBAction
 
 -(IBAction)buttonLogin:(id)sender
 {
+    if([_interactor getValidationLoginWithUserName:_txtFormUserName andPassword:_txtFormPassword])
+    {
+        [hud showInView:self.view animated:YES];
+        [_interactor initService];
+    }
 }
 
+#pragma mark - Login Interactor Delegate
+
+-(void)onSuccessRequestWith:(UserVO*)userVO
+{
+    [hud dismissAnimated:YES];
+    if([userVO.user isEqualToString:_txtFormUserName.text] && [userVO.password isEqualToString:_txtFormPassword.text])
+    {
+        HomeViewController *homeVC = [[HomeViewController alloc] init];
+        [self.navigationController pushViewController:homeVC animated:YES];
+    }else{
+        [self showAlertWithTitle:NSLocalizedString(@"titleIncorrectLogin", @"") titleButtonAcept:NSLocalizedString(@"btnAcept", @"")];
+    }
+}
+
+-(void)onErrorRequest
+{
+    [hud dismissAnimated:YES];
+    [self showAlertWithTitle:NSLocalizedString(@"requestError", @"")
+            titleButtonAcept:NSLocalizedString(@"btnAcept", @"")];
+}
+
+-(void)onErrorInternet
+{
+    [hud dismissAnimated:YES];
+    [self showAlertWithTitle:NSLocalizedString(@"internetError", @"") titleButtonAcept:NSLocalizedString(@"btnAcept", @"")];
+}
+
+#pragma mark - Alert
+
+-(void)showAlertWithTitle:(NSString*)title titleButtonAcept:(NSString*)btnAcept
+{
+    AlertViewController *alertVC = [[AlertViewController alloc] init];
+    alertVC.modalPresentationStyle = UIModalPresentationFullScreen;
+    alertVC.modalPresentationStyle = UIModalPresentationCustom;
+    [self presentViewController:alertVC animated:YES completion:nil];
+    [alertVC.lblTitle setText:title];
+    [alertVC.btnAcept setTitle:btnAcept forState:UIControlStateNormal];
+    [alertVC hiddenButtonCancel];
+}
 
 @end

@@ -11,5 +11,11 @@
 @interface Fonts : UIFont
 
 +(UIFont*)fontTitleHeader;
++(UIFont*)fontButtonGeneric;
++(UIFont*)fontTitle;
++(UIFont*)fontTitleAlert;
++(UIFont*)fontButtonAceptAlert;
++(UIFont*)fontButtonAceptCancel;
++(UIFont*)fontSubTitle;
 
 @end
