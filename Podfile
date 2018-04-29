@@ -8,5 +8,6 @@ target 'BanRegio' do
   # Pods for BanRegio
   pod 'AFNetworking'
   pod 'DGActivityIndicatorView'
+  pod 'FSCalendar'
 
 end

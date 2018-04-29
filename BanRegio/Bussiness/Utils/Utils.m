@@ -20,4 +20,19 @@
     }
 }
 
+#pragma mark - convert date
+
++(nonnull NSString*)getConvertStringToDateCalendar:(nonnull NSDate*)date
+{
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
+    [dateFormatter setLocale:locale];
+    //[dateFormatter setTimeZone:[NSTimeZone timeZoneWithName:@"GMT"]];
+    [dateFormatter setDateFormat:@"dd/MM/yyyy"];
+    NSString *newDate = [dateFormatter stringFromDate:date];
+    newDate = [NSString stringWithFormat:@"%@",newDate];
+    return newDate;
+}
+
+
 @end

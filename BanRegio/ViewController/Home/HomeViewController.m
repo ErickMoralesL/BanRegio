@@ -8,8 +8,9 @@
 
 #import "HomeViewController.h"
 #import "HomeInteractor.h"
+#import "CalendarViewController.h"
 
-@interface HomeViewController ()<ActionSheetNotification, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface HomeViewController ()<ActionSheetNotification, UIImagePickerControllerDelegate, UINavigationControllerDelegate,CalendarViewControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIView *viewHeader;
 @property (weak, nonatomic) IBOutlet UILabel *lblTitleHeader;
@@ -90,12 +91,28 @@
     [_btnSave setTitle:NSLocalizedString(@"btnSave", @"") forState:UIControlStateNormal];
 }
 
+#pragma mark - Calendar delegate
+
+-(void)dateCalendar:(NSString*)date
+{
+    [_txtFormBirthdate setText:date];
+}
+
 #pragma mark - IBAction
 
 -(IBAction)buttonSave:(id)sender
 {
     if([_interactor getValidationWithName:_txtFormName LastName:_txtFormLastName andAddress:_txtFormAddress])
     {}
+}
+
+-(IBAction)buttonCalendar:(id)sender
+{
+    CalendarViewController *vc = [[CalendarViewController alloc] init];
+    vc.delegate = self;
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
+    vc.modalPresentationStyle = UIModalPresentationCustom;
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 -(IBAction)buttonAddImageProfile:(id)sender

@@ -39,6 +39,8 @@
 		CC29D67E209627A000B1E0DD /* ActionSheets.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29D67D209627A000B1E0DD /* ActionSheets.m */; };
 		CC29D68120962DE600B1E0DD /* AskPermissionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC29D68020962DE600B1E0DD /* AskPermissionsViewController.xib */; };
 		CC29D68420963BA700B1E0DD /* HomeInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29D68320963BA700B1E0DD /* HomeInteractor.m */; };
+		CC29D689209648D100B1E0DD /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29D687209648D100B1E0DD /* CalendarViewController.m */; };
+		CC29D68A209648D100B1E0DD /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC29D688209648D100B1E0DD /* CalendarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +105,9 @@
 		CC29D68020962DE600B1E0DD /* AskPermissionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AskPermissionsViewController.xib; sourceTree = "<group>"; };
 		CC29D68220963BA700B1E0DD /* HomeInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeInteractor.h; sourceTree = "<group>"; };
 		CC29D68320963BA700B1E0DD /* HomeInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeInteractor.m; sourceTree = "<group>"; };
+		CC29D686209648D100B1E0DD /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CalendarViewController.h; path = BanRegio/ViewController/Calendar/CalendarViewController.h; sourceTree = SOURCE_ROOT; };
+		CC29D687209648D100B1E0DD /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CalendarViewController.m; path = BanRegio/ViewController/Calendar/CalendarViewController.m; sourceTree = SOURCE_ROOT; };
+		CC29D688209648D100B1E0DD /* CalendarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CalendarViewController.xib; path = BanRegio/ViewController/Home/CalendarViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +176,7 @@
 		CC29D61D209020CF00B1E0DD /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CC29D68B209648D800B1E0DD /* Calendar */,
 				CC29D6772094EF0600B1E0DD /* Alert */,
 				CC29D6702094EE4400B1E0DD /* Home */,
 				CC29D6352091749F00B1E0DD /* Login */,
@@ -209,6 +215,7 @@
 		CC29D6232090365F00B1E0DD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CC29D685209648AF00B1E0DD /* Calendar */,
 				CC29D67F20962D9F00B1E0DD /* Permissions */,
 				CC29D6712094EEE800B1E0DD /* Alert */,
 				CC29D66A2094EE2200B1E0DD /* Home */,
@@ -399,6 +406,23 @@
 			path = Permissions;
 			sourceTree = "<group>";
 		};
+		CC29D685209648AF00B1E0DD /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CC29D688209648D100B1E0DD /* CalendarViewController.xib */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		CC29D68B209648D800B1E0DD /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CC29D686209648D100B1E0DD /* CalendarViewController.h */,
+				CC29D687209648D100B1E0DD /* CalendarViewController.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -460,6 +484,7 @@
 				CC29D61420901EC900B1E0DD /* LaunchScreen.storyboard in Resources */,
 				CC29D63A20917AA500B1E0DD /* Localizable.strings in Resources */,
 				CC29D66F2094EE3E00B1E0DD /* HomeViewController.xib in Resources */,
+				CC29D68A209648D100B1E0DD /* CalendarViewController.xib in Resources */,
 				CC29D61120901EC900B1E0DD /* Assets.xcassets in Resources */,
 				CC29D622209032C900B1E0DD /* LoginViewController.xib in Resources */,
 				CC29D6762094EEFC00B1E0DD /* AlertViewController.xib in Resources */,
@@ -498,6 +523,7 @@
 				CC29D6562092DA8300B1E0DD /* InternetResponse.m in Sources */,
 				CC29D67B20961FFB00B1E0DD /* AskPermissionsViewController.m in Sources */,
 				CC29D60C20901EC300B1E0DD /* LoginViewController.m in Sources */,
+				CC29D689209648D100B1E0DD /* CalendarViewController.m in Sources */,
 				CC29D627209036E300B1E0DD /* Colors.m in Sources */,
 				CC29D6602094D11800B1E0DD /* WSFacade.m in Sources */,
 				CC29D61720901EC900B1E0DD /* main.m in Sources */,

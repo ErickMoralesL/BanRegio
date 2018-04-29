@@ -192,6 +192,9 @@
                         <constraint firstAttribute="width" constant="45" id="u8M-R2-woE"/>
                     </constraints>
                     <state key="normal" image="ic_calendar"/>
+                    <connections>
+                        <action selector="buttonCalendar:" destination="-1" eventType="touchUpInside" id="Oee-3H-MUa"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

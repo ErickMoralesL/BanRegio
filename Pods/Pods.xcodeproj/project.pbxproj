@@ -7,268 +7,348 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		019A47D88D0CAD46387F7E20F84D2748 /* DGActivityIndicatorBallBeatAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAAB781F9BCE26845127FAA4153C760 /* DGActivityIndicatorBallBeatAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0214246CCB1FF7182F7222B9CCDF8FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
-		03EFD78155BC92960757F803CE757F5F /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0470D8FA9FB8F7FF81FEF52CC06BDE70 /* DGActivityIndicatorBallClipRotateAnimation.m */; };
-		07196219552075F2B897C75611B8FDBC /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF285BE42CDF1DE7D9F6F12C3ED174D5 /* DGActivityIndicatorBallScaleMultipleAnimation.m */; };
-		071C8432A05579D84441EF39B97B5C9E /* DGActivityIndicatorTripleRingsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D84EDD87BBB69A968C7E8C79580FF493 /* DGActivityIndicatorTripleRingsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		08D46508FF27FD645A0DA01CA4C05833 /* DGActivityIndicatorLineScalePartyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F3D4A64C0492CCB595BB667082DA21 /* DGActivityIndicatorLineScalePartyAnimation.m */; };
-		08F504C8A995CB51E79E030D2F2AA116 /* DGActivityIndicatorLineScalePartyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 459350BFA27654C05AD98469D6334497 /* DGActivityIndicatorLineScalePartyAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0B2234D6120961CAB0AFC468B5B4735F /* DGActivityIndicatorBallClipRotateAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E327945FEA5ED7C524964314E456F6F7 /* DGActivityIndicatorBallClipRotateAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0B2E8F8D8D32332F42677B88A5B86282 /* DGActivityIndicatorBallScaleRippleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A52B5370BE242E00DF4925E19B32E541 /* DGActivityIndicatorBallScaleRippleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		13BE382E6ED174E1597E734456C30F89 /* DGActivityIndicatorBallZigZagDeflectAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A0EBAC7DF65EAAFEDB697E7ACBF195C /* DGActivityIndicatorBallZigZagDeflectAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1702DB74CC573578862AA584FC9D1632 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F2457B345C8DEBA1D41EA19D9B0316 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		17889562A613EFB9E8C0CD14947CCC8F /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AC0F8AB6436C91FA50DB3C504FBFCA37 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		18C9BF1CB697B57ABD85D1EC5CD5F443 /* DGActivityIndicatorRotatingSquaresAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB95F63F10EE479A919A856C50C35A3 /* DGActivityIndicatorRotatingSquaresAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		19C3778263000801973EABF7A19001CF /* Pods-BanRegio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F406C74D130A2733B7348DCA848C362E /* Pods-BanRegio-dummy.m */; };
-		1E0E6992A34C3EA3F3523D2B367705AE /* DGActivityIndicatorBallGridBeatAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FD37B10498AF85F9CF2DB66DF5F5D24A /* DGActivityIndicatorBallGridBeatAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1FA953F8EDCD4AB5186F1A84F5555263 /* DGActivityIndicatorBallZigZagAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE302F055D294104849F5C09FF9C0BE1 /* DGActivityIndicatorBallZigZagAnimation.m */; };
-		2556BD0C101841B48272CD70B2D63ED3 /* DGActivityIndicatorRotatingSandglassAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD1E334CFD7E812DB4E6EC80A28D4C /* DGActivityIndicatorRotatingSandglassAnimation.m */; };
-		2579663181BFA8F7DA4B5D7CF8537FC0 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E65C2A7E03AED001A7493227DC27AA /* UIActivityIndicatorView+AFNetworking.m */; };
-		28992B1DA7FEA435615F7A9AD28320D5 /* DGActivityIndicatorBallBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AEED74DEAF634519D27EDE7C486027 /* DGActivityIndicatorBallBeatAnimation.m */; };
-		29D221887670387A248AD92AA94253C2 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F371B65A6DBC2E6892D55ACEB00C6DFE /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2AFC06CAC2D245073ECA018A23A38C95 /* DGActivityIndicatorCookieTerminatorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E03896E910921FC3CEC9506CC575DA71 /* DGActivityIndicatorCookieTerminatorAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2B1979009C9D6936964776A86623E2E1 /* DGActivityIndicatorFiveDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE0056549EE83A54EF0ADD0F8E1CF51 /* DGActivityIndicatorFiveDotsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2BB58A0D3E79CBE19970CA8567A3C0CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
-		2E9D43F8982E0DF2D62A0ED23E5387E5 /* DGActivityIndicatorTriplePulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BCD82660E1B4C34FB38DE5CBB191F5 /* DGActivityIndicatorTriplePulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		30DD9EF407C22DD00854FD79EECF1B43 /* DGActivityIndicatorBallPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0708FD18D43FF49DF5741E2D4E07F792 /* DGActivityIndicatorBallPulseAnimation.m */; };
-		31ED9BD97AF9E62874AF3CDF2F8090CF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A282702971D564A9BA9958F8E11BDC /* AFNetworkActivityIndicatorManager.m */; };
-		3511450999DD6A984EA8F4E0CE11EF14 /* DGActivityIndicatorBallZigZagDeflectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CEAC58E6040A27A1CE9B26EA2294F8 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */; };
-		3943A13F16D23E6A778394E82A0E4058 /* DGActivityIndicatorBallGridBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B928367917333045AFD3DB06C6562B9E /* DGActivityIndicatorBallGridBeatAnimation.m */; };
-		3AC578763AACC81166AA24570684D0D2 /* DGActivityIndicatorBallPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA18B4F6C9B5CE71918932C38179F6C /* DGActivityIndicatorBallPulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		41346E27BB06CB58C076D2DBEDA000A8 /* DGActivityIndicatorRotatingTrigonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED01EBAF6AA17023B76E1D63CF38EF0 /* DGActivityIndicatorRotatingTrigonAnimation.m */; };
-		474F080A5622522997803C228EFFD154 /* DGActivityIndicatorBallClipRotatePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D27F068503A777EA08D285C32368D815 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */; };
-		478E339A9BD0CA1C6682485DF45BCD76 /* DGActivityIndicatorThreeDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B53BC372F95EDFBC80A98938DF9B6E87 /* DGActivityIndicatorThreeDotsAnimation.m */; };
-		4A404A2AF5F4F3BD813FB2BFFC5C917B /* DGActivityIndicatorBallClipRotateMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 03919C5A528118DA3D85A1087392C629 /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4AA01E59910E6CBF1EBE4D7B4C83B868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
-		52C9D8647B34A103AF08F1FC00B9A76D /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443937F1E3BF8DC706B7A07B92848FD /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */; };
-		58BBC4BE2BDDD29D1E06FEEC14CB4AB7 /* DGActivityIndicatorThreeDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB6086BE6DE117B5303A3B46CE78891 /* DGActivityIndicatorThreeDotsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		58C7A2F8B926F414E8C81337EBC3A368 /* DGActivityIndicatorRotatingSquaresAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B3D067B1FCE54F9ED94ACE302F252 /* DGActivityIndicatorRotatingSquaresAnimation.m */; };
-		5945033488F9995134DBB7014DE2412F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F93D6004516330708AF2DBED44CC1B5 /* AFURLRequestSerialization.m */; };
-		5A440C66C0F350DD1FE3C4F851E9204C /* DGActivityIndicatorLineScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FA134D5B8677E7714A208BE8C3417C /* DGActivityIndicatorLineScaleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C0696B2AD1DC23F6473F5A19FAB6296 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 195EE80FC7C5D27C28EA9E9F00CD372B /* AFImageDownloader.m */; };
-		5D437F5C4A12A4552070DCFCC423583B /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E2BF1A5A8506152D4EF3DA15CF91FA /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		61066E1FDF10C92A3AA85788F7B695BA /* DGActivityIndicatorAnimationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F91A86E50B03661F6CCB1FC1AEB7D0 /* DGActivityIndicatorAnimationProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		618BF0F9A8D6DD9D510AE62089E6F6E0 /* DGActivityIndicatorLineScalePulseOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B40A6022FF7A212BF3F2695B60FFF5 /* DGActivityIndicatorLineScalePulseOutAnimation.m */; };
-		6216A40715D9C14CFE2D04B53FA3AEF2 /* DGActivityIndicatorBallGridPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25215D1EB31AB4D8DD8A30580477BC5C /* DGActivityIndicatorBallGridPulseAnimation.m */; };
-		63FF4EC1D3DDA4B5ED2F68BFC306B2BF /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 81599D04FBC58413E574610A3FA52A4E /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		66E1040543AF7BA3DC3731FE17C85F5B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C72271225C0347E8420790BCE0EDE9 /* AFSecurityPolicy.m */; };
-		69DEE3B5CEB84719615E786204A5A7AD /* DGActivityIndicatorDoubleBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A573C339CF52520A4047DBDAD0EE24 /* DGActivityIndicatorDoubleBounceAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		73811DA312BCB537D44D62EC6AD15766 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE942A3A56E6B2A7C4EF611518CC63C /* AFHTTPSessionManager.m */; };
-		740FE9D3B4754C5D664C37F1B8371D92 /* DGActivityIndicatorCookieTerminatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C9E4248DA60F6E04F9280183DEB03E /* DGActivityIndicatorCookieTerminatorAnimation.m */; };
-		7482DD9AE507E2E744A01F061D7C9266 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AD1D4F18557C73AE5485A0710FE88EF0 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		75D4D1F473F6DA208001A46179BAEB7A /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4388CF697467F4EEB844B2978F07D85B /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		773046887FDC3B5F9E0C2B7B0115B7F3 /* DGActivityIndicatorBallScaleRippleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A06631F55133B4FDE2689C1D0314A3 /* DGActivityIndicatorBallScaleRippleAnimation.m */; };
-		775CE7A8107457BDE59F113D40020839 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A46C3F0F2B726DB27410D5B6FE49DD95 /* AFAutoPurgingImageCache.m */; };
-		80E4F55726E7FBA8AD8E75D3F424A352 /* DGActivityIndicatorBallScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D84132E21A5CED350B839D3904CF9553 /* DGActivityIndicatorBallScaleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		830C66DA7E898E0D870FAC8FB11A9743 /* DGActivityIndicatorNineDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B28F24CB2B6507E05F760E166907AAC /* DGActivityIndicatorNineDotsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		85D30678FF4F0AB306399A368EAA46B2 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDFEBB04CF261E586D7DFB4D65B989 /* AFURLResponseSerialization.m */; };
-		866D104E342463CA2269C40C0FF78D49 /* DGActivityIndicatorBallPulseSyncAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9B4E6694047D2FAEDA46DD9C560DD5 /* DGActivityIndicatorBallPulseSyncAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8962061859D3579C36C4703E96D8F3FD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DB4064F23BAC6699299B8E39012D55 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8B7321B5D60B31FF9EB2692797E780A0 /* DGActivityIndicatorTwoDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 809D708AFBFF04957ED3FFA34679DD55 /* DGActivityIndicatorTwoDotsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		903158692A045396106CA22C0DD13BA6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A78E5A576CDDF089002FA7301D2AD8 /* SystemConfiguration.framework */; };
-		90512B3690027F2A06BF43FBE71C9732 /* DGActivityIndicatorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 67AE4DB5E5AEDE28CA0ADB843FB8EE38 /* DGActivityIndicatorAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		910A106DC30B40A731C424D7319F6B5F /* DGActivityIndicatorTriangleSkewSpinAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 328B2B5DA901E5C2AA6D14675E41369B /* DGActivityIndicatorTriangleSkewSpinAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9257006ABCAB427B5CC3E648B570A8B9 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F777A74D967EEB966080C25D5945B015 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */; };
-		92EC5F67F2EA627857B2B7A95DC7E7C7 /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CE490CB6C02CCCF8B58E5759D4A216 /* DGActivityIndicatorDoubleBounceAnimation.m */; };
-		9330535E5A36728EFDCBA821E8A37074 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 838F6D9DB391CBD45FE999D630D965B5 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9453787F8626EC0F3A058DF5057C5E4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EEF5F6B8DF9CB28A3362570D60C5A5 /* UIKit.framework */; };
-		945F691AD18DC2361A75C6621E42461C /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E6827A4EAE2E1FB36CA6720C7D5B53 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		947980586E1A92E7588712FC3DE5D7AC /* DGActivityIndicatorBallPulseSyncAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6952E9C25599BED3F824361C27850C9 /* DGActivityIndicatorBallPulseSyncAnimation.m */; };
-		97A86FAAD4B1AD9B3292FF6AF1D8F82B /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2053A99895F0B6F2C1D958F90C76728 /* AFNetworking-dummy.m */; };
-		9F5BB6B4995BA4A3B2C6AEBA6C31A6DB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B080A30859673A032AE0113DE4080004 /* AFURLSessionManager.m */; };
-		A277AD9070E44BED5A7DE0B1D64D6F15 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBBAAAA3C5C40B140F5AA57AD10835A /* UIImageView+AFNetworking.m */; };
-		A6DBDD1C59036BA2E4736A7778823F03 /* DGActivityIndicatorBallRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFF0952197CE3237D5691A11130E416 /* DGActivityIndicatorBallRotateAnimation.m */; };
-		A6ED5FC8DA96D7806496C5D3CF622A03 /* DGActivityIndicatorBallClipRotatePulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 87052AC10B017D550C1DE32E1068E3D1 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A7F7FDCD36E2DD8D8E346DB19452CC03 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FDAF0BC195408422C28FDA3797D3B7 /* UIWebView+AFNetworking.m */; };
-		AFC6DC1967B85742B8ECA969CED51610 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2C55B68A067AFA5208926F1369A870 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B3585D78C5370FB1C4500E4511BC3DA4 /* DGActivityIndicatorBallTrianglePathAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2934A266D3A815911857A85486F689FF /* DGActivityIndicatorBallTrianglePathAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B3B907CDAF7FDC60BFE105DDB4B51B6A /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C84DDD17B768B0DB47CE901BBDEA4E36 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B43CDF265CF01D7C6072082897C51DEE /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6960C4AA995F8892C94C06C99EAC219E /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B756524F2FD51835E6D43055B13C7BDD /* DGActivityIndicatorBallGridPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1DD71D06EC56EC74FC5DC536F39FA4 /* DGActivityIndicatorBallGridPulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B84CD33084C9867E67BD56E47B7BFC04 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0089AD589173C15516CA2206CD1AAF /* UIRefreshControl+AFNetworking.m */; };
-		BA5C355F0C0820A012A37757B270D6B9 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC526F7FAC277CC615518FAE497B47 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */; };
-		BDF472113B23579BCA2FAB5E268805E0 /* DGActivityIndicatorLineScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB767791D145A264AE7B85D92B247EF1 /* DGActivityIndicatorLineScaleAnimation.m */; };
-		C3AE677C94F45501C8D8BAA157C3FE40 /* DGActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = E41356AC4C336595415EFA32EE8F0207 /* DGActivityIndicatorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C3B44B3F354A30535932F533499C4E44 /* DGActivityIndicatorBallScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A46671CBA89A2D51AED7771B003113 /* DGActivityIndicatorBallScaleAnimation.m */; };
-		C534640410E9CA8C52A5C810248AC963 /* DGActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE1949118BDB4DD35C57B33072FD4F7 /* DGActivityIndicatorView.m */; };
-		C60E5845068B90D7760411CE582C2934 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A81A4CFAE57422BA70A395F535CEE6 /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C6A1FA9ABC5739725DEAE85998AB95A3 /* DGActivityIndicatorBallSpinFadeLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8F5870D0CB3B55F623BA9FB9DF6A09 /* DGActivityIndicatorBallSpinFadeLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C6F6685461FF7D1515BCD62600B1F259 /* DGActivityIndicatorNineDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A86C35327CD9B4DCB254A455090E85F /* DGActivityIndicatorNineDotsAnimation.m */; };
-		CBCCEAD402645565401CA93924736979 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041F55AE36E26F3BDCC4B40490B54E30 /* CoreGraphics.framework */; };
-		CC8F3B19A0978D77F540F0AF3C79A5B0 /* DGActivityIndicatorLineScalePulseOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B675EE5F640C38240E00A3C3C989AA35 /* DGActivityIndicatorLineScalePulseOutAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CE5BAFD572EE40850242797E4215F8E9 /* DGActivityIndicatorTriplePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B40A236C3B8A10EE5799AB5414E457F4 /* DGActivityIndicatorTriplePulseAnimation.m */; };
-		D10CC46035F7A0C868C0955664A34609 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E28EC23163D405B9C22084A12857F7FD /* UIButton+AFNetworking.m */; };
-		D1B70B439DA0390C3DF041DDB9BCDF62 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BE0B43E7814A677AC65E755B32866A /* DGActivityIndicatorTwoDotsAnimation.m */; };
-		D4AA4704CA7863CC86E22AAF88635836 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA66F5968CF6B5EF29C0137EB68981F /* UIProgressView+AFNetworking.m */; };
-		D542E74CF3A429E7433464C12405F07B /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B9505438923A3BA859257B640AF656 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DE825B8F32AB823F4BE5492CAC6FCB4B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EB5B938802F986D305D37865A72F7F /* Security.framework */; };
-		DF494FD1E090ADC64A7159D8AD192DF8 /* DGActivityIndicatorBallRotateAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC69D919DFD1AA51EBDAB44A691EDDC /* DGActivityIndicatorBallRotateAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0E9CA722FB3010669EF7188A466C906 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FE11518619954EBFBB3B78A50DBF37 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0EF330DB2D3521ED26E67B2E8687A2E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEF588A4CCC1AB6C7AC4F1F469FD711 /* AFNetworkReachabilityManager.m */; };
-		E1DA5C248EB3BC36B58A245D9E2DA113 /* DGActivityIndicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 76405EC6916BD837EDFFD64ED79573B4 /* DGActivityIndicatorAnimation.m */; };
-		E66EDE92DE4B13E4853191475509CDFB /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6C54CF192BCF1645C7CD9548122BF2 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E94A33F2325A7F5DAFA3CA6B2AD50261 /* DGActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C27B478918ACAA479FA64A7A1CEB81BB /* DGActivityIndicatorView-dummy.m */; };
-		E981FD3AE2C7513975DB49EAA89D2876 /* DGActivityIndicatorTriangleSkewSpinAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 381983821F758A8AA074BBE27E790EBB /* DGActivityIndicatorTriangleSkewSpinAnimation.m */; };
-		EDEDABB0A7CE2131C2CF03E094C1840D /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 2701BD0E7C8D3003449460F3B5A6ECEE /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F10D4756BD202FEAA97BDB707AE06837 /* DGActivityIndicatorBallScaleMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A17852F6927C60606CCDEBB4B212B74 /* DGActivityIndicatorBallScaleMultipleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F4AF1BA06F07E566D12446F8AB86C929 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 999A0EDED4E44AB53442794F34462E7B /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F6B7FCE2EE54276259C94649A2A52808 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 870801E3A5CF0C113ACEA2EE43F96336 /* DGActivityIndicatorFiveDotsAnimation.m */; };
-		F802CF0F13B3F949A657DFF7AC10018E /* DGActivityIndicatorBallSpinFadeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F609BC83993D84EAF53BE2869F23FA05 /* DGActivityIndicatorBallSpinFadeLoader.m */; };
-		F8D902E96F164354B00D0D63DEE5388A /* DGActivityIndicatorTripleRingsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D90D1B7F89FC3F3331547338D99149C /* DGActivityIndicatorTripleRingsAnimation.m */; };
-		F8DCA6C3C05A59B2C95A1B5F1CBD8C99 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF435BBF67523FB6D2633A16438FDB4B /* MobileCoreServices.framework */; };
-		FA65F720773D3F3DB0F1E9F409BC2EE8 /* DGActivityIndicatorRotatingTrigonAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A2BEF60D7EF1141D60FF2C191C2939 /* DGActivityIndicatorRotatingTrigonAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FC0BDC904394B55C2E9C3A8C308E8EB6 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CE017CBD0DACBD212525015B29E51C /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FCD7864E7CD935E3B2898EBE6980773B /* DGActivityIndicatorBallTrianglePathAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B0E42F937041756E9984AFB2CC4C7F /* DGActivityIndicatorBallTrianglePathAnimation.m */; };
-		FD350FB6CF6062EA006BC1842515AFCC /* DGActivityIndicatorBallZigZagAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3A9583C559A11BDB589DBC31733407 /* DGActivityIndicatorBallZigZagAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FFF53D7C3156E8FF1167EB1681BA6099 /* DGActivityIndicatorRotatingSandglassAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 612516024C7FDDF392307881F15F40B9 /* DGActivityIndicatorRotatingSandglassAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		019A47D88D0CAD46387F7E20F84D2748 /* DGActivityIndicatorBallBeatAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B3EB03BE6C4EF6F8B60A3F8CBB4530 /* DGActivityIndicatorBallBeatAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0214246CCB1FF7182F7222B9CCDF8FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2259DFD6D909A7F48E9D877F84410360 /* Foundation.framework */; };
+		03726A2701092DF653A3F69691427C9F /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 750A2D2268FC2482DAC269201753AD84 /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		03EFD78155BC92960757F803CE757F5F /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C08DC145CF2792B31D9F2008A36F6D84 /* DGActivityIndicatorBallClipRotateAnimation.m */; };
+		07196219552075F2B897C75611B8FDBC /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9004C1DAD795DD578BFA232E0CB637D9 /* DGActivityIndicatorBallScaleMultipleAnimation.m */; };
+		071C8432A05579D84441EF39B97B5C9E /* DGActivityIndicatorTripleRingsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E4B2807B6BEAF8E04A5F46C8C467B4 /* DGActivityIndicatorTripleRingsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		077F8DF58ACF4F986B905FE014D74899 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B5F3F6C8482EB9BC4A83FE3823F28F /* FSCalendarStickyHeader.m */; };
+		08D46508FF27FD645A0DA01CA4C05833 /* DGActivityIndicatorLineScalePartyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E03F2B842215EC7F12E993CAC42BF3 /* DGActivityIndicatorLineScalePartyAnimation.m */; };
+		08F504C8A995CB51E79E030D2F2AA116 /* DGActivityIndicatorLineScalePartyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 39AE2B16BAA2B619F06451F19A4A7F87 /* DGActivityIndicatorLineScalePartyAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AFB14D88C991CB1034C6FA4E10811CB /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FD0F3EDD6FF8F0133640C16808F8F7 /* FSCalendarExtensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B2234D6120961CAB0AFC468B5B4735F /* DGActivityIndicatorBallClipRotateAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB9FB21B1D002F0E1E3A046DA9850D7 /* DGActivityIndicatorBallClipRotateAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B2E8F8D8D32332F42677B88A5B86282 /* DGActivityIndicatorBallScaleRippleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7E2B9EC1AB926709D8193B6564BCE2 /* DGActivityIndicatorBallScaleRippleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D40C0709B934B36FC64F608CC4A867D /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3E8E31253A50ECA2E7C1BC9A4485AC /* FSCalendarTransitionCoordinator.m */; };
+		0D97DB1A4FA01593C546B8B512383A6D /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1775AE73BD3B769D5A090B1658999722 /* FSCalendar.m */; };
+		109F8BE9437E595D73AE5A3E76AF670C /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86158E809341F6926B33C9D35382CB9F /* FSCalendarDelegationProxy.m */; };
+		13BE382E6ED174E1597E734456C30F89 /* DGActivityIndicatorBallZigZagDeflectAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43943EA08F6C3077CD8CCC703F192E11 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1702DB74CC573578862AA584FC9D1632 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C171031A6F9D06E086DBB996C7CCDE8E /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		17889562A613EFB9E8C0CD14947CCC8F /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8D3BFFB760EF312DD70E0B330DBF12 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18C9BF1CB697B57ABD85D1EC5CD5F443 /* DGActivityIndicatorRotatingSquaresAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C37DB7EB7C11728C971BE3C3A74C9D74 /* DGActivityIndicatorRotatingSquaresAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E0E6992A34C3EA3F3523D2B367705AE /* DGActivityIndicatorBallGridBeatAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E718E1117FBF895470B7154695BABF7 /* DGActivityIndicatorBallGridBeatAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FA953F8EDCD4AB5186F1A84F5555263 /* DGActivityIndicatorBallZigZagAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D105A7D7C37533BE1ADC5AF15CF2D0A7 /* DGActivityIndicatorBallZigZagAnimation.m */; };
+		24F9E325543E9789C9E39BD174B370D1 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA8A23A27647A78B911D6BA1C589D69 /* FSCalendarAppearance.m */; };
+		2556BD0C101841B48272CD70B2D63ED3 /* DGActivityIndicatorRotatingSandglassAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A486C5B6273835FB65CEB1149F27BC /* DGActivityIndicatorRotatingSandglassAnimation.m */; };
+		2579663181BFA8F7DA4B5D7CF8537FC0 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 46383C9D077C55DD017CC38689A76E32 /* UIActivityIndicatorView+AFNetworking.m */; };
+		28992B1DA7FEA435615F7A9AD28320D5 /* DGActivityIndicatorBallBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A129A61000E5284F3903243FF44C940 /* DGActivityIndicatorBallBeatAnimation.m */; };
+		29D221887670387A248AD92AA94253C2 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E668C9074536FB1FF9DF629C6AB4D7BB /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AFC06CAC2D245073ECA018A23A38C95 /* DGActivityIndicatorCookieTerminatorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D700CBA0A97E7FC5CF5651F12DC8F3E5 /* DGActivityIndicatorCookieTerminatorAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B1979009C9D6936964776A86623E2E1 /* DGActivityIndicatorFiveDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F700029C9FD425197216D7209BF2F9 /* DGActivityIndicatorFiveDotsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B8992743A10DE4E2AA150BCC31A0594 /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F643E8CCC76018C0083D75B3E2B2F8A7 /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2BB58A0D3E79CBE19970CA8567A3C0CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2259DFD6D909A7F48E9D877F84410360 /* Foundation.framework */; };
+		2E9D43F8982E0DF2D62A0ED23E5387E5 /* DGActivityIndicatorTriplePulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE795C2531EFD085E3A08AE7508B883 /* DGActivityIndicatorTriplePulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30DD9EF407C22DD00854FD79EECF1B43 /* DGActivityIndicatorBallPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A65BE977F10A6E5EF334040CF18A34D2 /* DGActivityIndicatorBallPulseAnimation.m */; };
+		31ED9BD97AF9E62874AF3CDF2F8090CF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54756A934D099E5456DE95752CAEA17E /* AFNetworkActivityIndicatorManager.m */; };
+		3511450999DD6A984EA8F4E0CE11EF14 /* DGActivityIndicatorBallZigZagDeflectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F780C891C835B360ACD9C86551FE9 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */; };
+		37A903C14DF36210C407AFEE8E2FF73E /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA7942BB9AFDE48E4BC52438322F1E4 /* FSCalendarDelegationFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3943A13F16D23E6A778394E82A0E4058 /* DGActivityIndicatorBallGridBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DC99ACFF7D6948848CAABF63E975CA98 /* DGActivityIndicatorBallGridBeatAnimation.m */; };
+		39A124C019D596E66F0659E092AD788D /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F6073A45CCC8B58983FDB01FFAD70E28 /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3AC578763AACC81166AA24570684D0D2 /* DGActivityIndicatorBallPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF4742A948148997D66DD8FA8A203F2 /* DGActivityIndicatorBallPulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41346E27BB06CB58C076D2DBEDA000A8 /* DGActivityIndicatorRotatingTrigonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C2CA3F1C55E33CB2A4712A422F2BFD /* DGActivityIndicatorRotatingTrigonAnimation.m */; };
+		474F080A5622522997803C228EFFD154 /* DGActivityIndicatorBallClipRotatePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D5F7BC91E3DD8DDB0F3926AF68D557 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */; };
+		478E339A9BD0CA1C6682485DF45BCD76 /* DGActivityIndicatorThreeDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D8E99535254234B1EA6588B9929A1 /* DGActivityIndicatorThreeDotsAnimation.m */; };
+		491FBF522B718BA2E01C96B36B999B14 /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF70B11B137DBBAB788E52070E7BCD4 /* FSCalendarExtensions.m */; };
+		4A404A2AF5F4F3BD813FB2BFFC5C917B /* DGActivityIndicatorBallClipRotateMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA0D148271877AEF1072DF935F1AEE /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50AF2DDE81CE72D6011E87C0966F9E29 /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D14DA794B2F1AF0402E2171797046A /* FSCalendar-dummy.m */; };
+		52C9D8647B34A103AF08F1FC00B9A76D /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9C5454758433F0BF4A65482335F84 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */; };
+		58B87147E78A913B6B6AAD4CB63F7342 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D5ED0F9B4A3FFA873D03E7F369A8CA /* UIKit.framework */; };
+		58BBC4BE2BDDD29D1E06FEEC14CB4AB7 /* DGActivityIndicatorThreeDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B18A53FC0AFE412AF689803434F8006C /* DGActivityIndicatorThreeDotsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58C7A2F8B926F414E8C81337EBC3A368 /* DGActivityIndicatorRotatingSquaresAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E35F277267B6F7BAAF57F58BB2E9F /* DGActivityIndicatorRotatingSquaresAnimation.m */; };
+		5945033488F9995134DBB7014DE2412F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 672121C1E2CC22EB788D5FCC4804CAED /* AFURLRequestSerialization.m */; };
+		5A440C66C0F350DD1FE3C4F851E9204C /* DGActivityIndicatorLineScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4C7E4A17572D56EEB090EE77024CC9 /* DGActivityIndicatorLineScaleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C0696B2AD1DC23F6473F5A19FAB6296 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF5AC7C00F8C8A33339490621F74C0 /* AFImageDownloader.m */; };
+		5C6E5943DECD690C594EC91AC2F9000C /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 98988BC1EF8AEAF885D9EE7E36D4668B /* FSCalendarDelegationFactory.m */; };
+		5D437F5C4A12A4552070DCFCC423583B /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B8604E7E3204D30A58B870110DDE925E /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61066E1FDF10C92A3AA85788F7B695BA /* DGActivityIndicatorAnimationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C090B641C5AA81BCBB36BEB83F96B87 /* DGActivityIndicatorAnimationProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		618BF0F9A8D6DD9D510AE62089E6F6E0 /* DGActivityIndicatorLineScalePulseOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC70B8A402E7E76B3D10098E43B6C4D3 /* DGActivityIndicatorLineScalePulseOutAnimation.m */; };
+		6216A40715D9C14CFE2D04B53FA3AEF2 /* DGActivityIndicatorBallGridPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E16B931972FD20BFF508813C9E8DE7 /* DGActivityIndicatorBallGridPulseAnimation.m */; };
+		63FF4EC1D3DDA4B5ED2F68BFC306B2BF /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F9782C0191C2413D44B265B0577D65 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		659BD74F235B37266C6258E823DBE90F /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 23897C5E2098F9BB221BF5D74B2F8939 /* FSCalendarCollectionViewLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66DA9AB377F8D421DD73E5EF4ECCB434 /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD299F07554995F75CB83774F7C3226 /* FSCalendarTransitionCoordinator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66E1040543AF7BA3DC3731FE17C85F5B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4858618222E87B3DF0FF694C4113BB6 /* AFSecurityPolicy.m */; };
+		69DEE3B5CEB84719615E786204A5A7AD /* DGActivityIndicatorDoubleBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3541D2337CDD17EE3275DBCF0F30323D /* DGActivityIndicatorDoubleBounceAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73811DA312BCB537D44D62EC6AD15766 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C28F25351B6B6BC95DFDFAF355119AA3 /* AFHTTPSessionManager.m */; };
+		740FE9D3B4754C5D664C37F1B8371D92 /* DGActivityIndicatorCookieTerminatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F286AFC68FF1456DC61C8D77A56F59EE /* DGActivityIndicatorCookieTerminatorAnimation.m */; };
+		7482DD9AE507E2E744A01F061D7C9266 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D33450385A4B59172298DB8F44DE5984 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75D4D1F473F6DA208001A46179BAEB7A /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = F15EA73485AFE2259E9288C6E88C1BB2 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		773046887FDC3B5F9E0C2B7B0115B7F3 /* DGActivityIndicatorBallScaleRippleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D47A7F33F5246C5D865F80BD729E42C /* DGActivityIndicatorBallScaleRippleAnimation.m */; };
+		775CE7A8107457BDE59F113D40020839 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C77C9AC0011E2BEA841CC88DAA3341 /* AFAutoPurgingImageCache.m */; };
+		80E4F55726E7FBA8AD8E75D3F424A352 /* DGActivityIndicatorBallScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E9C445F948FBB24BAD0246069478D444 /* DGActivityIndicatorBallScaleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81AAEA25DEE0797E96A867B911F3C95E /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04647878AEB8A8807E8525CFF154A814 /* FSCalendarCollectionView.m */; };
+		830C66DA7E898E0D870FAC8FB11A9743 /* DGActivityIndicatorNineDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = ED10BBB51E02AFD238E7F7FF23628881 /* DGActivityIndicatorNineDotsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85D30678FF4F0AB306399A368EAA46B2 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 12925725CD2F820A8BACA2120E794F71 /* AFURLResponseSerialization.m */; };
+		866D104E342463CA2269C40C0FF78D49 /* DGActivityIndicatorBallPulseSyncAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 760E8B8C4407ECBED665B81C4F2FB2EB /* DGActivityIndicatorBallPulseSyncAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86DD2ADBA9FEF0259575CF936021D345 /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 657E301F6DBFFB284FCB5247EA6D7E7A /* FSCalendarHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8962061859D3579C36C4703E96D8F3FD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B27052C2D48682CD02C6658D6970D5 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B41722F9D65F3E04D457C9E485341DF /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CB37038AB55D1EAA50F379186534BC /* FSCalendarConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B7321B5D60B31FF9EB2692797E780A0 /* DGActivityIndicatorTwoDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E3585563D13D092E1F49471381EB9BA2 /* DGActivityIndicatorTwoDotsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		903158692A045396106CA22C0DD13BA6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA7195BA9C5EAEEB96C8D29B5A98727 /* SystemConfiguration.framework */; };
+		90512B3690027F2A06BF43FBE71C9732 /* DGActivityIndicatorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = ECCA03A6F3BC545CE5B3B2ED2723C679 /* DGActivityIndicatorAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90BFFF21D80394853E60B333B457B457 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D1A529C3D372276574004404A3ADF50 /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		910A106DC30B40A731C424D7319F6B5F /* DGActivityIndicatorTriangleSkewSpinAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2090EA72266F65EE0324614EFD72CAE2 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9257006ABCAB427B5CC3E648B570A8B9 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A71E68515BC15CCEE7C9D56A47D6BB5 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */; };
+		92EC5F67F2EA627857B2B7A95DC7E7C7 /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5827A5BEFF2F9EAE3D0B16DC49573 /* DGActivityIndicatorDoubleBounceAnimation.m */; };
+		9330535E5A36728EFDCBA821E8A37074 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 76759E4FFAE1096B8A3EB47594873F01 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9453787F8626EC0F3A058DF5057C5E4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D5ED0F9B4A3FFA873D03E7F369A8CA /* UIKit.framework */; };
+		945F691AD18DC2361A75C6621E42461C /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABE958B084D6F2DDD74E3041232749C /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		947980586E1A92E7588712FC3DE5D7AC /* DGActivityIndicatorBallPulseSyncAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDC2B798D4F5D5DF9B2F577535F77B2 /* DGActivityIndicatorBallPulseSyncAnimation.m */; };
+		97A86FAAD4B1AD9B3292FF6AF1D8F82B /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A623CD959A968B616F369BA5FEE5EE /* AFNetworking-dummy.m */; };
+		9F5BB6B4995BA4A3B2C6AEBA6C31A6DB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04374EC7AFFDF06F6C483A49D5994ED2 /* AFURLSessionManager.m */; };
+		A277AD9070E44BED5A7DE0B1D64D6F15 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 75477867E5CE6886D65494E19ED31CA8 /* UIImageView+AFNetworking.m */; };
+		A6805D66A638F062BE71A9025336295E /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA56F314760C2CE191428A3A9D772B9 /* FSCalendar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6DBDD1C59036BA2E4736A7778823F03 /* DGActivityIndicatorBallRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D4E8A6733EB812ABC9F0CD4D0A625F /* DGActivityIndicatorBallRotateAnimation.m */; };
+		A6ED5FC8DA96D7806496C5D3CF622A03 /* DGActivityIndicatorBallClipRotatePulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C06BBE81F2BB3ECD0D554E2190002FB0 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7F7FDCD36E2DD8D8E346DB19452CC03 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D50E73F1A7AE2982239DB6DB9D5654 /* UIWebView+AFNetworking.m */; };
+		A814C2A9C5AEA25DDC467AD71C36F5A9 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD58D9977B7986B04D201DB69DE7262 /* FSCalendarConstants.m */; };
+		AFC6DC1967B85742B8ECA969CED51610 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 520CC768654A2E2B6C9BC7D63A90439A /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B038BCA9D3F6BC0D9166BB29013A3FF8 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF7EDEE7604AE6A613CE81C21C6CFD6 /* FSCalendarCollectionViewLayout.m */; };
+		B195DF37A1C1218E39173963EC758E93 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8D8BB05187F20C6AAAA64CC85D87E6 /* QuartzCore.framework */; };
+		B3585D78C5370FB1C4500E4511BC3DA4 /* DGActivityIndicatorBallTrianglePathAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A7535EF2515187F7B07930D3927786E /* DGActivityIndicatorBallTrianglePathAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3B907CDAF7FDC60BFE105DDB4B51B6A /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFB03E679208D1ECD32A979C6CED3A6 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B43CDF265CF01D7C6072082897C51DEE /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E3209538570476A10DDD4FA2ADF2DABD /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B756524F2FD51835E6D43055B13C7BDD /* DGActivityIndicatorBallGridPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AFEB31B9606A50BCE346915F69211163 /* DGActivityIndicatorBallGridPulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B84CD33084C9867E67BD56E47B7BFC04 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D4118B8A6AF0934842A3CFD106DEC350 /* UIRefreshControl+AFNetworking.m */; };
+		B8E20BC5196020AAC143E20662135371 /* Pods-BanRegio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F406C74D130A2733B7348DCA848C362E /* Pods-BanRegio-dummy.m */; };
+		BA5C355F0C0820A012A37757B270D6B9 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A71F5C480BDA6D5A48AEB76D4C6A62B /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */; };
+		BB125675D3166201E1EEF5D1DC0466F8 /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E2F35CF5328B29B224D85DBE1B28FC /* FSCalendar+Deprecated.m */; };
+		BDF472113B23579BCA2FAB5E268805E0 /* DGActivityIndicatorLineScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E505BCBB872277C75602F91C7CB61385 /* DGActivityIndicatorLineScaleAnimation.m */; };
+		BE3793D5E72DD56AC421BAEA489FED0D /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = BA661D7D24657BE7F770EF52DF8F5E2D /* FSCalendarCalculator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3AE677C94F45501C8D8BAA157C3FE40 /* DGActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8885C07661C39C05922A745765B4508 /* DGActivityIndicatorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3B44B3F354A30535932F533499C4E44 /* DGActivityIndicatorBallScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB448A80E8DAAAD0D3A5470579DD454 /* DGActivityIndicatorBallScaleAnimation.m */; };
+		C534640410E9CA8C52A5C810248AC963 /* DGActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F3DBA4886BAE5B18B6B28FC35DD568 /* DGActivityIndicatorView.m */; };
+		C60E5845068B90D7760411CE582C2934 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7957DED2C000B3F26BE95951DF28948B /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6A1FA9ABC5739725DEAE85998AB95A3 /* DGActivityIndicatorBallSpinFadeLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F3307E87F4769D88FA0A1CFA2A9F6C /* DGActivityIndicatorBallSpinFadeLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6F6685461FF7D1515BCD62600B1F259 /* DGActivityIndicatorNineDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F0280846C39B4A4B6436FF647F9164C4 /* DGActivityIndicatorNineDotsAnimation.m */; };
+		CA8EDCDE6BCA742F935D15734497D11A /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB35484F59B64F6246AB32AADD7C4 /* FSCalendarWeekdayView.m */; };
+		CBCCEAD402645565401CA93924736979 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF5C46DD71F200573846D57B69BFCEE /* CoreGraphics.framework */; };
+		CC8F3B19A0978D77F540F0AF3C79A5B0 /* DGActivityIndicatorLineScalePulseOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6712943BA8F74D27A87588B5CAF67EBF /* DGActivityIndicatorLineScalePulseOutAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCEAC9169F5AC9646CA1A28AD789C852 /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = FA38A105C26E0CF57DAE04F609EBBC04 /* FSCalendarScopeHandle.m */; };
+		CDD84A3393B0990A944690422573739A /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 81944B4095D1BBFC2C826EFB0A2A3643 /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CE5BAFD572EE40850242797E4215F8E9 /* DGActivityIndicatorTriplePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C79B87BAE1E960B115D2A7D4BC28FB /* DGActivityIndicatorTriplePulseAnimation.m */; };
+		D10CC46035F7A0C868C0955664A34609 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 490DC3009C03835DD5F8EFB483F75703 /* UIButton+AFNetworking.m */; };
+		D1B70B439DA0390C3DF041DDB9BCDF62 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4633648EC896AD58113F196E5B4FEAA7 /* DGActivityIndicatorTwoDotsAnimation.m */; };
+		D4AA4704CA7863CC86E22AAF88635836 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4EAC86975473B722F856A4AF1FBDF7 /* UIProgressView+AFNetworking.m */; };
+		D542E74CF3A429E7433464C12405F07B /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 614653CBE127BE15BDFCEF803B7D2B0B /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD4F064882DB920F215852E4A2C968A6 /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9671B39F49E66C56A9B033C948786253 /* FSCalendarDelegationProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE825B8F32AB823F4BE5492CAC6FCB4B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3DA3A986B636345C33EFCC556B079A /* Security.framework */; };
+		DF494FD1E090ADC64A7159D8AD192DF8 /* DGActivityIndicatorBallRotateAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B407C33F0531B6EB96426DFEB75D5980 /* DGActivityIndicatorBallRotateAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0E9CA722FB3010669EF7188A466C906 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B93A8E1A278FE47A0F4CE3D7FD7BAF83 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0EF330DB2D3521ED26E67B2E8687A2E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D031B84FC5301169CD2A5BA8E6CCEDA0 /* AFNetworkReachabilityManager.m */; };
+		E1DA5C248EB3BC36B58A245D9E2DA113 /* DGActivityIndicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A597A832EF571AF14BCE79845F5AB2CC /* DGActivityIndicatorAnimation.m */; };
+		E66EDE92DE4B13E4853191475509CDFB /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A27717F6BF51E05A0D68EE02A417AD9 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E94A33F2325A7F5DAFA3CA6B2AD50261 /* DGActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC396BA47AA1829192543AE06D3DE653 /* DGActivityIndicatorView-dummy.m */; };
+		E981FD3AE2C7513975DB49EAA89D2876 /* DGActivityIndicatorTriangleSkewSpinAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F5B0C3D004DEEACDF427BA8DAC439 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */; };
+		EDEDABB0A7CE2131C2CF03E094C1840D /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBC3B472D0D9CEEB02D81FBEACE40B1 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE102234F91DE83178B4B782A7DE57F5 /* FSCalendarScopeHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F95489AF591B5DA869885595A9A4640 /* FSCalendarScopeHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF6D8BC2898FB9F1880E7C09C25AFBF4 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E791CCA75CECE1336FB9A0FD54869 /* FSCalendarCalculator.m */; };
+		EF9FC3F55CB77CE5D5B762406D020416 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED11D4F98CC9B74B983D722B1CA53A9 /* FSCalendarCell.m */; };
+		F10D4756BD202FEAA97BDB707AE06837 /* DGActivityIndicatorBallScaleMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C32CE40EC577072049511E83C49F6E9 /* DGActivityIndicatorBallScaleMultipleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3AE6577715AC6BDA1F095AAA5A54A84 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C06F5B36F5DEEA082F4EBF554DAE8B6A /* FSCalendarHeaderView.m */; };
+		F4AF1BA06F07E566D12446F8AB86C929 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 49ADCFDAEA86D151D9AAA08753C9DCE6 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6B7FCE2EE54276259C94649A2A52808 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F134FEC081D7D7BB5F359B9275410815 /* DGActivityIndicatorFiveDotsAnimation.m */; };
+		F7E2727E367550354F118732DDA5A5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2259DFD6D909A7F48E9D877F84410360 /* Foundation.framework */; };
+		F802CF0F13B3F949A657DFF7AC10018E /* DGActivityIndicatorBallSpinFadeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D54D384CC372F0006040486D1B99BE2 /* DGActivityIndicatorBallSpinFadeLoader.m */; };
+		F8D902E96F164354B00D0D63DEE5388A /* DGActivityIndicatorTripleRingsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDE5E55D836AF8F9C67EC262499499 /* DGActivityIndicatorTripleRingsAnimation.m */; };
+		F8DCA6C3C05A59B2C95A1B5F1CBD8C99 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F03C669CC7CFD1082F03BFFC37310 /* MobileCoreServices.framework */; };
+		FA65F720773D3F3DB0F1E9F409BC2EE8 /* DGActivityIndicatorRotatingTrigonAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C8E6812A278FA168ACF435D1894DC2 /* DGActivityIndicatorRotatingTrigonAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC0BDC904394B55C2E9C3A8C308E8EB6 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BA62615B96DA2DC1ABD5D1DBB3C897 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC3840FCD4F801FC3419804BAF2E41A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2259DFD6D909A7F48E9D877F84410360 /* Foundation.framework */; };
+		FCD7864E7CD935E3B2898EBE6980773B /* DGActivityIndicatorBallTrianglePathAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DD4493C8655C7FDC79C48B0631E327 /* DGActivityIndicatorBallTrianglePathAnimation.m */; };
+		FCD7DF0DD6153FE0BA4F249D75DCAA41 /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = D9154CE4FD8C84162B021A8D037C6B6B /* FSCalendarWeekdayView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD350FB6CF6062EA006BC1842515AFCC /* DGActivityIndicatorBallZigZagAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE46F5093D18DFF33BF3B37EE93420F /* DGActivityIndicatorBallZigZagAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFF53D7C3156E8FF1167EB1681BA6099 /* DGActivityIndicatorRotatingSandglassAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AA985FB54A94976E170FF253BA4768A /* DGActivityIndicatorRotatingSandglassAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8F32632F45A22D92BE5BF298F18DF050 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9E033EDB5EC0819481B0546434FA577B;
-			remoteInfo = AFNetworking;
-		};
-		A2E2BF66C4395A071A63990637833C33 /* PBXContainerItemProxy */ = {
+		206566D12F9762140971859FA30BE0F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FBA9754FB7A82758566D360BD30C2517;
 			remoteInfo = DGActivityIndicatorView;
 		};
+		3D448793A66C7C9827E25617BDF5FA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E033EDB5EC0819481B0546434FA577B;
+			remoteInfo = AFNetworking;
+		};
+		6E6007A6A1E56F4B3BE8B36838CB51E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6D09DA8B1E7DD2FB43AAF4EED94144;
+			remoteInfo = FSCalendar;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A282702971D564A9BA9958F8E11BDC /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		02CE490CB6C02CCCF8B58E5759D4A216 /* DGActivityIndicatorDoubleBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorDoubleBounceAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorDoubleBounceAnimation.m; sourceTree = "<group>"; };
-		0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		03919C5A528118DA3D85A1087392C629 /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotateMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateMultipleAnimation.h; sourceTree = "<group>"; };
-		041F55AE36E26F3BDCC4B40490B54E30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		0470D8FA9FB8F7FF81FEF52CC06BDE70 /* DGActivityIndicatorBallClipRotateAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallClipRotateAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateAnimation.m; sourceTree = "<group>"; };
-		0708FD18D43FF49DF5741E2D4E07F792 /* DGActivityIndicatorBallPulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallPulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseAnimation.m; sourceTree = "<group>"; };
-		0A17852F6927C60606CCDEBB4B212B74 /* DGActivityIndicatorBallScaleMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleMultipleAnimation.h; sourceTree = "<group>"; };
-		0AC69D919DFD1AA51EBDAB44A691EDDC /* DGActivityIndicatorBallRotateAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallRotateAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallRotateAnimation.h; sourceTree = "<group>"; };
+		02DD4493C8655C7FDC79C48B0631E327 /* DGActivityIndicatorBallTrianglePathAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallTrianglePathAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallTrianglePathAnimation.m; sourceTree = "<group>"; };
+		03D14DA794B2F1AF0402E2171797046A /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
+		04374EC7AFFDF06F6C483A49D5994ED2 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		04647878AEB8A8807E8525CFF154A814 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		09A623CD959A968B616F369BA5FEE5EE /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		0ABE958B084D6F2DDD74E3041232749C /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		0D47A7F33F5246C5D865F80BD729E42C /* DGActivityIndicatorBallScaleRippleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleRippleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleAnimation.m; sourceTree = "<group>"; };
+		0FB9FB21B1D002F0E1E3A046DA9850D7 /* DGActivityIndicatorBallClipRotateAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotateAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateAnimation.h; sourceTree = "<group>"; };
+		11B27052C2D48682CD02C6658D6970D5 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		12925725CD2F820A8BACA2120E794F71 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		174B67BD6DB3BAE1AAF388B82DDFED7B /* Pods-BanRegio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BanRegio.release.xcconfig"; sourceTree = "<group>"; };
 		17678981DC04AE4ADF02CA813683F0AF /* Pods-BanRegio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BanRegio.debug.xcconfig"; sourceTree = "<group>"; };
-		195EE80FC7C5D27C28EA9E9F00CD372B /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		1C5B3D067B1FCE54F9ED94ACE302F252 /* DGActivityIndicatorRotatingSquaresAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingSquaresAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSquaresAnimation.m; sourceTree = "<group>"; };
-		1CB95F63F10EE479A919A856C50C35A3 /* DGActivityIndicatorRotatingSquaresAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorRotatingSquaresAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSquaresAnimation.h; sourceTree = "<group>"; };
-		1DFF0952197CE3237D5691A11130E416 /* DGActivityIndicatorBallRotateAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallRotateAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallRotateAnimation.m; sourceTree = "<group>"; };
-		210990D14E50705738ACDBFD18FC0F18 /* DGActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
-		21B0E42F937041756E9984AFB2CC4C7F /* DGActivityIndicatorBallTrianglePathAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallTrianglePathAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallTrianglePathAnimation.m; sourceTree = "<group>"; };
-		24F2457B345C8DEBA1D41EA19D9B0316 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		25215D1EB31AB4D8DD8A30580477BC5C /* DGActivityIndicatorBallGridPulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallGridPulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridPulseAnimation.m; sourceTree = "<group>"; };
-		2701BD0E7C8D3003449460F3B5A6ECEE /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		2934A266D3A815911857A85486F689FF /* DGActivityIndicatorBallTrianglePathAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallTrianglePathAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallTrianglePathAnimation.h; sourceTree = "<group>"; };
-		2B8F5870D0CB3B55F623BA9FB9DF6A09 /* DGActivityIndicatorBallSpinFadeLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallSpinFadeLoader.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallSpinFadeLoader.h; sourceTree = "<group>"; };
-		2BFD1E334CFD7E812DB4E6EC80A28D4C /* DGActivityIndicatorRotatingSandglassAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingSandglassAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSandglassAnimation.m; sourceTree = "<group>"; };
-		2F93D6004516330708AF2DBED44CC1B5 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		328B2B5DA901E5C2AA6D14675E41369B /* DGActivityIndicatorTriangleSkewSpinAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTriangleSkewSpinAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriangleSkewSpinAnimation.h; sourceTree = "<group>"; };
-		33A06631F55133B4FDE2689C1D0314A3 /* DGActivityIndicatorBallScaleRippleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleRippleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleAnimation.m; sourceTree = "<group>"; };
-		33FA134D5B8677E7714A208BE8C3417C /* DGActivityIndicatorLineScaleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScaleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScaleAnimation.h; sourceTree = "<group>"; };
-		381983821F758A8AA074BBE27E790EBB /* DGActivityIndicatorTriangleSkewSpinAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTriangleSkewSpinAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriangleSkewSpinAnimation.m; sourceTree = "<group>"; };
-		39AEED74DEAF634519D27EDE7C486027 /* DGActivityIndicatorBallBeatAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallBeatAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallBeatAnimation.m; sourceTree = "<group>"; };
+		1775AE73BD3B769D5A090B1658999722 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		1D1A529C3D372276574004404A3ADF50 /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		1D54D384CC372F0006040486D1B99BE2 /* DGActivityIndicatorBallSpinFadeLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallSpinFadeLoader.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallSpinFadeLoader.m; sourceTree = "<group>"; };
+		1DE46F5093D18DFF33BF3B37EE93420F /* DGActivityIndicatorBallZigZagAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallZigZagAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagAnimation.h; sourceTree = "<group>"; };
+		2090EA72266F65EE0324614EFD72CAE2 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTriangleSkewSpinAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriangleSkewSpinAnimation.h; sourceTree = "<group>"; };
+		2259DFD6D909A7F48E9D877F84410360 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		22AC01F3400048B58DD56839CE3BA0A2 /* DGActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DGActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		23897C5E2098F9BB221BF5D74B2F8939 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		26F9782C0191C2413D44B265B0577D65 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		27934FF169EB72F08F1EEF1DD86A1011 /* libFSCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFSCalendar.a; path = libFSCalendar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A71F5C480BDA6D5A48AEB76D4C6A62B /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallClipRotateMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateMultipleAnimation.m; sourceTree = "<group>"; };
+		2DBA0D148271877AEF1072DF935F1AEE /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotateMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateMultipleAnimation.h; sourceTree = "<group>"; };
+		2E4EAC86975473B722F856A4AF1FBDF7 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		30CB37038AB55D1EAA50F379186534BC /* FSCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
+		32D5ED0F9B4A3FFA873D03E7F369A8CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3425B630A3371C9A7481ADAA7BC43E62 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		34D4E8A6733EB812ABC9F0CD4D0A625F /* DGActivityIndicatorBallRotateAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallRotateAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallRotateAnimation.m; sourceTree = "<group>"; };
+		3541D2337CDD17EE3275DBCF0F30323D /* DGActivityIndicatorDoubleBounceAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorDoubleBounceAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorDoubleBounceAnimation.h; sourceTree = "<group>"; };
+		39AE2B16BAA2B619F06451F19A4A7F87 /* DGActivityIndicatorLineScalePartyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScalePartyAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePartyAnimation.h; sourceTree = "<group>"; };
 		3A6EA4F3066582AE7F4027519E13BB74 /* Pods-BanRegio-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BanRegio-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3A86C35327CD9B4DCB254A455090E85F /* DGActivityIndicatorNineDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorNineDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorNineDotsAnimation.m; sourceTree = "<group>"; };
-		3BC5D3623E96833F3F3C538DFA9558A2 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CEF588A4CCC1AB6C7AC4F1F469FD711 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		41DB4064F23BAC6699299B8E39012D55 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		41E65C2A7E03AED001A7493227DC27AA /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		4388CF697467F4EEB844B2978F07D85B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		44CE017CBD0DACBD212525015B29E51C /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		459350BFA27654C05AD98469D6334497 /* DGActivityIndicatorLineScalePartyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScalePartyAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePartyAnimation.h; sourceTree = "<group>"; };
-		4C1DD71D06EC56EC74FC5DC536F39FA4 /* DGActivityIndicatorBallGridPulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallGridPulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridPulseAnimation.h; sourceTree = "<group>"; };
-		4E9B4E6694047D2FAEDA46DD9C560DD5 /* DGActivityIndicatorBallPulseSyncAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallPulseSyncAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseSyncAnimation.h; sourceTree = "<group>"; };
-		51A573C339CF52520A4047DBDAD0EE24 /* DGActivityIndicatorDoubleBounceAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorDoubleBounceAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorDoubleBounceAnimation.h; sourceTree = "<group>"; };
-		51EEF5F6B8DF9CB28A3362570D60C5A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		56B40A6022FF7A212BF3F2695B60FFF5 /* DGActivityIndicatorLineScalePulseOutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePulseOutAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutAnimation.m; sourceTree = "<group>"; };
-		5B0089AD589173C15516CA2206CD1AAF /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		5DDDFEBB04CF261E586D7DFB4D65B989 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		5EFC526F7FAC277CC615518FAE497B47 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallClipRotateMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateMultipleAnimation.m; sourceTree = "<group>"; };
-		60CEAC58E6040A27A1CE9B26EA2294F8 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallZigZagDeflectAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagDeflectAnimation.m; sourceTree = "<group>"; };
-		612516024C7FDDF392307881F15F40B9 /* DGActivityIndicatorRotatingSandglassAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorRotatingSandglassAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSandglassAnimation.h; sourceTree = "<group>"; };
-		66E6827A4EAE2E1FB36CA6720C7D5B53 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		66EB5B938802F986D305D37865A72F7F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		67AE4DB5E5AEDE28CA0ADB843FB8EE38 /* DGActivityIndicatorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorAnimation.h; sourceTree = "<group>"; };
-		6960C4AA995F8892C94C06C99EAC219E /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		6A0EBAC7DF65EAAFEDB697E7ACBF195C /* DGActivityIndicatorBallZigZagDeflectAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallZigZagDeflectAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagDeflectAnimation.h; sourceTree = "<group>"; };
-		6D90D1B7F89FC3F3331547338D99149C /* DGActivityIndicatorTripleRingsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTripleRingsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTripleRingsAnimation.m; sourceTree = "<group>"; };
-		75D83DE16C12BBF141051DF5D9481220 /* libPods-BanRegio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BanRegio.a"; path = "libPods-BanRegio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76405EC6916BD837EDFFD64ED79573B4 /* DGActivityIndicatorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorAnimation.m; sourceTree = "<group>"; };
-		79E2BF1A5A8506152D4EF3DA15CF91FA /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		7DE1949118BDB4DD35C57B33072FD4F7 /* DGActivityIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorView.m; path = DGActivityIndicatorView/DGActivityIndicatorView.m; sourceTree = "<group>"; };
-		7ED01EBAF6AA17023B76E1D63CF38EF0 /* DGActivityIndicatorRotatingTrigonAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingTrigonAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingTrigonAnimation.m; sourceTree = "<group>"; };
-		801827088E38CD4867C0BE9990C32EFE /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		809D708AFBFF04957ED3FFA34679DD55 /* DGActivityIndicatorTwoDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTwoDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTwoDotsAnimation.h; sourceTree = "<group>"; };
-		81599D04FBC58413E574610A3FA52A4E /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		838F6D9DB391CBD45FE999D630D965B5 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleRippleMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleMultipleAnimation.h; sourceTree = "<group>"; };
-		8443937F1E3BF8DC706B7A07B92848FD /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePulseOutRapidAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutRapidAnimation.m; sourceTree = "<group>"; };
-		85C9E4248DA60F6E04F9280183DEB03E /* DGActivityIndicatorCookieTerminatorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorCookieTerminatorAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorCookieTerminatorAnimation.m; sourceTree = "<group>"; };
-		87052AC10B017D550C1DE32E1068E3D1 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotatePulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotatePulseAnimation.h; sourceTree = "<group>"; };
-		870801E3A5CF0C113ACEA2EE43F96336 /* DGActivityIndicatorFiveDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorFiveDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorFiveDotsAnimation.m; sourceTree = "<group>"; };
+		3BEF5AC7C00F8C8A33339490621F74C0 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		3E718E1117FBF895470B7154695BABF7 /* DGActivityIndicatorBallGridBeatAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallGridBeatAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridBeatAnimation.h; sourceTree = "<group>"; };
+		3EA7942BB9AFDE48E4BC52438322F1E4 /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = FSCalendar/FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		43943EA08F6C3077CD8CCC703F192E11 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallZigZagDeflectAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagDeflectAnimation.h; sourceTree = "<group>"; };
+		441F780C891C835B360ACD9C86551FE9 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallZigZagDeflectAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagDeflectAnimation.m; sourceTree = "<group>"; };
+		4633648EC896AD58113F196E5B4FEAA7 /* DGActivityIndicatorTwoDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTwoDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTwoDotsAnimation.m; sourceTree = "<group>"; };
+		46383C9D077C55DD017CC38689A76E32 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		46D5F7BC91E3DD8DDB0F3926AF68D557 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallClipRotatePulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotatePulseAnimation.m; sourceTree = "<group>"; };
+		490DC3009C03835DD5F8EFB483F75703 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		49ADCFDAEA86D151D9AAA08753C9DCE6 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		49EDE5E55D836AF8F9C67EC262499499 /* DGActivityIndicatorTripleRingsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTripleRingsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTripleRingsAnimation.m; sourceTree = "<group>"; };
+		51C79B87BAE1E960B115D2A7D4BC28FB /* DGActivityIndicatorTriplePulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTriplePulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriplePulseAnimation.m; sourceTree = "<group>"; };
+		520CC768654A2E2B6C9BC7D63A90439A /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		54756A934D099E5456DE95752CAEA17E /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		571F5B0C3D004DEEACDF427BA8DAC439 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTriangleSkewSpinAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriangleSkewSpinAnimation.m; sourceTree = "<group>"; };
+		57A01A774004C08659E8AA56A456F055 /* libDGActivityIndicatorView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDGActivityIndicatorView.a; path = libDGActivityIndicatorView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A27717F6BF51E05A0D68EE02A417AD9 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		5A71E68515BC15CCEE7C9D56A47D6BB5 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleRippleMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleMultipleAnimation.m; sourceTree = "<group>"; };
+		5A7535EF2515187F7B07930D3927786E /* DGActivityIndicatorBallTrianglePathAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallTrianglePathAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallTrianglePathAnimation.h; sourceTree = "<group>"; };
+		5AA985FB54A94976E170FF253BA4768A /* DGActivityIndicatorRotatingSandglassAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorRotatingSandglassAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSandglassAnimation.h; sourceTree = "<group>"; };
+		5B7E2B9EC1AB926709D8193B6564BCE2 /* DGActivityIndicatorBallScaleRippleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleRippleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleAnimation.h; sourceTree = "<group>"; };
+		5EF5C46DD71F200573846D57B69BFCEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		60CB57338DFEB8D6842FD139E8F10EA1 /* FSCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.xcconfig; sourceTree = "<group>"; };
+		614653CBE127BE15BDFCEF803B7D2B0B /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		62E16B931972FD20BFF508813C9E8DE7 /* DGActivityIndicatorBallGridPulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallGridPulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridPulseAnimation.m; sourceTree = "<group>"; };
+		657E301F6DBFFB284FCB5247EA6D7E7A /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		660F03C669CC7CFD1082F03BFFC37310 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		6712943BA8F74D27A87588B5CAF67EBF /* DGActivityIndicatorLineScalePulseOutAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScalePulseOutAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutAnimation.h; sourceTree = "<group>"; };
+		672121C1E2CC22EB788D5FCC4804CAED /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		6BF7EDEE7604AE6A613CE81C21C6CFD6 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		6CE795C2531EFD085E3A08AE7508B883 /* DGActivityIndicatorTriplePulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTriplePulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriplePulseAnimation.h; sourceTree = "<group>"; };
+		6EA8A23A27647A78B911D6BA1C589D69 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		6F95489AF591B5DA869885595A9A4640 /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarScopeHandle.h; path = FSCalendar/FSCalendarScopeHandle.h; sourceTree = "<group>"; };
+		750A2D2268FC2482DAC269201753AD84 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		75477867E5CE6886D65494E19ED31CA8 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		75F3307E87F4769D88FA0A1CFA2A9F6C /* DGActivityIndicatorBallSpinFadeLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallSpinFadeLoader.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallSpinFadeLoader.h; sourceTree = "<group>"; };
+		760E8B8C4407ECBED665B81C4F2FB2EB /* DGActivityIndicatorBallPulseSyncAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallPulseSyncAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseSyncAnimation.h; sourceTree = "<group>"; };
+		76759E4FFAE1096B8A3EB47594873F01 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleRippleMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleMultipleAnimation.h; sourceTree = "<group>"; };
+		7957DED2C000B3F26BE95951DF28948B /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		798D8E99535254234B1EA6588B9929A1 /* DGActivityIndicatorThreeDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorThreeDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorThreeDotsAnimation.m; sourceTree = "<group>"; };
+		79D50E73F1A7AE2982239DB6DB9D5654 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		7AB448A80E8DAAAD0D3A5470579DD454 /* DGActivityIndicatorBallScaleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleAnimation.m; sourceTree = "<group>"; };
+		7AE2836CD1B1D9F7E60F2B1EF5EBD1AB /* libPods-BanRegio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BanRegio.a"; path = "libPods-BanRegio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8D8BB05187F20C6AAAA64CC85D87E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		81944B4095D1BBFC2C826EFB0A2A3643 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		84F3DBA4886BAE5B18B6B28FC35DD568 /* DGActivityIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorView.m; path = DGActivityIndicatorView/DGActivityIndicatorView.m; sourceTree = "<group>"; };
+		86158E809341F6926B33C9D35382CB9F /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		86533647B722634765F0EEB1B0F66D7D /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
 		8748ED830EE91CE8E3B28B0A26DE7D29 /* Pods-BanRegio-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BanRegio-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B28F24CB2B6507E05F760E166907AAC /* DGActivityIndicatorNineDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorNineDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorNineDotsAnimation.h; sourceTree = "<group>"; };
-		8C2C55B68A067AFA5208926F1369A870 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		8F5E5951D060BA2ACB55ED1927DEB7B0 /* libDGActivityIndicatorView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDGActivityIndicatorView.a; path = libDGActivityIndicatorView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		937206149334C0EF950F858F364FA149 /* DGActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DGActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		8756C480E2B461B54D7575063FB16C12 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A129A61000E5284F3903243FF44C940 /* DGActivityIndicatorBallBeatAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallBeatAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallBeatAnimation.m; sourceTree = "<group>"; };
+		8B8E35F277267B6F7BAAF57F58BB2E9F /* DGActivityIndicatorRotatingSquaresAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingSquaresAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSquaresAnimation.m; sourceTree = "<group>"; };
+		8FD299F07554995F75CB83774F7C3226 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		9004C1DAD795DD578BFA232E0CB637D9 /* DGActivityIndicatorBallScaleMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleMultipleAnimation.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95C72271225C0347E8420790BCE0EDE9 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		96BE0B43E7814A677AC65E755B32866A /* DGActivityIndicatorTwoDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTwoDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTwoDotsAnimation.m; sourceTree = "<group>"; };
-		999A0EDED4E44AB53442794F34462E7B /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		99F91A86E50B03661F6CCB1FC1AEB7D0 /* DGActivityIndicatorAnimationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorAnimationProtocol.h; path = DGActivityIndicatorView/DGActivityIndicatorAnimationProtocol.h; sourceTree = "<group>"; };
-		9BA66F5968CF6B5EF29C0137EB68981F /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		9BB6086BE6DE117B5303A3B46CE78891 /* DGActivityIndicatorThreeDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorThreeDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorThreeDotsAnimation.h; sourceTree = "<group>"; };
+		9671B39F49E66C56A9B033C948786253 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		98988BC1EF8AEAF885D9EE7E36D4668B /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		9C090B641C5AA81BCBB36BEB83F96B87 /* DGActivityIndicatorAnimationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorAnimationProtocol.h; path = DGActivityIndicatorView/DGActivityIndicatorAnimationProtocol.h; sourceTree = "<group>"; };
 		9C0F0AEEF9B42ECC7E65E167E3013A4A /* Pods-BanRegio-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BanRegio-frameworks.sh"; sourceTree = "<group>"; };
-		9FE0056549EE83A54EF0ADD0F8E1CF51 /* DGActivityIndicatorFiveDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorFiveDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorFiveDotsAnimation.h; sourceTree = "<group>"; };
-		A46C3F0F2B726DB27410D5B6FE49DD95 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		A4A2BEF60D7EF1141D60FF2C191C2939 /* DGActivityIndicatorRotatingTrigonAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorRotatingTrigonAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingTrigonAnimation.h; sourceTree = "<group>"; };
-		A4A78E5A576CDDF089002FA7301D2AD8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		A52B5370BE242E00DF4925E19B32E541 /* DGActivityIndicatorBallScaleRippleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleRippleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleAnimation.h; sourceTree = "<group>"; };
-		A6952E9C25599BED3F824361C27850C9 /* DGActivityIndicatorBallPulseSyncAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallPulseSyncAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseSyncAnimation.m; sourceTree = "<group>"; };
-		AC0F8AB6436C91FA50DB3C504FBFCA37 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		AD1D4F18557C73AE5485A0710FE88EF0 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		B080A30859673A032AE0113DE4080004 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		B3A46671CBA89A2D51AED7771B003113 /* DGActivityIndicatorBallScaleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleAnimation.m; sourceTree = "<group>"; };
-		B40A236C3B8A10EE5799AB5414E457F4 /* DGActivityIndicatorTriplePulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTriplePulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriplePulseAnimation.m; sourceTree = "<group>"; };
-		B53BC372F95EDFBC80A98938DF9B6E87 /* DGActivityIndicatorThreeDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorThreeDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorThreeDotsAnimation.m; sourceTree = "<group>"; };
-		B675EE5F640C38240E00A3C3C989AA35 /* DGActivityIndicatorLineScalePulseOutAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScalePulseOutAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutAnimation.h; sourceTree = "<group>"; };
-		B6B9505438923A3BA859257B640AF656 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		B928367917333045AFD3DB06C6562B9E /* DGActivityIndicatorBallGridBeatAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallGridBeatAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridBeatAnimation.m; sourceTree = "<group>"; };
-		BBAAB781F9BCE26845127FAA4153C760 /* DGActivityIndicatorBallBeatAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallBeatAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallBeatAnimation.h; sourceTree = "<group>"; };
-		BD6C54CF192BCF1645C7CD9548122BF2 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		BDA18B4F6C9B5CE71918932C38179F6C /* DGActivityIndicatorBallPulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallPulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseAnimation.h; sourceTree = "<group>"; };
-		BE302F055D294104849F5C09FF9C0BE1 /* DGActivityIndicatorBallZigZagAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallZigZagAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagAnimation.m; sourceTree = "<group>"; };
-		C0FE11518619954EBFBB3B78A50DBF37 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScalePulseOutRapidAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutRapidAnimation.h; sourceTree = "<group>"; };
-		C27B478918ACAA479FA64A7A1CEB81BB /* DGActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DGActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
-		C6F3D4A64C0492CCB595BB667082DA21 /* DGActivityIndicatorLineScalePartyAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePartyAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePartyAnimation.m; sourceTree = "<group>"; };
-		C84DDD17B768B0DB47CE901BBDEA4E36 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		D2053A99895F0B6F2C1D958F90C76728 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		D27F068503A777EA08D285C32368D815 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallClipRotatePulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotatePulseAnimation.m; sourceTree = "<group>"; };
-		D84132E21A5CED350B839D3904CF9553 /* DGActivityIndicatorBallScaleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleAnimation.h; sourceTree = "<group>"; };
-		D84EDD87BBB69A968C7E8C79580FF493 /* DGActivityIndicatorTripleRingsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTripleRingsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTripleRingsAnimation.h; sourceTree = "<group>"; };
+		9C32CE40EC577072049511E83C49F6E9 /* DGActivityIndicatorBallScaleMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleMultipleAnimation.h; sourceTree = "<group>"; };
+		9D3DA3A986B636345C33EFCC556B079A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		9ED11D4F98CC9B74B983D722B1CA53A9 /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		A3BA62615B96DA2DC1ABD5D1DBB3C897 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A597A832EF571AF14BCE79845F5AB2CC /* DGActivityIndicatorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorAnimation.m; sourceTree = "<group>"; };
+		A65BE977F10A6E5EF334040CF18A34D2 /* DGActivityIndicatorBallPulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallPulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseAnimation.m; sourceTree = "<group>"; };
+		A7C2CA3F1C55E33CB2A4712A422F2BFD /* DGActivityIndicatorRotatingTrigonAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingTrigonAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingTrigonAnimation.m; sourceTree = "<group>"; };
+		A9BF7CC7852A96366CB1332D6862DAAE /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		ADFB03E679208D1ECD32A979C6CED3A6 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		AFEB31B9606A50BCE346915F69211163 /* DGActivityIndicatorBallGridPulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallGridPulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridPulseAnimation.h; sourceTree = "<group>"; };
+		B18A53FC0AFE412AF689803434F8006C /* DGActivityIndicatorThreeDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorThreeDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorThreeDotsAnimation.h; sourceTree = "<group>"; };
+		B407C33F0531B6EB96426DFEB75D5980 /* DGActivityIndicatorBallRotateAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallRotateAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallRotateAnimation.h; sourceTree = "<group>"; };
+		B4858618222E87B3DF0FF694C4113BB6 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B8604E7E3204D30A58B870110DDE925E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B93A8E1A278FE47A0F4CE3D7FD7BAF83 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScalePulseOutRapidAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutRapidAnimation.h; sourceTree = "<group>"; };
+		BA661D7D24657BE7F770EF52DF8F5E2D /* FSCalendarCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = FSCalendar/FSCalendarCalculator.h; sourceTree = "<group>"; };
+		BC70B8A402E7E76B3D10098E43B6C4D3 /* DGActivityIndicatorLineScalePulseOutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePulseOutAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutAnimation.m; sourceTree = "<group>"; };
+		BDF70B11B137DBBAB788E52070E7BCD4 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = FSCalendar/FSCalendarExtensions.m; sourceTree = "<group>"; };
+		BFF4742A948148997D66DD8FA8A203F2 /* DGActivityIndicatorBallPulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallPulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseAnimation.h; sourceTree = "<group>"; };
+		C06BBE81F2BB3ECD0D554E2190002FB0 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotatePulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotatePulseAnimation.h; sourceTree = "<group>"; };
+		C06F5B36F5DEEA082F4EBF554DAE8B6A /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		C08DC145CF2792B31D9F2008A36F6D84 /* DGActivityIndicatorBallClipRotateAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallClipRotateAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateAnimation.m; sourceTree = "<group>"; };
+		C171031A6F9D06E086DBB996C7CCDE8E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		C28F25351B6B6BC95DFDFAF355119AA3 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		C37DB7EB7C11728C971BE3C3A74C9D74 /* DGActivityIndicatorRotatingSquaresAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorRotatingSquaresAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSquaresAnimation.h; sourceTree = "<group>"; };
+		C5FD0F3EDD6FF8F0133640C16808F8F7 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
+		C6E2F35CF5328B29B224D85DBE1B28FC /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FSCalendar+Deprecated.m"; path = "FSCalendar/FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
+		CB5DB35484F59B64F6246AB32AADD7C4 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		CBA56F314760C2CE191428A3A9D772B9 /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		D031B84FC5301169CD2A5BA8E6CCEDA0 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		D105A7D7C37533BE1ADC5AF15CF2D0A7 /* DGActivityIndicatorBallZigZagAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallZigZagAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagAnimation.m; sourceTree = "<group>"; };
+		D33450385A4B59172298DB8F44DE5984 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		D3B3EB03BE6C4EF6F8B60A3F8CBB4530 /* DGActivityIndicatorBallBeatAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallBeatAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallBeatAnimation.h; sourceTree = "<group>"; };
+		D3E03F2B842215EC7F12E993CAC42BF3 /* DGActivityIndicatorLineScalePartyAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePartyAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePartyAnimation.m; sourceTree = "<group>"; };
+		D4118B8A6AF0934842A3CFD106DEC350 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		D700CBA0A97E7FC5CF5651F12DC8F3E5 /* DGActivityIndicatorCookieTerminatorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorCookieTerminatorAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorCookieTerminatorAnimation.h; sourceTree = "<group>"; };
+		D8885C07661C39C05922A745765B4508 /* DGActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorView.h; path = DGActivityIndicatorView/DGActivityIndicatorView.h; sourceTree = "<group>"; };
 		D8D16F49F4EE92AB659033CBDD0315F1 /* Pods-BanRegio-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BanRegio-resources.sh"; sourceTree = "<group>"; };
-		DB3A9583C559A11BDB589DBC31733407 /* DGActivityIndicatorBallZigZagAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallZigZagAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagAnimation.h; sourceTree = "<group>"; };
-		DDBBAAAA3C5C40B140F5AA57AD10835A /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		DF435BBF67523FB6D2633A16438FDB4B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		E03896E910921FC3CEC9506CC575DA71 /* DGActivityIndicatorCookieTerminatorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorCookieTerminatorAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorCookieTerminatorAnimation.h; sourceTree = "<group>"; };
-		E28EC23163D405B9C22084A12857F7FD /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		E327945FEA5ED7C524964314E456F6F7 /* DGActivityIndicatorBallClipRotateAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotateAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateAnimation.h; sourceTree = "<group>"; };
-		E41356AC4C336595415EFA32EE8F0207 /* DGActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorView.h; path = DGActivityIndicatorView/DGActivityIndicatorView.h; sourceTree = "<group>"; };
-		E8A81A4CFAE57422BA70A395F535CEE6 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		E8FDAF0BC195408422C28FDA3797D3B7 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		EB767791D145A264AE7B85D92B247EF1 /* DGActivityIndicatorLineScaleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScaleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScaleAnimation.m; sourceTree = "<group>"; };
-		EE952E4DC545E6B44060C580381C692E /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		EF285BE42CDF1DE7D9F6F12C3ED174D5 /* DGActivityIndicatorBallScaleMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleMultipleAnimation.m; sourceTree = "<group>"; };
-		F1BCD82660E1B4C34FB38DE5CBB191F5 /* DGActivityIndicatorTriplePulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTriplePulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriplePulseAnimation.h; sourceTree = "<group>"; };
-		F371B65A6DBC2E6892D55ACEB00C6DFE /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		D9154CE4FD8C84162B021A8D037C6B6B /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		D9A486C5B6273835FB65CEB1149F27BC /* DGActivityIndicatorRotatingSandglassAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingSandglassAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSandglassAnimation.m; sourceTree = "<group>"; };
+		DB4C7E4A17572D56EEB090EE77024CC9 /* DGActivityIndicatorLineScaleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScaleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScaleAnimation.h; sourceTree = "<group>"; };
+		DC3E8E31253A50ECA2E7C1BC9A4485AC /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		DC99ACFF7D6948848CAABF63E975CA98 /* DGActivityIndicatorBallGridBeatAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallGridBeatAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridBeatAnimation.m; sourceTree = "<group>"; };
+		E3209538570476A10DDD4FA2ADF2DABD /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		E3585563D13D092E1F49471381EB9BA2 /* DGActivityIndicatorTwoDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTwoDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTwoDotsAnimation.h; sourceTree = "<group>"; };
+		E505BCBB872277C75602F91C7CB61385 /* DGActivityIndicatorLineScaleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScaleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScaleAnimation.m; sourceTree = "<group>"; };
+		E668C9074536FB1FF9DF629C6AB4D7BB /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		E9C445F948FBB24BAD0246069478D444 /* DGActivityIndicatorBallScaleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleAnimation.h; sourceTree = "<group>"; };
+		EBBC3B472D0D9CEEB02D81FBEACE40B1 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		ECCA03A6F3BC545CE5B3B2ED2723C679 /* DGActivityIndicatorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorAnimation.h; sourceTree = "<group>"; };
+		ED10BBB51E02AFD238E7F7FF23628881 /* DGActivityIndicatorNineDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorNineDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorNineDotsAnimation.h; sourceTree = "<group>"; };
+		EDA7195BA9C5EAEEB96C8D29B5A98727 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		EDD58D9977B7986B04D201DB69DE7262 /* FSCalendarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = FSCalendar/FSCalendarConstants.m; sourceTree = "<group>"; };
+		EEB5827A5BEFF2F9EAE3D0B16DC49573 /* DGActivityIndicatorDoubleBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorDoubleBounceAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorDoubleBounceAnimation.m; sourceTree = "<group>"; };
+		EEDC2B798D4F5D5DF9B2F577535F77B2 /* DGActivityIndicatorBallPulseSyncAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallPulseSyncAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseSyncAnimation.m; sourceTree = "<group>"; };
+		EF6E791CCA75CECE1336FB9A0FD54869 /* FSCalendarCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
+		F0280846C39B4A4B6436FF647F9164C4 /* DGActivityIndicatorNineDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorNineDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorNineDotsAnimation.m; sourceTree = "<group>"; };
+		F0B5F3F6C8482EB9BC4A83FE3823F28F /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		F0D9C5454758433F0BF4A65482335F84 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePulseOutRapidAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutRapidAnimation.m; sourceTree = "<group>"; };
+		F134FEC081D7D7BB5F359B9275410815 /* DGActivityIndicatorFiveDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorFiveDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorFiveDotsAnimation.m; sourceTree = "<group>"; };
+		F15EA73485AFE2259E9288C6E88C1BB2 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		F1C8E6812A278FA168ACF435D1894DC2 /* DGActivityIndicatorRotatingTrigonAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorRotatingTrigonAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingTrigonAnimation.h; sourceTree = "<group>"; };
+		F286AFC68FF1456DC61C8D77A56F59EE /* DGActivityIndicatorCookieTerminatorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorCookieTerminatorAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorCookieTerminatorAnimation.m; sourceTree = "<group>"; };
+		F2E4B2807B6BEAF8E04A5F46C8C467B4 /* DGActivityIndicatorTripleRingsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTripleRingsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTripleRingsAnimation.h; sourceTree = "<group>"; };
 		F406C74D130A2733B7348DCA848C362E /* Pods-BanRegio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BanRegio-dummy.m"; sourceTree = "<group>"; };
-		F609BC83993D84EAF53BE2869F23FA05 /* DGActivityIndicatorBallSpinFadeLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallSpinFadeLoader.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallSpinFadeLoader.m; sourceTree = "<group>"; };
-		F777A74D967EEB966080C25D5945B015 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleRippleMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleMultipleAnimation.m; sourceTree = "<group>"; };
-		FBE942A3A56E6B2A7C4EF611518CC63C /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		FD37B10498AF85F9CF2DB66DF5F5D24A /* DGActivityIndicatorBallGridBeatAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallGridBeatAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridBeatAnimation.h; sourceTree = "<group>"; };
+		F4F700029C9FD425197216D7209BF2F9 /* DGActivityIndicatorFiveDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorFiveDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorFiveDotsAnimation.h; sourceTree = "<group>"; };
+		F6073A45CCC8B58983FDB01FFAD70E28 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		F643E8CCC76018C0083D75B3E2B2F8A7 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		F6C77C9AC0011E2BEA841CC88DAA3341 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		F993B085C12523A1F24A0D2BA4B933B9 /* DGActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		FA38A105C26E0CF57DAE04F609EBBC04 /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarScopeHandle.m; path = FSCalendar/FSCalendarScopeHandle.m; sourceTree = "<group>"; };
+		FC396BA47AA1829192543AE06D3DE653 /* DGActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DGActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		FF8D3BFFB760EF312DD70E0B330DBF12 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,11 +361,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEF9AE0A031C5B378C63EE642576B669 /* Frameworks */ = {
+		30A7A0E446C05D2A23EA263142656695 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA01E59910E6CBF1EBE4D7B4C83B868 /* Foundation.framework in Frameworks */,
+				FC3840FCD4F801FC3419804BAF2E41A3 /* Foundation.framework in Frameworks */,
+				B195DF37A1C1218E39173963EC758E93 /* QuartzCore.framework in Frameworks */,
+				58B87147E78A913B6B6AAD4CB63F7342 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF95D2F9F7EAF72679D26637BAA94D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E2727E367550354F118732DDA5A5F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,71 +394,236 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01FEE5CAE7C870FE61CC7194C605F1A8 /* Security */ = {
+		03D6758091421BA7B7B47A203BA48276 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				4388CF697467F4EEB844B2978F07D85B /* AFSecurityPolicy.h */,
-				95C72271225C0347E8420790BCE0EDE9 /* AFSecurityPolicy.m */,
+				5A27717F6BF51E05A0D68EE02A417AD9 /* AFHTTPSessionManager.h */,
+				C28F25351B6B6BC95DFDFAF355119AA3 /* AFHTTPSessionManager.m */,
+				E668C9074536FB1FF9DF629C6AB4D7BB /* AFURLSessionManager.h */,
+				04374EC7AFFDF06F6C483A49D5994ED2 /* AFURLSessionManager.m */,
 			);
-			name = Security;
+			name = NSURLSession;
 			sourceTree = "<group>";
 		};
-		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+		0B85CD9780FC1838F6C8CA144F7ABFE3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FBE2CE3B81E4A1287EFFD440F4CCD3AE /* iOS */,
+				EDBC5B53EA2F83ED679324D754524E9D /* AFNetworking */,
+				42A5C821FCEBB7797923576CE3CA721C /* DGActivityIndicatorView */,
+				4C34663B8F459299B0076256E173559B /* FSCalendar */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		10CD4DE666C9A8B6565363EF622829F3 /* Reachability */ = {
+		0FD7DC843C4FDA3EF1CE788808F5ABCA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				44CE017CBD0DACBD212525015B29E51C /* AFNetworkReachabilityManager.h */,
-				3CEF588A4CCC1AB6C7AC4F1F469FD711 /* AFNetworkReachabilityManager.m */,
+				5EF5C46DD71F200573846D57B69BFCEE /* CoreGraphics.framework */,
+				2259DFD6D909A7F48E9D877F84410360 /* Foundation.framework */,
+				660F03C669CC7CFD1082F03BFFC37310 /* MobileCoreServices.framework */,
+				7E8D8BB05187F20C6AAAA64CC85D87E6 /* QuartzCore.framework */,
+				9D3DA3A986B636345C33EFCC556B079A /* Security.framework */,
+				EDA7195BA9C5EAEEB96C8D29B5A98727 /* SystemConfiguration.framework */,
+				32D5ED0F9B4A3FFA873D03E7F369A8CA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		10D3D20265D01845D25C5F004036BBBF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D3BFFB760EF312DD70E0B330DBF12 /* AFAutoPurgingImageCache.h */,
+				F6C77C9AC0011E2BEA841CC88DAA3341 /* AFAutoPurgingImageCache.m */,
+				0ABE958B084D6F2DDD74E3041232749C /* AFImageDownloader.h */,
+				3BEF5AC7C00F8C8A33339490621F74C0 /* AFImageDownloader.m */,
+				C171031A6F9D06E086DBB996C7CCDE8E /* AFNetworkActivityIndicatorManager.h */,
+				54756A934D099E5456DE95752CAEA17E /* AFNetworkActivityIndicatorManager.m */,
+				520CC768654A2E2B6C9BC7D63A90439A /* UIActivityIndicatorView+AFNetworking.h */,
+				46383C9D077C55DD017CC38689A76E32 /* UIActivityIndicatorView+AFNetworking.m */,
+				ADFB03E679208D1ECD32A979C6CED3A6 /* UIButton+AFNetworking.h */,
+				490DC3009C03835DD5F8EFB483F75703 /* UIButton+AFNetworking.m */,
+				614653CBE127BE15BDFCEF803B7D2B0B /* UIImage+AFNetworking.h */,
+				11B27052C2D48682CD02C6658D6970D5 /* UIImageView+AFNetworking.h */,
+				75477867E5CE6886D65494E19ED31CA8 /* UIImageView+AFNetworking.m */,
+				E3209538570476A10DDD4FA2ADF2DABD /* UIKit+AFNetworking.h */,
+				D33450385A4B59172298DB8F44DE5984 /* UIProgressView+AFNetworking.h */,
+				2E4EAC86975473B722F856A4AF1FBDF7 /* UIProgressView+AFNetworking.m */,
+				49ADCFDAEA86D151D9AAA08753C9DCE6 /* UIRefreshControl+AFNetworking.h */,
+				D4118B8A6AF0934842A3CFD106DEC350 /* UIRefreshControl+AFNetworking.m */,
+				26F9782C0191C2413D44B265B0577D65 /* UIWebView+AFNetworking.h */,
+				79D50E73F1A7AE2982239DB6DB9D5654 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		2C559BE87D9DFDE4312BC50774B18D05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60CB57338DFEB8D6842FD139E8F10EA1 /* FSCalendar.xcconfig */,
+				03D14DA794B2F1AF0402E2171797046A /* FSCalendar-dummy.m */,
+				86533647B722634765F0EEB1B0F66D7D /* FSCalendar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
+			sourceTree = "<group>";
+		};
+		42A5C821FCEBB7797923576CE3CA721C /* DGActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA03A6F3BC545CE5B3B2ED2723C679 /* DGActivityIndicatorAnimation.h */,
+				A597A832EF571AF14BCE79845F5AB2CC /* DGActivityIndicatorAnimation.m */,
+				9C090B641C5AA81BCBB36BEB83F96B87 /* DGActivityIndicatorAnimationProtocol.h */,
+				D3B3EB03BE6C4EF6F8B60A3F8CBB4530 /* DGActivityIndicatorBallBeatAnimation.h */,
+				8A129A61000E5284F3903243FF44C940 /* DGActivityIndicatorBallBeatAnimation.m */,
+				0FB9FB21B1D002F0E1E3A046DA9850D7 /* DGActivityIndicatorBallClipRotateAnimation.h */,
+				C08DC145CF2792B31D9F2008A36F6D84 /* DGActivityIndicatorBallClipRotateAnimation.m */,
+				2DBA0D148271877AEF1072DF935F1AEE /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */,
+				2A71F5C480BDA6D5A48AEB76D4C6A62B /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */,
+				C06BBE81F2BB3ECD0D554E2190002FB0 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */,
+				46D5F7BC91E3DD8DDB0F3926AF68D557 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */,
+				3E718E1117FBF895470B7154695BABF7 /* DGActivityIndicatorBallGridBeatAnimation.h */,
+				DC99ACFF7D6948848CAABF63E975CA98 /* DGActivityIndicatorBallGridBeatAnimation.m */,
+				AFEB31B9606A50BCE346915F69211163 /* DGActivityIndicatorBallGridPulseAnimation.h */,
+				62E16B931972FD20BFF508813C9E8DE7 /* DGActivityIndicatorBallGridPulseAnimation.m */,
+				BFF4742A948148997D66DD8FA8A203F2 /* DGActivityIndicatorBallPulseAnimation.h */,
+				A65BE977F10A6E5EF334040CF18A34D2 /* DGActivityIndicatorBallPulseAnimation.m */,
+				760E8B8C4407ECBED665B81C4F2FB2EB /* DGActivityIndicatorBallPulseSyncAnimation.h */,
+				EEDC2B798D4F5D5DF9B2F577535F77B2 /* DGActivityIndicatorBallPulseSyncAnimation.m */,
+				B407C33F0531B6EB96426DFEB75D5980 /* DGActivityIndicatorBallRotateAnimation.h */,
+				34D4E8A6733EB812ABC9F0CD4D0A625F /* DGActivityIndicatorBallRotateAnimation.m */,
+				E9C445F948FBB24BAD0246069478D444 /* DGActivityIndicatorBallScaleAnimation.h */,
+				7AB448A80E8DAAAD0D3A5470579DD454 /* DGActivityIndicatorBallScaleAnimation.m */,
+				9C32CE40EC577072049511E83C49F6E9 /* DGActivityIndicatorBallScaleMultipleAnimation.h */,
+				9004C1DAD795DD578BFA232E0CB637D9 /* DGActivityIndicatorBallScaleMultipleAnimation.m */,
+				5B7E2B9EC1AB926709D8193B6564BCE2 /* DGActivityIndicatorBallScaleRippleAnimation.h */,
+				0D47A7F33F5246C5D865F80BD729E42C /* DGActivityIndicatorBallScaleRippleAnimation.m */,
+				76759E4FFAE1096B8A3EB47594873F01 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */,
+				5A71E68515BC15CCEE7C9D56A47D6BB5 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */,
+				75F3307E87F4769D88FA0A1CFA2A9F6C /* DGActivityIndicatorBallSpinFadeLoader.h */,
+				1D54D384CC372F0006040486D1B99BE2 /* DGActivityIndicatorBallSpinFadeLoader.m */,
+				5A7535EF2515187F7B07930D3927786E /* DGActivityIndicatorBallTrianglePathAnimation.h */,
+				02DD4493C8655C7FDC79C48B0631E327 /* DGActivityIndicatorBallTrianglePathAnimation.m */,
+				1DE46F5093D18DFF33BF3B37EE93420F /* DGActivityIndicatorBallZigZagAnimation.h */,
+				D105A7D7C37533BE1ADC5AF15CF2D0A7 /* DGActivityIndicatorBallZigZagAnimation.m */,
+				43943EA08F6C3077CD8CCC703F192E11 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */,
+				441F780C891C835B360ACD9C86551FE9 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */,
+				D700CBA0A97E7FC5CF5651F12DC8F3E5 /* DGActivityIndicatorCookieTerminatorAnimation.h */,
+				F286AFC68FF1456DC61C8D77A56F59EE /* DGActivityIndicatorCookieTerminatorAnimation.m */,
+				3541D2337CDD17EE3275DBCF0F30323D /* DGActivityIndicatorDoubleBounceAnimation.h */,
+				EEB5827A5BEFF2F9EAE3D0B16DC49573 /* DGActivityIndicatorDoubleBounceAnimation.m */,
+				F4F700029C9FD425197216D7209BF2F9 /* DGActivityIndicatorFiveDotsAnimation.h */,
+				F134FEC081D7D7BB5F359B9275410815 /* DGActivityIndicatorFiveDotsAnimation.m */,
+				DB4C7E4A17572D56EEB090EE77024CC9 /* DGActivityIndicatorLineScaleAnimation.h */,
+				E505BCBB872277C75602F91C7CB61385 /* DGActivityIndicatorLineScaleAnimation.m */,
+				39AE2B16BAA2B619F06451F19A4A7F87 /* DGActivityIndicatorLineScalePartyAnimation.h */,
+				D3E03F2B842215EC7F12E993CAC42BF3 /* DGActivityIndicatorLineScalePartyAnimation.m */,
+				6712943BA8F74D27A87588B5CAF67EBF /* DGActivityIndicatorLineScalePulseOutAnimation.h */,
+				BC70B8A402E7E76B3D10098E43B6C4D3 /* DGActivityIndicatorLineScalePulseOutAnimation.m */,
+				B93A8E1A278FE47A0F4CE3D7FD7BAF83 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */,
+				F0D9C5454758433F0BF4A65482335F84 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */,
+				ED10BBB51E02AFD238E7F7FF23628881 /* DGActivityIndicatorNineDotsAnimation.h */,
+				F0280846C39B4A4B6436FF647F9164C4 /* DGActivityIndicatorNineDotsAnimation.m */,
+				5AA985FB54A94976E170FF253BA4768A /* DGActivityIndicatorRotatingSandglassAnimation.h */,
+				D9A486C5B6273835FB65CEB1149F27BC /* DGActivityIndicatorRotatingSandglassAnimation.m */,
+				C37DB7EB7C11728C971BE3C3A74C9D74 /* DGActivityIndicatorRotatingSquaresAnimation.h */,
+				8B8E35F277267B6F7BAAF57F58BB2E9F /* DGActivityIndicatorRotatingSquaresAnimation.m */,
+				F1C8E6812A278FA168ACF435D1894DC2 /* DGActivityIndicatorRotatingTrigonAnimation.h */,
+				A7C2CA3F1C55E33CB2A4712A422F2BFD /* DGActivityIndicatorRotatingTrigonAnimation.m */,
+				B18A53FC0AFE412AF689803434F8006C /* DGActivityIndicatorThreeDotsAnimation.h */,
+				798D8E99535254234B1EA6588B9929A1 /* DGActivityIndicatorThreeDotsAnimation.m */,
+				2090EA72266F65EE0324614EFD72CAE2 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */,
+				571F5B0C3D004DEEACDF427BA8DAC439 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */,
+				6CE795C2531EFD085E3A08AE7508B883 /* DGActivityIndicatorTriplePulseAnimation.h */,
+				51C79B87BAE1E960B115D2A7D4BC28FB /* DGActivityIndicatorTriplePulseAnimation.m */,
+				F2E4B2807B6BEAF8E04A5F46C8C467B4 /* DGActivityIndicatorTripleRingsAnimation.h */,
+				49EDE5E55D836AF8F9C67EC262499499 /* DGActivityIndicatorTripleRingsAnimation.m */,
+				E3585563D13D092E1F49471381EB9BA2 /* DGActivityIndicatorTwoDotsAnimation.h */,
+				4633648EC896AD58113F196E5B4FEAA7 /* DGActivityIndicatorTwoDotsAnimation.m */,
+				D8885C07661C39C05922A745765B4508 /* DGActivityIndicatorView.h */,
+				84F3DBA4886BAE5B18B6B28FC35DD568 /* DGActivityIndicatorView.m */,
+				E0FC214A6C98EC41A03F1C890CCEB006 /* Support Files */,
+			);
+			name = DGActivityIndicatorView;
+			path = DGActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		4C34663B8F459299B0076256E173559B /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				CBA56F314760C2CE191428A3A9D772B9 /* FSCalendar.h */,
+				1775AE73BD3B769D5A090B1658999722 /* FSCalendar.m */,
+				C6E2F35CF5328B29B224D85DBE1B28FC /* FSCalendar+Deprecated.m */,
+				81944B4095D1BBFC2C826EFB0A2A3643 /* FSCalendarAppearance.h */,
+				6EA8A23A27647A78B911D6BA1C589D69 /* FSCalendarAppearance.m */,
+				BA661D7D24657BE7F770EF52DF8F5E2D /* FSCalendarCalculator.h */,
+				EF6E791CCA75CECE1336FB9A0FD54869 /* FSCalendarCalculator.m */,
+				1D1A529C3D372276574004404A3ADF50 /* FSCalendarCell.h */,
+				9ED11D4F98CC9B74B983D722B1CA53A9 /* FSCalendarCell.m */,
+				750A2D2268FC2482DAC269201753AD84 /* FSCalendarCollectionView.h */,
+				04647878AEB8A8807E8525CFF154A814 /* FSCalendarCollectionView.m */,
+				23897C5E2098F9BB221BF5D74B2F8939 /* FSCalendarCollectionViewLayout.h */,
+				6BF7EDEE7604AE6A613CE81C21C6CFD6 /* FSCalendarCollectionViewLayout.m */,
+				30CB37038AB55D1EAA50F379186534BC /* FSCalendarConstants.h */,
+				EDD58D9977B7986B04D201DB69DE7262 /* FSCalendarConstants.m */,
+				3EA7942BB9AFDE48E4BC52438322F1E4 /* FSCalendarDelegationFactory.h */,
+				98988BC1EF8AEAF885D9EE7E36D4668B /* FSCalendarDelegationFactory.m */,
+				9671B39F49E66C56A9B033C948786253 /* FSCalendarDelegationProxy.h */,
+				86158E809341F6926B33C9D35382CB9F /* FSCalendarDelegationProxy.m */,
+				F6073A45CCC8B58983FDB01FFAD70E28 /* FSCalendarDynamicHeader.h */,
+				C5FD0F3EDD6FF8F0133640C16808F8F7 /* FSCalendarExtensions.h */,
+				BDF70B11B137DBBAB788E52070E7BCD4 /* FSCalendarExtensions.m */,
+				657E301F6DBFFB284FCB5247EA6D7E7A /* FSCalendarHeaderView.h */,
+				C06F5B36F5DEEA082F4EBF554DAE8B6A /* FSCalendarHeaderView.m */,
+				6F95489AF591B5DA869885595A9A4640 /* FSCalendarScopeHandle.h */,
+				FA38A105C26E0CF57DAE04F609EBBC04 /* FSCalendarScopeHandle.m */,
+				F643E8CCC76018C0083D75B3E2B2F8A7 /* FSCalendarStickyHeader.h */,
+				F0B5F3F6C8482EB9BC4A83FE3823F28F /* FSCalendarStickyHeader.m */,
+				8FD299F07554995F75CB83774F7C3226 /* FSCalendarTransitionCoordinator.h */,
+				DC3E8E31253A50ECA2E7C1BC9A4485AC /* FSCalendarTransitionCoordinator.m */,
+				D9154CE4FD8C84162B021A8D037C6B6B /* FSCalendarWeekdayView.h */,
+				CB5DB35484F59B64F6246AB32AADD7C4 /* FSCalendarWeekdayView.m */,
+				2C559BE87D9DFDE4312BC50774B18D05 /* Support Files */,
+			);
+			name = FSCalendar;
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		5749A6A0A0573A267E251E1899FFB638 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A3BA62615B96DA2DC1ABD5D1DBB3C897 /* AFNetworkReachabilityManager.h */,
+				D031B84FC5301169CD2A5BA8E6CCEDA0 /* AFNetworkReachabilityManager.m */,
 			);
 			name = Reachability;
 			sourceTree = "<group>";
 		};
-		21915DBB5E05740A4BD4F777C1D25317 /* Support Files */ = {
+		5B986BE7DFB250AA9238282199FA45BE /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				801827088E38CD4867C0BE9990C32EFE /* AFNetworking.xcconfig */,
-				D2053A99895F0B6F2C1D958F90C76728 /* AFNetworking-dummy.m */,
-				EE952E4DC545E6B44060C580381C692E /* AFNetworking-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		238D430840C8CA1E79B8340805FA2069 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3BC5D3623E96833F3F3C538DFA9558A2 /* libAFNetworking.a */,
-				8F5E5951D060BA2ACB55ED1927DEB7B0 /* libDGActivityIndicatorView.a */,
-				75D83DE16C12BBF141051DF5D9481220 /* libPods-BanRegio.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		36EF6C072816160977311787B6D5EA26 /* Serialization */ = {
-			isa = PBXGroup;
-			children = (
-				79E2BF1A5A8506152D4EF3DA15CF91FA /* AFURLRequestSerialization.h */,
-				2F93D6004516330708AF2DBED44CC1B5 /* AFURLRequestSerialization.m */,
-				2701BD0E7C8D3003449460F3B5A6ECEE /* AFURLResponseSerialization.h */,
-				5DDDFEBB04CF261E586D7DFB4D65B989 /* AFURLResponseSerialization.m */,
+				B8604E7E3204D30A58B870110DDE925E /* AFURLRequestSerialization.h */,
+				672121C1E2CC22EB788D5FCC4804CAED /* AFURLRequestSerialization.m */,
+				EBBC3B472D0D9CEEB02D81FBEACE40B1 /* AFURLResponseSerialization.h */,
+				12925725CD2F820A8BACA2120E794F71 /* AFURLResponseSerialization.m */,
 			);
 			name = Serialization;
+			sourceTree = "<group>";
+		};
+		6E2AC4110966A6B6AE15133E2CD8C645 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				F15EA73485AFE2259E9288C6E88C1BB2 /* AFSecurityPolicy.h */,
+				B4858618222E87B3DF0FF694C4113BB6 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
-				9FCC9043191D39BE5C121671C62120A0 /* Pods */,
-				238D430840C8CA1E79B8340805FA2069 /* Products */,
+				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
+				0B85CD9780FC1838F6C8CA144F7ABFE3 /* Pods */,
+				E269BCFBD2CE70F52FE2AAB80530DBFA /* Products */,
 				DF861F12332F2BC776468973E55D4461 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -388,119 +643,15 @@
 			path = "Target Support Files/Pods-BanRegio";
 			sourceTree = "<group>";
 		};
-		9FCC9043191D39BE5C121671C62120A0 /* Pods */ = {
+		C57C3B7D2C43FBB4745297D0CEF37AF9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE29CB4F21D86B5BE1A862DBBE1CC7A2 /* AFNetworking */,
-				C9A41E58449CCBE40F60DC855C7D3459 /* DGActivityIndicatorView */,
+				3425B630A3371C9A7481ADAA7BC43E62 /* AFNetworking.xcconfig */,
+				09A623CD959A968B616F369BA5FEE5EE /* AFNetworking-dummy.m */,
+				A9BF7CC7852A96366CB1332D6862DAAE /* AFNetworking-prefix.pch */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C9A41E58449CCBE40F60DC855C7D3459 /* DGActivityIndicatorView */ = {
-			isa = PBXGroup;
-			children = (
-				67AE4DB5E5AEDE28CA0ADB843FB8EE38 /* DGActivityIndicatorAnimation.h */,
-				76405EC6916BD837EDFFD64ED79573B4 /* DGActivityIndicatorAnimation.m */,
-				99F91A86E50B03661F6CCB1FC1AEB7D0 /* DGActivityIndicatorAnimationProtocol.h */,
-				BBAAB781F9BCE26845127FAA4153C760 /* DGActivityIndicatorBallBeatAnimation.h */,
-				39AEED74DEAF634519D27EDE7C486027 /* DGActivityIndicatorBallBeatAnimation.m */,
-				E327945FEA5ED7C524964314E456F6F7 /* DGActivityIndicatorBallClipRotateAnimation.h */,
-				0470D8FA9FB8F7FF81FEF52CC06BDE70 /* DGActivityIndicatorBallClipRotateAnimation.m */,
-				03919C5A528118DA3D85A1087392C629 /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */,
-				5EFC526F7FAC277CC615518FAE497B47 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */,
-				87052AC10B017D550C1DE32E1068E3D1 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */,
-				D27F068503A777EA08D285C32368D815 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */,
-				FD37B10498AF85F9CF2DB66DF5F5D24A /* DGActivityIndicatorBallGridBeatAnimation.h */,
-				B928367917333045AFD3DB06C6562B9E /* DGActivityIndicatorBallGridBeatAnimation.m */,
-				4C1DD71D06EC56EC74FC5DC536F39FA4 /* DGActivityIndicatorBallGridPulseAnimation.h */,
-				25215D1EB31AB4D8DD8A30580477BC5C /* DGActivityIndicatorBallGridPulseAnimation.m */,
-				BDA18B4F6C9B5CE71918932C38179F6C /* DGActivityIndicatorBallPulseAnimation.h */,
-				0708FD18D43FF49DF5741E2D4E07F792 /* DGActivityIndicatorBallPulseAnimation.m */,
-				4E9B4E6694047D2FAEDA46DD9C560DD5 /* DGActivityIndicatorBallPulseSyncAnimation.h */,
-				A6952E9C25599BED3F824361C27850C9 /* DGActivityIndicatorBallPulseSyncAnimation.m */,
-				0AC69D919DFD1AA51EBDAB44A691EDDC /* DGActivityIndicatorBallRotateAnimation.h */,
-				1DFF0952197CE3237D5691A11130E416 /* DGActivityIndicatorBallRotateAnimation.m */,
-				D84132E21A5CED350B839D3904CF9553 /* DGActivityIndicatorBallScaleAnimation.h */,
-				B3A46671CBA89A2D51AED7771B003113 /* DGActivityIndicatorBallScaleAnimation.m */,
-				0A17852F6927C60606CCDEBB4B212B74 /* DGActivityIndicatorBallScaleMultipleAnimation.h */,
-				EF285BE42CDF1DE7D9F6F12C3ED174D5 /* DGActivityIndicatorBallScaleMultipleAnimation.m */,
-				A52B5370BE242E00DF4925E19B32E541 /* DGActivityIndicatorBallScaleRippleAnimation.h */,
-				33A06631F55133B4FDE2689C1D0314A3 /* DGActivityIndicatorBallScaleRippleAnimation.m */,
-				838F6D9DB391CBD45FE999D630D965B5 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */,
-				F777A74D967EEB966080C25D5945B015 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */,
-				2B8F5870D0CB3B55F623BA9FB9DF6A09 /* DGActivityIndicatorBallSpinFadeLoader.h */,
-				F609BC83993D84EAF53BE2869F23FA05 /* DGActivityIndicatorBallSpinFadeLoader.m */,
-				2934A266D3A815911857A85486F689FF /* DGActivityIndicatorBallTrianglePathAnimation.h */,
-				21B0E42F937041756E9984AFB2CC4C7F /* DGActivityIndicatorBallTrianglePathAnimation.m */,
-				DB3A9583C559A11BDB589DBC31733407 /* DGActivityIndicatorBallZigZagAnimation.h */,
-				BE302F055D294104849F5C09FF9C0BE1 /* DGActivityIndicatorBallZigZagAnimation.m */,
-				6A0EBAC7DF65EAAFEDB697E7ACBF195C /* DGActivityIndicatorBallZigZagDeflectAnimation.h */,
-				60CEAC58E6040A27A1CE9B26EA2294F8 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */,
-				E03896E910921FC3CEC9506CC575DA71 /* DGActivityIndicatorCookieTerminatorAnimation.h */,
-				85C9E4248DA60F6E04F9280183DEB03E /* DGActivityIndicatorCookieTerminatorAnimation.m */,
-				51A573C339CF52520A4047DBDAD0EE24 /* DGActivityIndicatorDoubleBounceAnimation.h */,
-				02CE490CB6C02CCCF8B58E5759D4A216 /* DGActivityIndicatorDoubleBounceAnimation.m */,
-				9FE0056549EE83A54EF0ADD0F8E1CF51 /* DGActivityIndicatorFiveDotsAnimation.h */,
-				870801E3A5CF0C113ACEA2EE43F96336 /* DGActivityIndicatorFiveDotsAnimation.m */,
-				33FA134D5B8677E7714A208BE8C3417C /* DGActivityIndicatorLineScaleAnimation.h */,
-				EB767791D145A264AE7B85D92B247EF1 /* DGActivityIndicatorLineScaleAnimation.m */,
-				459350BFA27654C05AD98469D6334497 /* DGActivityIndicatorLineScalePartyAnimation.h */,
-				C6F3D4A64C0492CCB595BB667082DA21 /* DGActivityIndicatorLineScalePartyAnimation.m */,
-				B675EE5F640C38240E00A3C3C989AA35 /* DGActivityIndicatorLineScalePulseOutAnimation.h */,
-				56B40A6022FF7A212BF3F2695B60FFF5 /* DGActivityIndicatorLineScalePulseOutAnimation.m */,
-				C0FE11518619954EBFBB3B78A50DBF37 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */,
-				8443937F1E3BF8DC706B7A07B92848FD /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */,
-				8B28F24CB2B6507E05F760E166907AAC /* DGActivityIndicatorNineDotsAnimation.h */,
-				3A86C35327CD9B4DCB254A455090E85F /* DGActivityIndicatorNineDotsAnimation.m */,
-				612516024C7FDDF392307881F15F40B9 /* DGActivityIndicatorRotatingSandglassAnimation.h */,
-				2BFD1E334CFD7E812DB4E6EC80A28D4C /* DGActivityIndicatorRotatingSandglassAnimation.m */,
-				1CB95F63F10EE479A919A856C50C35A3 /* DGActivityIndicatorRotatingSquaresAnimation.h */,
-				1C5B3D067B1FCE54F9ED94ACE302F252 /* DGActivityIndicatorRotatingSquaresAnimation.m */,
-				A4A2BEF60D7EF1141D60FF2C191C2939 /* DGActivityIndicatorRotatingTrigonAnimation.h */,
-				7ED01EBAF6AA17023B76E1D63CF38EF0 /* DGActivityIndicatorRotatingTrigonAnimation.m */,
-				9BB6086BE6DE117B5303A3B46CE78891 /* DGActivityIndicatorThreeDotsAnimation.h */,
-				B53BC372F95EDFBC80A98938DF9B6E87 /* DGActivityIndicatorThreeDotsAnimation.m */,
-				328B2B5DA901E5C2AA6D14675E41369B /* DGActivityIndicatorTriangleSkewSpinAnimation.h */,
-				381983821F758A8AA074BBE27E790EBB /* DGActivityIndicatorTriangleSkewSpinAnimation.m */,
-				F1BCD82660E1B4C34FB38DE5CBB191F5 /* DGActivityIndicatorTriplePulseAnimation.h */,
-				B40A236C3B8A10EE5799AB5414E457F4 /* DGActivityIndicatorTriplePulseAnimation.m */,
-				D84EDD87BBB69A968C7E8C79580FF493 /* DGActivityIndicatorTripleRingsAnimation.h */,
-				6D90D1B7F89FC3F3331547338D99149C /* DGActivityIndicatorTripleRingsAnimation.m */,
-				809D708AFBFF04957ED3FFA34679DD55 /* DGActivityIndicatorTwoDotsAnimation.h */,
-				96BE0B43E7814A677AC65E755B32866A /* DGActivityIndicatorTwoDotsAnimation.m */,
-				E41356AC4C336595415EFA32EE8F0207 /* DGActivityIndicatorView.h */,
-				7DE1949118BDB4DD35C57B33072FD4F7 /* DGActivityIndicatorView.m */,
-				F2CFCEF4AD7B53EDDB4EAC3D138F9991 /* Support Files */,
-			);
-			name = DGActivityIndicatorView;
-			path = DGActivityIndicatorView;
-			sourceTree = "<group>";
-		};
-		CE29CB4F21D86B5BE1A862DBBE1CC7A2 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				E8A81A4CFAE57422BA70A395F535CEE6 /* AFNetworking.h */,
-				D150A843837B79C1A5B2AA3AAAFD7037 /* NSURLSession */,
-				10CD4DE666C9A8B6565363EF622829F3 /* Reachability */,
-				01FEE5CAE7C870FE61CC7194C605F1A8 /* Security */,
-				36EF6C072816160977311787B6D5EA26 /* Serialization */,
-				21915DBB5E05740A4BD4F777C1D25317 /* Support Files */,
-				EA3DA5D2F2F1ED0872650C53F821A028 /* UIKit */,
-			);
-			name = AFNetworking;
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		D150A843837B79C1A5B2AA3AAAFD7037 /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				BD6C54CF192BCF1645C7CD9548122BF2 /* AFHTTPSessionManager.h */,
-				FBE942A3A56E6B2A7C4EF611518CC63C /* AFHTTPSessionManager.m */,
-				F371B65A6DBC2E6892D55ACEB00C6DFE /* AFURLSessionManager.h */,
-				B080A30859673A032AE0113DE4080004 /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
 		DF861F12332F2BC776468973E55D4461 /* Targets Support Files */ = {
@@ -511,55 +662,49 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EA3DA5D2F2F1ED0872650C53F821A028 /* UIKit */ = {
+		E0FC214A6C98EC41A03F1C890CCEB006 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC0F8AB6436C91FA50DB3C504FBFCA37 /* AFAutoPurgingImageCache.h */,
-				A46C3F0F2B726DB27410D5B6FE49DD95 /* AFAutoPurgingImageCache.m */,
-				66E6827A4EAE2E1FB36CA6720C7D5B53 /* AFImageDownloader.h */,
-				195EE80FC7C5D27C28EA9E9F00CD372B /* AFImageDownloader.m */,
-				24F2457B345C8DEBA1D41EA19D9B0316 /* AFNetworkActivityIndicatorManager.h */,
-				01A282702971D564A9BA9958F8E11BDC /* AFNetworkActivityIndicatorManager.m */,
-				8C2C55B68A067AFA5208926F1369A870 /* UIActivityIndicatorView+AFNetworking.h */,
-				41E65C2A7E03AED001A7493227DC27AA /* UIActivityIndicatorView+AFNetworking.m */,
-				C84DDD17B768B0DB47CE901BBDEA4E36 /* UIButton+AFNetworking.h */,
-				E28EC23163D405B9C22084A12857F7FD /* UIButton+AFNetworking.m */,
-				B6B9505438923A3BA859257B640AF656 /* UIImage+AFNetworking.h */,
-				41DB4064F23BAC6699299B8E39012D55 /* UIImageView+AFNetworking.h */,
-				DDBBAAAA3C5C40B140F5AA57AD10835A /* UIImageView+AFNetworking.m */,
-				6960C4AA995F8892C94C06C99EAC219E /* UIKit+AFNetworking.h */,
-				AD1D4F18557C73AE5485A0710FE88EF0 /* UIProgressView+AFNetworking.h */,
-				9BA66F5968CF6B5EF29C0137EB68981F /* UIProgressView+AFNetworking.m */,
-				999A0EDED4E44AB53442794F34462E7B /* UIRefreshControl+AFNetworking.h */,
-				5B0089AD589173C15516CA2206CD1AAF /* UIRefreshControl+AFNetworking.m */,
-				81599D04FBC58413E574610A3FA52A4E /* UIWebView+AFNetworking.h */,
-				E8FDAF0BC195408422C28FDA3797D3B7 /* UIWebView+AFNetworking.m */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		F2CFCEF4AD7B53EDDB4EAC3D138F9991 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				937206149334C0EF950F858F364FA149 /* DGActivityIndicatorView.xcconfig */,
-				C27B478918ACAA479FA64A7A1CEB81BB /* DGActivityIndicatorView-dummy.m */,
-				210990D14E50705738ACDBFD18FC0F18 /* DGActivityIndicatorView-prefix.pch */,
+				22AC01F3400048B58DD56839CE3BA0A2 /* DGActivityIndicatorView.xcconfig */,
+				FC396BA47AA1829192543AE06D3DE653 /* DGActivityIndicatorView-dummy.m */,
+				F993B085C12523A1F24A0D2BA4B933B9 /* DGActivityIndicatorView-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DGActivityIndicatorView";
 			sourceTree = "<group>";
 		};
-		FBE2CE3B81E4A1287EFFD440F4CCD3AE /* iOS */ = {
+		E269BCFBD2CE70F52FE2AAB80530DBFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				041F55AE36E26F3BDCC4B40490B54E30 /* CoreGraphics.framework */,
-				0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */,
-				DF435BBF67523FB6D2633A16438FDB4B /* MobileCoreServices.framework */,
-				66EB5B938802F986D305D37865A72F7F /* Security.framework */,
-				A4A78E5A576CDDF089002FA7301D2AD8 /* SystemConfiguration.framework */,
-				51EEF5F6B8DF9CB28A3362570D60C5A5 /* UIKit.framework */,
+				8756C480E2B461B54D7575063FB16C12 /* libAFNetworking.a */,
+				57A01A774004C08659E8AA56A456F055 /* libDGActivityIndicatorView.a */,
+				27934FF169EB72F08F1EEF1DD86A1011 /* libFSCalendar.a */,
+				7AE2836CD1B1D9F7E60F2B1EF5EBD1AB /* libPods-BanRegio.a */,
 			);
-			name = iOS;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDBC5B53EA2F83ED679324D754524E9D /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7957DED2C000B3F26BE95951DF28948B /* AFNetworking.h */,
+				03D6758091421BA7B7B47A203BA48276 /* NSURLSession */,
+				5749A6A0A0573A267E251E1899FFB638 /* Reachability */,
+				6E2AC4110966A6B6AE15133E2CD8C645 /* Security */,
+				5B986BE7DFB250AA9238282199FA45BE /* Serialization */,
+				C57C3B7D2C43FBB4745297D0CEF37AF9 /* Support Files */,
+				10D3D20265D01845D25C5F004036BBBF /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FD7DC843C4FDA3EF1CE788808F5ABCA /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -633,25 +778,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CDCCD00FFD11CE8E8F860F9BF087335 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6805D66A638F062BE71A9025336295E /* FSCalendar.h in Headers */,
+				CDD84A3393B0990A944690422573739A /* FSCalendarAppearance.h in Headers */,
+				BE3793D5E72DD56AC421BAEA489FED0D /* FSCalendarCalculator.h in Headers */,
+				90BFFF21D80394853E60B333B457B457 /* FSCalendarCell.h in Headers */,
+				03726A2701092DF653A3F69691427C9F /* FSCalendarCollectionView.h in Headers */,
+				659BD74F235B37266C6258E823DBE90F /* FSCalendarCollectionViewLayout.h in Headers */,
+				8B41722F9D65F3E04D457C9E485341DF /* FSCalendarConstants.h in Headers */,
+				37A903C14DF36210C407AFEE8E2FF73E /* FSCalendarDelegationFactory.h in Headers */,
+				DD4F064882DB920F215852E4A2C968A6 /* FSCalendarDelegationProxy.h in Headers */,
+				39A124C019D596E66F0659E092AD788D /* FSCalendarDynamicHeader.h in Headers */,
+				0AFB14D88C991CB1034C6FA4E10811CB /* FSCalendarExtensions.h in Headers */,
+				86DD2ADBA9FEF0259575CF936021D345 /* FSCalendarHeaderView.h in Headers */,
+				EE102234F91DE83178B4B782A7DE57F5 /* FSCalendarScopeHandle.h in Headers */,
+				2B8992743A10DE4E2AA150BCC31A0594 /* FSCalendarStickyHeader.h in Headers */,
+				66DA9AB377F8D421DD73E5EF4ECCB434 /* FSCalendarTransitionCoordinator.h in Headers */,
+				FCD7DF0DD6153FE0BA4F249D75DCAA41 /* FSCalendarWeekdayView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1BA1FE358AB63F531E36248078A082A1 /* Pods-BanRegio */ = {
+		6DCAA7019432F90122D960EBE4485614 /* Pods-BanRegio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 432611AA629AD11AFD9C67A7651A55AE /* Build configuration list for PBXNativeTarget "Pods-BanRegio" */;
+			buildConfigurationList = BD91FBCA9784FBAD06E23A837D750755 /* Build configuration list for PBXNativeTarget "Pods-BanRegio" */;
 			buildPhases = (
-				17084EE44481B787F8C1719FC83750E9 /* Sources */,
-				AEF9AE0A031C5B378C63EE642576B669 /* Frameworks */,
+				D352D00F2A7128EAB9B7838E685CB14E /* Sources */,
+				6BF95D2F9F7EAF72679D26637BAA94D2 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B418D6167FCE21E33F0CED3143BC1C0D /* PBXTargetDependency */,
-				F8B9EAE54E3B47EB8304E1CE87C98EE1 /* PBXTargetDependency */,
+				8650BDB400D5CF58F176B482780A8898 /* PBXTargetDependency */,
+				BC6465CE94765FD578875D7FCD13A508 /* PBXTargetDependency */,
+				2FD60888185D00FD130D03084A9A6408 /* PBXTargetDependency */,
 			);
 			name = "Pods-BanRegio";
 			productName = "Pods-BanRegio";
-			productReference = 75D83DE16C12BBF141051DF5D9481220 /* libPods-BanRegio.a */;
+			productReference = 7AE2836CD1B1D9F7E60F2B1EF5EBD1AB /* libPods-BanRegio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7E6D09DA8B1E7DD2FB43AAF4EED94144 /* FSCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB688027A282174A05B9B5C2F69DCF00 /* Build configuration list for PBXNativeTarget "FSCalendar" */;
+			buildPhases = (
+				C22E544F7938EE0CFC9CF9F4FC5605D4 /* Sources */,
+				30A7A0E446C05D2A23EA263142656695 /* Frameworks */,
+				8CDCCD00FFD11CE8E8F860F9BF087335 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 27934FF169EB72F08F1EEF1DD86A1011 /* libFSCalendar.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		9E033EDB5EC0819481B0546434FA577B /* AFNetworking */ = {
@@ -668,7 +854,7 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 3BC5D3623E96833F3F3C538DFA9558A2 /* libAFNetworking.a */;
+			productReference = 8756C480E2B461B54D7575063FB16C12 /* libAFNetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		FBA9754FB7A82758566D360BD30C2517 /* DGActivityIndicatorView */ = {
@@ -685,7 +871,7 @@
 			);
 			name = DGActivityIndicatorView;
 			productName = DGActivityIndicatorView;
-			productReference = 8F5E5951D060BA2ACB55ED1927DEB7B0 /* libDGActivityIndicatorView.a */;
+			productReference = 57A01A774004C08659E8AA56A456F055 /* libDGActivityIndicatorView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -705,13 +891,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 238D430840C8CA1E79B8340805FA2069 /* Products */;
+			productRefGroup = E269BCFBD2CE70F52FE2AAB80530DBFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9E033EDB5EC0819481B0546434FA577B /* AFNetworking */,
 				FBA9754FB7A82758566D360BD30C2517 /* DGActivityIndicatorView */,
-				1BA1FE358AB63F531E36248078A082A1 /* Pods-BanRegio */,
+				7E6D09DA8B1E7DD2FB43AAF4EED94144 /* FSCalendar */,
+				6DCAA7019432F90122D960EBE4485614 /* Pods-BanRegio */,
 			);
 		};
 /* End PBXProject section */
@@ -737,14 +924,6 @@
 				D4AA4704CA7863CC86E22AAF88635836 /* UIProgressView+AFNetworking.m in Sources */,
 				B84CD33084C9867E67BD56E47B7BFC04 /* UIRefreshControl+AFNetworking.m in Sources */,
 				A7F7FDCD36E2DD8D8E346DB19452CC03 /* UIWebView+AFNetworking.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		17084EE44481B787F8C1719FC83750E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				19C3778263000801973EABF7A19001CF /* Pods-BanRegio-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -791,25 +970,110 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C22E544F7938EE0CFC9CF9F4FC5605D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB125675D3166201E1EEF5D1DC0466F8 /* FSCalendar+Deprecated.m in Sources */,
+				50AF2DDE81CE72D6011E87C0966F9E29 /* FSCalendar-dummy.m in Sources */,
+				0D97DB1A4FA01593C546B8B512383A6D /* FSCalendar.m in Sources */,
+				24F9E325543E9789C9E39BD174B370D1 /* FSCalendarAppearance.m in Sources */,
+				EF6D8BC2898FB9F1880E7C09C25AFBF4 /* FSCalendarCalculator.m in Sources */,
+				EF9FC3F55CB77CE5D5B762406D020416 /* FSCalendarCell.m in Sources */,
+				81AAEA25DEE0797E96A867B911F3C95E /* FSCalendarCollectionView.m in Sources */,
+				B038BCA9D3F6BC0D9166BB29013A3FF8 /* FSCalendarCollectionViewLayout.m in Sources */,
+				A814C2A9C5AEA25DDC467AD71C36F5A9 /* FSCalendarConstants.m in Sources */,
+				5C6E5943DECD690C594EC91AC2F9000C /* FSCalendarDelegationFactory.m in Sources */,
+				109F8BE9437E595D73AE5A3E76AF670C /* FSCalendarDelegationProxy.m in Sources */,
+				491FBF522B718BA2E01C96B36B999B14 /* FSCalendarExtensions.m in Sources */,
+				F3AE6577715AC6BDA1F095AAA5A54A84 /* FSCalendarHeaderView.m in Sources */,
+				CCEAC9169F5AC9646CA1A28AD789C852 /* FSCalendarScopeHandle.m in Sources */,
+				077F8DF58ACF4F986B905FE014D74899 /* FSCalendarStickyHeader.m in Sources */,
+				0D40C0709B934B36FC64F608CC4A867D /* FSCalendarTransitionCoordinator.m in Sources */,
+				CA8EDCDE6BCA742F935D15734497D11A /* FSCalendarWeekdayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D352D00F2A7128EAB9B7838E685CB14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E20BC5196020AAC143E20662135371 /* Pods-BanRegio-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B418D6167FCE21E33F0CED3143BC1C0D /* PBXTargetDependency */ = {
+		2FD60888185D00FD130D03084A9A6408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = 7E6D09DA8B1E7DD2FB43AAF4EED94144 /* FSCalendar */;
+			targetProxy = 6E6007A6A1E56F4B3BE8B36838CB51E1 /* PBXContainerItemProxy */;
+		};
+		8650BDB400D5CF58F176B482780A8898 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 9E033EDB5EC0819481B0546434FA577B /* AFNetworking */;
-			targetProxy = 8F32632F45A22D92BE5BF298F18DF050 /* PBXContainerItemProxy */;
+			targetProxy = 3D448793A66C7C9827E25617BDF5FA7B /* PBXContainerItemProxy */;
 		};
-		F8B9EAE54E3B47EB8304E1CE87C98EE1 /* PBXTargetDependency */ = {
+		BC6465CE94765FD578875D7FCD13A508 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DGActivityIndicatorView;
 			target = FBA9754FB7A82758566D360BD30C2517 /* DGActivityIndicatorView */;
-			targetProxy = A2E2BF66C4395A071A63990637833C33 /* PBXContainerItemProxy */;
+			targetProxy = 206566D12F9762140971859FA30BE0F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		071067B2FB48B98D1D77D0F91F1C291F /* Release */ = {
+		173F1A18949267291B74BC78722B37AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60CB57338DFEB8D6842FD139E8F10EA1 /* FSCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2946D24682D665FA8DB64B5E6F799787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3425B630A3371C9A7481ADAA7BC43E62 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B440A69C330D81A35702F0420B86F6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 174B67BD6DB3BAE1AAF388B82DDFED7B /* Pods-BanRegio.release.xcconfig */;
 			buildSettings = {
@@ -832,32 +1096,9 @@
 			};
 			name = Release;
 		};
-		2946D24682D665FA8DB64B5E6F799787 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 801827088E38CD4867C0BE9990C32EFE /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AFNetworking;
-				PRODUCT_NAME = AFNetworking;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		3D2F499376213CABD2BC18AA8AB5B16B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 937206149334C0EF950F858F364FA149 /* DGActivityIndicatorView.xcconfig */;
+			baseConfigurationReference = 22AC01F3400048B58DD56839CE3BA0A2 /* DGActivityIndicatorView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -999,31 +1240,32 @@
 			};
 			name = Release;
 		};
-		A91C5B1AC92751D726FEE3E1DDABAF87 /* Debug */ = {
+		8835219916FBC7877B517826C63D922B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17678981DC04AE4ADF02CA813683F0AF /* Pods-BanRegio.debug.xcconfig */;
+			baseConfigurationReference = 60CB57338DFEB8D6842FD139E8F10EA1 /* FSCalendar.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		A9E33D4FA13F69D38621527D9D19137C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 937206149334C0EF950F858F364FA149 /* DGActivityIndicatorView.xcconfig */;
+			baseConfigurationReference = 22AC01F3400048B58DD56839CE3BA0A2 /* DGActivityIndicatorView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1047,7 +1289,7 @@
 		};
 		C3601C47E18C0AE6EC866511CF8ADFAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 801827088E38CD4867C0BE9990C32EFE /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 3425B630A3371C9A7481ADAA7BC43E62 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1069,6 +1311,28 @@
 			};
 			name = Release;
 		};
+		C80FBA5B490CA51C9345B25F4FA8CE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17678981DC04AE4ADF02CA813683F0AF /* Pods-BanRegio.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1077,15 +1341,6 @@
 			buildConfigurations = (
 				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
 				703082A85162812D3B777E668767AD25 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		432611AA629AD11AFD9C67A7651A55AE /* Build configuration list for PBXNativeTarget "Pods-BanRegio" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A91C5B1AC92751D726FEE3E1DDABAF87 /* Debug */,
-				071067B2FB48B98D1D77D0F91F1C291F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1104,6 +1359,24 @@
 			buildConfigurations = (
 				3D2F499376213CABD2BC18AA8AB5B16B /* Debug */,
 				A9E33D4FA13F69D38621527D9D19137C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB688027A282174A05B9B5C2F69DCF00 /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8835219916FBC7877B517826C63D922B /* Debug */,
+				173F1A18949267291B74BC78722B37AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD91FBCA9784FBAD06E23A837D750755 /* Build configuration list for PBXNativeTarget "Pods-BanRegio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80FBA5B490CA51C9345B25F4FA8CE58 /* Debug */,
+				3B440A69C330D81A35702F0420B86F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

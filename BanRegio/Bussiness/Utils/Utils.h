@@ -12,4 +12,7 @@
 
 +(void)showTitleFonts;
 
+#pragma mark - convert date
++(nonnull NSString*)getConvertStringToDateCalendar:(nonnull NSDate*)date;
+
 @end

@@ -27,5 +27,6 @@
 #import "AlertViewController.h"
 #import "AskPermissionsViewController.h"
 #import "ActionSheets.h"
+#import "FSCalendar.h"
 
 #endif /* PrefixHeader_pch */
