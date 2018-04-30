@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SectionThreeViewController">
+            <connections>
+                <outlet property="btnMenu" destination="IYM-Q2-DAJ" id="xf7-6m-3uO"/>
+                <outlet property="lblTitleHeader" destination="h5k-II-oP9" id="YHm-Xt-kdP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewHeader" destination="su2-dL-rHD" id="9HC-ma-974"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="su2-dL-rHD">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5k-II-oP9">
+                            <rect key="frame" x="166" y="40" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYM-Q2-DAJ">
+                            <rect key="frame" x="8" y="24" width="46" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="qXB-aJ-i0B"/>
+                                <constraint firstAttribute="height" constant="46" id="x0a-G9-pL0"/>
+                            </constraints>
+                            <state key="normal" image="ic_menu"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="IYM-Q2-DAJ" secondAttribute="bottom" constant="5" id="Z0T-VS-QfK"/>
+                        <constraint firstAttribute="height" constant="75" id="k3a-sr-lkH"/>
+                        <constraint firstItem="IYM-Q2-DAJ" firstAttribute="leading" secondItem="su2-dL-rHD" secondAttribute="leading" constant="8" id="nYV-a9-zPl"/>
+                        <constraint firstItem="h5k-II-oP9" firstAttribute="centerX" secondItem="su2-dL-rHD" secondAttribute="centerX" id="pL3-yx-mmw"/>
+                        <constraint firstAttribute="bottom" secondItem="h5k-II-oP9" secondAttribute="bottom" constant="14" id="vcJ-UO-uRI"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="su2-dL-rHD" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="JHd-5c-ofb"/>
+                <constraint firstItem="su2-dL-rHD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ZGH-RH-gXp"/>
+                <constraint firstItem="su2-dL-rHD" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="cmo-X7-WZf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_menu" width="24" height="11"/>
+    </resources>
+</document>

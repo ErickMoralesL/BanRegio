@@ -12,7 +12,7 @@
 "mandatoryValidation" = "validacion obligatorio";
 "incorrectValidation" = "validacion incorrecto";
 "passworIncorrectValidation" = "validacion incorrecto contrasena";
-"titleIncorrectLogin" = "Su correo o su contraseña no coinciden, intente nuevamente.";
+"titleIncorrectLogin" = "Su usuario o su contraseña no coinciden, intente nuevamente.";
 "requestError" = "Se genero un problema intente de nuevo";
 "internetError" = "Sin conexión, \nintente nuevamente";
 "btnAcept" = "Aceptar";
@@ -36,3 +36,8 @@
 "calendar" = "Calendario";
 "userSave" = "El usuario ha sido agregado a la base de datos.";
 "userNotSave" = "El usuario ya se encuentra registrado.";
+
+"home" = "Home";
+"sectionOne" = "Sección 1";
+"sectionTwo" = "Sección 2";
+"sectionThree" = "Sección 3";

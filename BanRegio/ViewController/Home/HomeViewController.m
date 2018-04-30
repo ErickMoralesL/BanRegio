@@ -70,6 +70,7 @@
     
     [Styles setLabelSubTitle:_lblName];
     [_txtFormName setScrollView:_scrollView];
+    _txtFormName.forceToScroll = YES;
     [Styles setLabelSubTitle:_lblLastName];
     [_txtFormLastName setScrollView:_scrollView];
     [Styles setLabelSubTitle:_lblBirthdate];
