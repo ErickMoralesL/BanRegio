@@ -45,6 +45,7 @@
     userVO.lastName = userRLM.lastName;
     userVO.birthday = userRLM.birthday;
     userVO.address = userRLM.address;
+    userVO.data = userRLM.data;
     return userVO;
 }
 
@@ -55,6 +56,7 @@
     userRLM.lastName = userVO.lastName;
     userRLM.birthday = userVO.birthday;
     userRLM.address = userVO.address;
+    userRLM.data = userVO.data;
     return userRLM;
 }
 

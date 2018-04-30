@@ -41,3 +41,8 @@
 "sectionOne" = "Sección 1";
 "sectionTwo" = "Sección 2";
 "sectionThree" = "Sección 3";
+
+"tutorial" = "Tutorial";
+"tutorialOne" = "Con esta aplicación podrás interactuar con los beneficios de tu cuenta BanRegio.";
+"tutorialTwo" = "Aquí te ayudaremos a tener el mayor control de tus datos eh información de tu cuenta BanRegio.";
+"tutorialThree" = "A continuación podrás ingresar tu información para comenzar los beneficios de tu cuenta.";

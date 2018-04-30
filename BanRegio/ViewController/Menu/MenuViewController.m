@@ -84,7 +84,12 @@
 
         ProfileTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIDentifier];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
-        [cell setBackgroundColor:[UIColor clearColor]];        return cell;
+        [cell setBackgroundColor:[UIColor clearColor]];
+        UserSingleton *user = [UserSingleton sharedInstance];
+        [cell.lblName setText:user.user.user];
+        if(user.user.data != nil)
+            [cell.imgView setImage:[UIImage imageWithData:user.user.data]];
+        return cell;
     }else{
         static NSString *cellIDentifier = CELL_SECTION;
 

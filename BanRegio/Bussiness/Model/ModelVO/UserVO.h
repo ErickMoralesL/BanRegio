@@ -15,5 +15,6 @@
 @property (strong, nonatomic) NSString *birthday;
 @property (strong, nonatomic) NSString *address;
 @property (strong, nonatomic) NSString *lastName;
+@property (strong, nonatomic) NSData *data;
 
 @end

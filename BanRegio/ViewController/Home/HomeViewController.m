@@ -11,6 +11,7 @@
 #import "CalendarViewController.h"
 #import "DashboardViewController.h"
 #import "MenuViewController.h"
+#import "TutorialViewController.h"
 
 @interface HomeViewController ()<ActionSheetNotification, UIImagePickerControllerDelegate, UINavigationControllerDelegate,CalendarViewControllerDelegate, AlertViewControllerDelegate>
 
@@ -86,6 +87,7 @@
 
 -(void)setData
 {
+    [self initTutorial];
     _userVO = [[UserVO alloc] init];
     [_lblTitleHeader setText:NSLocalizedString(@"titleHeader", @"")];
     [_scrollView addSubview:_viewContentForm];
@@ -121,6 +123,8 @@
             [self showAlertWithTitle:NSLocalizedString(@"userSave", @"") titleButtonAcept:NSLocalizedString(@"btnAcept", @"")];
             _isSave = YES;
             [[[RealmInteractor alloc] init] saveUserVOWith:_userVO];
+            UserSingleton *user = [UserSingleton sharedInstance];
+            user.user = _userVO;
         }else{
             _isSave = NO;
             [self showAlertWithTitle:NSLocalizedString(@"userNotSave", @"") titleButtonAcept:NSLocalizedString(@"btnAcept", @"")];
@@ -204,6 +208,7 @@
 {
     UIImage *cameraImage = [info valueForKey:UIImagePickerControllerOriginalImage];
     [_imgViewProfile setImage:cameraImage];
+    _userVO.data = UIImagePNGRepresentation(_imgViewProfile.image);
     [picker dismissViewControllerAnimated:YES completion:nil];}
 
 -(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
@@ -249,6 +254,19 @@
         [[UIApplication sharedApplication].keyWindow setRootViewController:revealController];
         [self.navigationController pushViewController:mainSlides animated:YES];
     }
+}
+
+#pragma mark - Tutorial
+
+-(void)initTutorial
+{
+    TutorialViewController *tutorialVC = [[TutorialViewController alloc] initWithNibName:@"TutorialViewController" bundle:[NSBundle mainBundle]];
+    self.navigationController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentViewController:tutorialVC animated:YES completion:^{
+        [tutorialVC setConfiguration:@[NSLocalizedString(@"tutorialOne", @""),
+                                       NSLocalizedString(@"tutorialTwo", @""),
+                                       NSLocalizedString(@"tutorialThree", @"")]];
+    }];
 }
 
 @end

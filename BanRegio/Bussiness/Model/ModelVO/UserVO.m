@@ -15,5 +15,6 @@
 @synthesize birthday;
 @synthesize address;
 @synthesize lastName;
+@synthesize data;
 
 @end

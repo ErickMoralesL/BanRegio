@@ -31,5 +31,6 @@
 #import "UserRLM.h"
 #import "RealmInteractor.h"
 #import "SWRevealViewController.h"
+#import "UserSingleton.h"
 
 #endif /* PrefixHeader_pch */

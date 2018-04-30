@@ -55,6 +55,9 @@
 		CC869D952096D6ED004775C3 /* SectionTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC869D932096D6ED004775C3 /* SectionTwoViewController.xib */; };
 		CC869D992096D709004775C3 /* SectionThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC869D972096D709004775C3 /* SectionThreeViewController.m */; };
 		CC869D9A2096D709004775C3 /* SectionThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC869D982096D709004775C3 /* SectionThreeViewController.xib */; };
+		CC869D9E2096E2E3004775C3 /* UserSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC869D9D2096E2E3004775C3 /* UserSingleton.m */; };
+		CC869DA420974F81004775C3 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC869DA220974F81004775C3 /* TutorialViewController.m */; };
+		CC869DA520974F81004775C3 /* TutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC869DA320974F81004775C3 /* TutorialViewController.xib */; };
 		CCE1DF7F209691B0008C50E6 /* RealmFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF7E209691B0008C50E6 /* RealmFacade.m */; };
 		CCE1DF82209692DB008C50E6 /* RealmInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF81209692DB008C50E6 /* RealmInteractor.m */; };
 		CCE1DF85209693C6008C50E6 /* ParserRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF84209693C6008C50E6 /* ParserRealm.m */; };
@@ -151,6 +154,11 @@
 		CC869D962096D709004775C3 /* SectionThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionThreeViewController.h; sourceTree = "<group>"; };
 		CC869D972096D709004775C3 /* SectionThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionThreeViewController.m; sourceTree = "<group>"; };
 		CC869D982096D709004775C3 /* SectionThreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionThreeViewController.xib; sourceTree = "<group>"; };
+		CC869D9C2096E2E3004775C3 /* UserSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSingleton.h; sourceTree = "<group>"; };
+		CC869D9D2096E2E3004775C3 /* UserSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserSingleton.m; sourceTree = "<group>"; };
+		CC869DA120974F81004775C3 /* TutorialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		CC869DA220974F81004775C3 /* TutorialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		CC869DA320974F81004775C3 /* TutorialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TutorialViewController.xib; sourceTree = "<group>"; };
 		CCE1DF7D209691B0008C50E6 /* RealmFacade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmFacade.h; sourceTree = "<group>"; };
 		CCE1DF7E209691B0008C50E6 /* RealmFacade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmFacade.m; sourceTree = "<group>"; };
 		CCE1DF80209692DB008C50E6 /* RealmInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmInteractor.h; sourceTree = "<group>"; };
@@ -229,6 +237,7 @@
 		CC29D61D209020CF00B1E0DD /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CC869D9F20974F43004775C3 /* Tutorial */,
 				CC869D862096D629004775C3 /* SectionThree */,
 				CC869D852096D621004775C3 /* SectionTwo */,
 				CC869D842096D61A004775C3 /* SectionOne */,
@@ -274,6 +283,7 @@
 		CC29D6232090365F00B1E0DD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CC869DA020974F52004775C3 /* Tutorial */,
 				CC869D832096D5FF004775C3 /* SectionThree */,
 				CC869D822096D5F5004775C3 /* SectionTwo */,
 				CC869D812096D5E9004775C3 /* SectionOne */,
@@ -320,6 +330,7 @@
 		CC29D63020903B7D00B1E0DD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				CC869D9B2096E25B004775C3 /* SimplePersistance */,
 				CC29D67820961FA900B1E0DD /* Permissions */,
 				CC29D6572092DCCC00B1E0DD /* UI */,
 				CC29D64D2092D9BF00B1E0DD /* Reachability */,
@@ -619,6 +630,32 @@
 			path = SectionThree;
 			sourceTree = "<group>";
 		};
+		CC869D9B2096E25B004775C3 /* SimplePersistance */ = {
+			isa = PBXGroup;
+			children = (
+				CC869D9C2096E2E3004775C3 /* UserSingleton.h */,
+				CC869D9D2096E2E3004775C3 /* UserSingleton.m */,
+			);
+			path = SimplePersistance;
+			sourceTree = "<group>";
+		};
+		CC869D9F20974F43004775C3 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				CC869DA120974F81004775C3 /* TutorialViewController.h */,
+				CC869DA220974F81004775C3 /* TutorialViewController.m */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		CC869DA020974F52004775C3 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				CC869DA320974F81004775C3 /* TutorialViewController.xib */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
 		CCE1DF7C2096911E008C50E6 /* Realm */ = {
 			isa = PBXGroup;
 			children = (
@@ -740,6 +777,7 @@
 				CC869D692096B4A5004775C3 /* DashboardViewController.xib in Resources */,
 				CC29D622209032C900B1E0DD /* LoginViewController.xib in Resources */,
 				CC869D782096CBA1004775C3 /* ProfileTableViewCell.xib in Resources */,
+				CC869DA520974F81004775C3 /* TutorialViewController.xib in Resources */,
 				CC29D6762094EEFC00B1E0DD /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -776,6 +814,7 @@
 				CC29D6562092DA8300B1E0DD /* InternetResponse.m in Sources */,
 				CC29D67B20961FFB00B1E0DD /* AskPermissionsViewController.m in Sources */,
 				CC869D942096D6ED004775C3 /* SectionTwoViewController.m in Sources */,
+				CC869D9E2096E2E3004775C3 /* UserSingleton.m in Sources */,
 				CC29D60C20901EC300B1E0DD /* LoginViewController.m in Sources */,
 				CCE1DF85209693C6008C50E6 /* ParserRealm.m in Sources */,
 				CC869D772096CBA1004775C3 /* ProfileTableViewCell.m in Sources */,
@@ -794,6 +833,7 @@
 				CCE1DF8A20969664008C50E6 /* UserRLM.m in Sources */,
 				CC29D63320903BBD00B1E0DD /* Utils.m in Sources */,
 				CC29D6402091896000B1E0DD /* UITextForm.m in Sources */,
+				CC869DA420974F81004775C3 /* TutorialViewController.m in Sources */,
 				CCE1DF7F209691B0008C50E6 /* RealmFacade.m in Sources */,
 				CC29D6752094EEFC00B1E0DD /* AlertViewController.m in Sources */,
 				CC29D65A2092DCEB00B1E0DD /* TextValidations.m in Sources */,
