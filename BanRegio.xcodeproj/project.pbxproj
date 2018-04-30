@@ -41,10 +41,15 @@
 		CC29D68420963BA700B1E0DD /* HomeInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29D68320963BA700B1E0DD /* HomeInteractor.m */; };
 		CC29D689209648D100B1E0DD /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29D687209648D100B1E0DD /* CalendarViewController.m */; };
 		CC29D68A209648D100B1E0DD /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC29D688209648D100B1E0DD /* CalendarViewController.xib */; };
+		CC869D682096B4A5004775C3 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC869D662096B4A5004775C3 /* DashboardViewController.m */; };
+		CC869D692096B4A5004775C3 /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC869D672096B4A5004775C3 /* DashboardViewController.xib */; };
+		CC869D6D2096B5BF004775C3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC869D6C2096B5BF004775C3 /* SWRevealViewController.m */; };
 		CCE1DF7F209691B0008C50E6 /* RealmFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF7E209691B0008C50E6 /* RealmFacade.m */; };
 		CCE1DF82209692DB008C50E6 /* RealmInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF81209692DB008C50E6 /* RealmInteractor.m */; };
 		CCE1DF85209693C6008C50E6 /* ParserRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF84209693C6008C50E6 /* ParserRealm.m */; };
 		CCE1DF8A20969664008C50E6 /* UserRLM.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF8920969664008C50E6 /* UserRLM.m */; };
+		CCE1DF902096B2BD008C50E6 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF8E2096B2BD008C50E6 /* MenuViewController.m */; };
+		CCE1DF912096B2BD008C50E6 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE1DF8F2096B2BD008C50E6 /* MenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +117,12 @@
 		CC29D686209648D100B1E0DD /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CalendarViewController.h; path = BanRegio/ViewController/Calendar/CalendarViewController.h; sourceTree = SOURCE_ROOT; };
 		CC29D687209648D100B1E0DD /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CalendarViewController.m; path = BanRegio/ViewController/Calendar/CalendarViewController.m; sourceTree = SOURCE_ROOT; };
 		CC29D688209648D100B1E0DD /* CalendarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CalendarViewController.xib; path = BanRegio/ViewController/Home/CalendarViewController.xib; sourceTree = SOURCE_ROOT; };
+		CC869D622096B426004775C3 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		CC869D652096B4A5004775C3 /* DashboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		CC869D662096B4A5004775C3 /* DashboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		CC869D672096B4A5004775C3 /* DashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
+		CC869D6B2096B5BF004775C3 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CC869D6C2096B5BF004775C3 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		CCE1DF7D209691B0008C50E6 /* RealmFacade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmFacade.h; sourceTree = "<group>"; };
 		CCE1DF7E209691B0008C50E6 /* RealmFacade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmFacade.m; sourceTree = "<group>"; };
 		CCE1DF80209692DB008C50E6 /* RealmInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmInteractor.h; sourceTree = "<group>"; };
@@ -120,6 +131,8 @@
 		CCE1DF84209693C6008C50E6 /* ParserRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParserRealm.m; sourceTree = "<group>"; };
 		CCE1DF8820969664008C50E6 /* UserRLM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserRLM.h; sourceTree = "<group>"; };
 		CCE1DF8920969664008C50E6 /* UserRLM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserRLM.m; sourceTree = "<group>"; };
+		CCE1DF8E2096B2BD008C50E6 /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		CCE1DF8F2096B2BD008C50E6 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +201,8 @@
 		CC29D61D209020CF00B1E0DD /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CC869D632096B473004775C3 /* Dashboard */,
+				CCE1DF8B2096B289008C50E6 /* Menu */,
 				CC29D68B209648D800B1E0DD /* Calendar */,
 				CC29D6772094EF0600B1E0DD /* Alert */,
 				CC29D6702094EE4400B1E0DD /* Home */,
@@ -227,6 +242,8 @@
 		CC29D6232090365F00B1E0DD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CC869D642096B485004775C3 /* Dashboard */,
+				CCE1DF8C2096B293008C50E6 /* Menu */,
 				CC29D685209648AF00B1E0DD /* Calendar */,
 				CC29D67F20962D9F00B1E0DD /* Permissions */,
 				CC29D6712094EEE800B1E0DD /* Alert */,
@@ -352,6 +369,7 @@
 		CC29D6652094EC4300B1E0DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC869D6A2096B571004775C3 /* Menu */,
 				CC29D6662094EC6000B1E0DD /* Loader */,
 			);
 			path = Frameworks;
@@ -436,6 +454,32 @@
 			path = Calendar;
 			sourceTree = "<group>";
 		};
+		CC869D632096B473004775C3 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				CC869D652096B4A5004775C3 /* DashboardViewController.h */,
+				CC869D662096B4A5004775C3 /* DashboardViewController.m */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		CC869D642096B485004775C3 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				CC869D672096B4A5004775C3 /* DashboardViewController.xib */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		CC869D6A2096B571004775C3 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CC869D6B2096B5BF004775C3 /* SWRevealViewController.h */,
+				CC869D6C2096B5BF004775C3 /* SWRevealViewController.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		CCE1DF7C2096911E008C50E6 /* Realm */ = {
 			isa = PBXGroup;
 			children = (
@@ -465,6 +509,23 @@
 				CCE1DF8920969664008C50E6 /* UserRLM.m */,
 			);
 			path = ModelRLM;
+			sourceTree = "<group>";
+		};
+		CCE1DF8B2096B289008C50E6 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CC869D622096B426004775C3 /* MenuViewController.h */,
+				CCE1DF8E2096B2BD008C50E6 /* MenuViewController.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		CCE1DF8C2096B293008C50E6 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CCE1DF8F2096B2BD008C50E6 /* MenuViewController.xib */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -528,8 +589,10 @@
 				CC29D61420901EC900B1E0DD /* LaunchScreen.storyboard in Resources */,
 				CC29D63A20917AA500B1E0DD /* Localizable.strings in Resources */,
 				CC29D66F2094EE3E00B1E0DD /* HomeViewController.xib in Resources */,
+				CCE1DF912096B2BD008C50E6 /* MenuViewController.xib in Resources */,
 				CC29D68A209648D100B1E0DD /* CalendarViewController.xib in Resources */,
 				CC29D61120901EC900B1E0DD /* Assets.xcassets in Resources */,
+				CC869D692096B4A5004775C3 /* DashboardViewController.xib in Resources */,
 				CC29D622209032C900B1E0DD /* LoginViewController.xib in Resources */,
 				CC29D6762094EEFC00B1E0DD /* AlertViewController.xib in Resources */,
 			);
@@ -571,6 +634,7 @@
 				CC29D689209648D100B1E0DD /* CalendarViewController.m in Sources */,
 				CC29D627209036E300B1E0DD /* Colors.m in Sources */,
 				CCE1DF82209692DB008C50E6 /* RealmInteractor.m in Sources */,
+				CCE1DF902096B2BD008C50E6 /* MenuViewController.m in Sources */,
 				CC29D6602094D11800B1E0DD /* WSFacade.m in Sources */,
 				CC29D61720901EC900B1E0DD /* main.m in Sources */,
 				CC29D62D2090390500B1E0DD /* Styles.m in Sources */,
@@ -586,7 +650,9 @@
 				CC29D62A209037AC00B1E0DD /* Fonts.m in Sources */,
 				CC29D6472092C22F00B1E0DD /* WSCaller.m in Sources */,
 				CC29D65D2092E74E00B1E0DD /* Animations.m in Sources */,
+				CC869D6D2096B5BF004775C3 /* SWRevealViewController.m in Sources */,
 				CC29D6502092D9E700B1E0DD /* Reachability.m in Sources */,
+				CC869D682096B4A5004775C3 /* DashboardViewController.m in Sources */,
 				CC29D68420963BA700B1E0DD /* HomeInteractor.m in Sources */,
 				CC29D6642094D58D00B1E0DD /* UserVO.m in Sources */,
 				CC29D66E2094EE3E00B1E0DD /* HomeViewController.m in Sources */,

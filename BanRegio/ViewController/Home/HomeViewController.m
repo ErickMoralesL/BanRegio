@@ -9,6 +9,8 @@
 #import "HomeViewController.h"
 #import "HomeInteractor.h"
 #import "CalendarViewController.h"
+#import "DashboardViewController.h"
+#import "MenuViewController.h"
 
 @interface HomeViewController ()<ActionSheetNotification, UIImagePickerControllerDelegate, UINavigationControllerDelegate,CalendarViewControllerDelegate, AlertViewControllerDelegate>
 
@@ -117,6 +119,7 @@
         {
             [self showAlertWithTitle:NSLocalizedString(@"userSave", @"") titleButtonAcept:NSLocalizedString(@"btnAcept", @"")];
             _isSave = YES;
+            [[[RealmInteractor alloc] init] saveUserVOWith:_userVO];
         }else{
             _isSave = NO;
             [self showAlertWithTitle:NSLocalizedString(@"userNotSave", @"") titleButtonAcept:NSLocalizedString(@"btnAcept", @"")];
@@ -226,7 +229,25 @@
 -(void)onButtonAcept
 {
     if(_isSave)
-    {}
+    {
+        DashboardViewController *mainSlides = [[DashboardViewController alloc] initWithNibName:@"DashboardViewController" bundle:[NSBundle mainBundle]];
+        
+        MenuViewController *menuViewController = [[MenuViewController alloc]initWithNibName:@"MenuViewController" bundle:[NSBundle mainBundle]];
+        UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainSlides];
+        navigationController.navigationBarHidden = YES;
+        
+        SWRevealViewController *revealController = [[SWRevealViewController alloc] initWithRearViewController:menuViewController frontViewController:navigationController];
+        
+        if(IS_IPHONE_5)
+            revealController.rearViewRevealWidth = [UIScreen mainScreen].bounds.size.width - 130;
+        else if(IS_IPHONE_6P)
+            revealController.rearViewRevealWidth = [UIScreen mainScreen].bounds.size.width - 225;
+        else
+            revealController.rearViewRevealWidth = [UIScreen mainScreen].bounds.size.width - 185;
+        
+        [[UIApplication sharedApplication].keyWindow setRootViewController:revealController];
+        [self.navigationController pushViewController:mainSlides animated:YES];
+    }
 }
 
 @end

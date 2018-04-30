@@ -30,5 +30,6 @@
 #import "FSCalendar.h"
 #import "UserRLM.h"
 #import "RealmInteractor.h"
+#import "SWRevealViewController.h"
 
 #endif /* PrefixHeader_pch */
