@@ -13,6 +13,7 @@
 #pragma mark - URL
 NSString *const URL_MAIN = @"http://json.banregio.io/";
 NSString *const URL_LOGIN = @"login";
+NSString *const URL_BRANCH = @"sucursales";
 
 #pragma mark - Regex
 NSString *const RGX_ALPHANUMERIC = @"^[a-zA-Z0-9áéíóú\\s]*$";

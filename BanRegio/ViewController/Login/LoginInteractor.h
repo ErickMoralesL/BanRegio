@@ -11,6 +11,7 @@
 @protocol LoginInteractorDelegate<NSObject>
 @required
 -(void)onSuccessRequestWith:(UserVO*)userVO;
+-(void)onSuccessRequestWithBranch:(NSMutableArray<SucursalesVO*>*)array;
 -(void)onErrorRequest;
 -(void)onErrorInternet;
 @end
@@ -25,5 +26,6 @@
 
 #pragma mark - Services
 -(void)initService;
+-(void)initServiceBranchOffices;
 
 @end

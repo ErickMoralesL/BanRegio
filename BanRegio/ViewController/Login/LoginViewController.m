@@ -10,6 +10,9 @@
 #import "LoginInteractor.h"
 #import "HomeViewController.h"
 
+#define LATITUDE 25.7048152
+#define LONGITUDE -100.2880844
+
 @interface LoginViewController ()<LoginInteractorDelegate>
 {
     YBHud *hud;
@@ -22,6 +25,9 @@
 
 @property (weak, nonatomic) IBOutlet UITextForm *txtFormUserName;
 @property (weak, nonatomic) IBOutlet UITextForm *txtFormPassword;
+
+@property (weak, nonatomic) IBOutlet UILabel *lblTitleMap;
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @property (strong, nonatomic) LoginInteractor *interactor;
 
@@ -49,6 +55,27 @@
     _interactor.delegate = self;
     
     hud = [[YBHud alloc] initWithHudType:DGActivityIndicatorAnimationTypeBallBeat andText:@"Cargando"];
+    
+    CLLocationCoordinate2D coord = {.latitude = LATITUDE, .longitude = LONGITUDE};
+    MKCoordinateSpan span = {.latitudeDelta = 0.2f, .longitudeDelta = 0.2f};
+    MKCoordinateRegion region = {coord, span};
+    [_mapView setRegion:region];
+    
+    [hud showInView:self.view animated:YES];
+    [_interactor initServiceBranchOffices];
+    
+//    CLLocationCoordinate2D coordPin = {.latitude = 25.708504, .longitude = -100.284536};
+//    MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
+//    [annotation setCoordinate:coordPin];
+//    [annotation setTitle:@"FÉLIX U. GOMEZ"]; //You can set the subtitle too
+//    [self.mapView addAnnotation:annotation];
+//
+//    CLLocationCoordinate2D coordPinOne = {.latitude = 25.700002, .longitude = -100.363589};
+//    MKPointAnnotation *annotationOne = [[MKPointAnnotation alloc] init];
+//    [annotationOne setCoordinate:coordPinOne];
+//    [annotationOne setTitle:@"CUMBRES"]; //You can set the subtitle too
+//    [self.mapView addAnnotation:annotationOne];
+    
 }
 
 #pragma mark - Set Style
@@ -83,6 +110,21 @@
         [self.navigationController pushViewController:homeVC animated:YES];
     }else{
         [self showAlertWithTitle:NSLocalizedString(@"titleIncorrectLogin", @"") titleButtonAcept:NSLocalizedString(@"btnAcept", @"")];
+    }
+}
+
+-(void)onSuccessRequestWithBranch:(NSMutableArray<SucursalesVO*>*)array
+{
+    [hud dismissAnimated:YES];
+    for(int i=0;i<array.count;i++)
+    {
+        float lat = [array[i].Latitud floatValue];
+        float lng = [array[i].Longitud floatValue];
+        CLLocationCoordinate2D coordPin = {.latitude = lat, .longitude = lng};
+        MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
+        [annotation setCoordinate:coordPin];
+        [annotation setTitle:array[i].NOMBRE]; //You can set the subtitle too
+        [self.mapView addAnnotation:annotation];
     }
 }
 

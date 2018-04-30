@@ -24,4 +24,15 @@
     [WSCaller executeServiceWithRequest:requeste successBlock:onSuccess errorBlock:onError];
 }
 
++(void)branchSuccessBlock:(ResponseBlock)onSuccess errorBlock:(ResponseBlock)onError
+{
+    NSString *strUrl = [NSString stringWithFormat:@"%@%@",URL_MAIN,URL_BRANCH];
+    NSURL *url = [NSURL URLWithString:strUrl];
+    
+    NSMutableURLRequest *requeste = [NSMutableURLRequest requestWithURL:url];
+    [requeste setHTTPMethod:@"GET"];
+    
+    [WSCaller executeServiceWithRequest:requeste successBlock:onSuccess errorBlock:onError];
+}
+
 @end

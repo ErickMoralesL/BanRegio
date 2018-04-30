@@ -11,5 +11,6 @@
 @interface WSFacade : NSObject
 
 +(void)loginSuccessBlock:(ResponseBlock)onSuccess errorBlock:(ResponseBlock)onError;
++(void)branchSuccessBlock:(ResponseBlock)onSuccess errorBlock:(ResponseBlock)onError;
 
 @end
