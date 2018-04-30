@@ -32,4 +32,21 @@
     return YES;
 }
 
+-(BOOL)getExistingUserFor:(UserVO*)userVO
+{
+    RealmInteractor *realm = [[RealmInteractor alloc] init];
+    NSMutableArray<UserVO*>* arrayUserVO = [realm getArrayUserVO];
+    
+    if(arrayUserVO.count > 0)
+    {
+        if([realm getUserVOForKey:userVO.user].user != nil)
+        {
+            return YES;
+        }else{
+            return NO;
+        }
+    }else
+        return NO;
+}
+
 @end

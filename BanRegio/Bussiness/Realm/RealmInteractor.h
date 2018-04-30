@@ -10,4 +10,9 @@
 #import "RealmFacade.h"
 
 @interface RealmInteractor : NSObject<RealFacadeDelegate>
+
+-(void)saveUserVOWith:(UserVO*)userVO;
+-(NSMutableArray<UserVO*>*)getArrayUserVO;
+-(UserVO*)getUserVOForKey:(NSString*)key;
+
 @end

@@ -12,5 +12,8 @@
 
 @synthesize user;
 @synthesize password;
+@synthesize birthday;
+@synthesize address;
+@synthesize lastName;
 
 @end

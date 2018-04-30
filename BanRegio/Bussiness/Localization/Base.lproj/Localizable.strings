@@ -34,3 +34,5 @@
 "btnSave" = "Guardar";
 
 "calendar" = "Calendario";
+"userSave" = "El usuario ha sido agregado a la base de datos.";
+"userNotSave" = "El usuario ya se encuentra registrado.";

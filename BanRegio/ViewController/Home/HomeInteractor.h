@@ -11,5 +11,6 @@
 @interface HomeInteractor : NSObject
 
 -(BOOL)getValidationWithName:(UITextForm*)name LastName:(UITextForm*)lastname Birthday:(UITextForm*)birthday andAddress:(UITextForm*)address;
+-(BOOL)getExistingUserFor:(UserVO*)userVO;
 
 @end

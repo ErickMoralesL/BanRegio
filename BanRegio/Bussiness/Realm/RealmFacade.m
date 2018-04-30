@@ -93,4 +93,9 @@
     [_realm commitWriteTransaction];
 }
 
+-(NSObject*)getObjetcForKey:(NSString*)key andObjectRLM:(NSObject*)object
+{
+    return [[object class] objectForPrimaryKey:key];
+}
+
 @end

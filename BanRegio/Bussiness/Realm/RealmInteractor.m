@@ -44,4 +44,22 @@
 {
     return [ParserRealm getObjectToRealmObjetFor:type andRealmObjet:objecRealm];
 }
+
+#pragma mark - User
+
+-(void)saveUserVOWith:(UserVO*)userVO
+{
+    [_realFacade addForValue:userVO andType:RealmUser];
+}
+
+-(NSMutableArray<UserVO*>*)getArrayUserVO
+{
+    return [_realFacade getMutableArrayObjectForRealmObject:[UserRLM alloc] andType:RealmUser];
+}
+
+-(UserVO*)getUserVOForKey:(NSString*)key
+{
+    return (UserVO*)[_realFacade getObjetcForKey:key andObjectRLM:[UserRLM alloc]];
+}
+
 @end

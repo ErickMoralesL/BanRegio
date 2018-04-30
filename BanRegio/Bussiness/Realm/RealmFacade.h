@@ -32,5 +32,6 @@ NS_ASSUME_NONNULL_END
 -(NSMutableArray*_Nullable)getMutableArrayObjectForRealmObject:(RLMObject*_Nullable)object andType:(RealmType)type;
 -(void)deletRLMResultForRealmObject:(RLMObject*_Nullable)object;
 -(void)addForValue:(id _Nullable)object andType:(RealmType)type;
+-(NSObject*)getObjetcForKey:(NSString*)key andObjectRLM:(NSObject*)object;
 
 @end

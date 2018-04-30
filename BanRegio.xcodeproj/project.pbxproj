@@ -44,6 +44,7 @@
 		CCE1DF7F209691B0008C50E6 /* RealmFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF7E209691B0008C50E6 /* RealmFacade.m */; };
 		CCE1DF82209692DB008C50E6 /* RealmInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF81209692DB008C50E6 /* RealmInteractor.m */; };
 		CCE1DF85209693C6008C50E6 /* ParserRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF84209693C6008C50E6 /* ParserRealm.m */; };
+		CCE1DF8A20969664008C50E6 /* UserRLM.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF8920969664008C50E6 /* UserRLM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +118,8 @@
 		CCE1DF81209692DB008C50E6 /* RealmInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmInteractor.m; sourceTree = "<group>"; };
 		CCE1DF83209693C6008C50E6 /* ParserRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParserRealm.h; sourceTree = "<group>"; };
 		CCE1DF84209693C6008C50E6 /* ParserRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParserRealm.m; sourceTree = "<group>"; };
+		CCE1DF8820969664008C50E6 /* UserRLM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserRLM.h; sourceTree = "<group>"; };
+		CCE1DF8920969664008C50E6 /* UserRLM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserRLM.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,8 +343,8 @@
 		CC29D6612094D55D00B1E0DD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CC29D6622094D58D00B1E0DD /* UserVO.h */,
-				CC29D6632094D58D00B1E0DD /* UserVO.m */,
+				CCE1DF8720969632008C50E6 /* ModelRLM */,
+				CCE1DF8620969625008C50E6 /* ModelVO */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -444,6 +447,24 @@
 				CCE1DF84209693C6008C50E6 /* ParserRealm.m */,
 			);
 			path = Realm;
+			sourceTree = "<group>";
+		};
+		CCE1DF8620969625008C50E6 /* ModelVO */ = {
+			isa = PBXGroup;
+			children = (
+				CC29D6622094D58D00B1E0DD /* UserVO.h */,
+				CC29D6632094D58D00B1E0DD /* UserVO.m */,
+			);
+			path = ModelVO;
+			sourceTree = "<group>";
+		};
+		CCE1DF8720969632008C50E6 /* ModelRLM */ = {
+			isa = PBXGroup;
+			children = (
+				CCE1DF8820969664008C50E6 /* UserRLM.h */,
+				CCE1DF8920969664008C50E6 /* UserRLM.m */,
+			);
+			path = ModelRLM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -556,6 +577,7 @@
 				CC29D60920901EC300B1E0DD /* AppDelegate.m in Sources */,
 				CC29D67E209627A000B1E0DD /* ActionSheets.m in Sources */,
 				CC29D64A2092D29500B1E0DD /* LoginInteractor.m in Sources */,
+				CCE1DF8A20969664008C50E6 /* UserRLM.m in Sources */,
 				CC29D63320903BBD00B1E0DD /* Utils.m in Sources */,
 				CC29D6402091896000B1E0DD /* UITextForm.m in Sources */,
 				CCE1DF7F209691B0008C50E6 /* RealmFacade.m in Sources */,

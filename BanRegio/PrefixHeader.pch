@@ -28,5 +28,7 @@
 #import "AskPermissionsViewController.h"
 #import "ActionSheets.h"
 #import "FSCalendar.h"
+#import "UserRLM.h"
+#import "RealmInteractor.h"
 
 #endif /* PrefixHeader_pch */

@@ -10,7 +10,7 @@
 #import "HomeInteractor.h"
 #import "CalendarViewController.h"
 
-@interface HomeViewController ()<ActionSheetNotification, UIImagePickerControllerDelegate, UINavigationControllerDelegate,CalendarViewControllerDelegate>
+@interface HomeViewController ()<ActionSheetNotification, UIImagePickerControllerDelegate, UINavigationControllerDelegate,CalendarViewControllerDelegate, AlertViewControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIView *viewHeader;
 @property (weak, nonatomic) IBOutlet UILabel *lblTitleHeader;
@@ -32,6 +32,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnSave;
 
 @property (strong, nonatomic) HomeInteractor *interactor;
+
+@property (strong, nonatomic) UserVO *userVO;
+@property (nonatomic) BOOL isSave;
 
 @end
 
@@ -56,6 +59,7 @@
 
 -(void)setStyle
 {
+    _isSave = NO;
     [_viewHeader setBackgroundColor:[Colors gray192Color]];
     [Styles setLabelTitleHeader:_lblTitleHeader];
     [Styles setLabelTitle:_lblTitle];
@@ -79,6 +83,7 @@
 
 -(void)setData
 {
+    _userVO = [[UserVO alloc] init];
     [_lblTitleHeader setText:NSLocalizedString(@"titleHeader", @"")];
     [_scrollView addSubview:_viewContentForm];
     [_lblTitle setText:NSLocalizedString(@"titleHome", @"")];
@@ -103,7 +108,20 @@
 -(IBAction)buttonSave:(id)sender
 {
     if([_interactor getValidationWithName:_txtFormName LastName:_txtFormLastName Birthday:_txtFormBirthdate andAddress:_txtFormAddress])
-    {}
+    {
+        _userVO.user = _txtFormName.text;
+        _userVO.lastName = _txtFormLastName.text;
+        _userVO.birthday = _txtFormBirthdate.text;
+        _userVO.address = _txtFormAddress.text;
+        if(![_interactor getExistingUserFor:_userVO])
+        {
+            [self showAlertWithTitle:NSLocalizedString(@"userSave", @"") titleButtonAcept:NSLocalizedString(@"btnAcept", @"")];
+            _isSave = YES;
+        }else{
+            _isSave = NO;
+            [self showAlertWithTitle:NSLocalizedString(@"userNotSave", @"") titleButtonAcept:NSLocalizedString(@"btnAcept", @"")];
+        }
+    }
 }
 
 -(IBAction)buttonCalendar:(id)sender
@@ -187,6 +205,28 @@
 -(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
     [picker dismissViewControllerAnimated:YES completion:nil];
+}
+
+#pragma mark - Alert
+
+-(void)showAlertWithTitle:(NSString*)title titleButtonAcept:(NSString*)btnAcept
+{
+    AlertViewController *alertVC = [[AlertViewController alloc] init];
+    alertVC.delegate = self;
+    alertVC.modalPresentationStyle = UIModalPresentationFullScreen;
+    alertVC.modalPresentationStyle = UIModalPresentationCustom;
+    [self presentViewController:alertVC animated:YES completion:nil];
+    [alertVC.lblTitle setText:title];
+    [alertVC.btnAcept setTitle:btnAcept forState:UIControlStateNormal];
+    [alertVC hiddenButtonCancel];
+}
+
+#pragma mark - Alert Delegate
+
+-(void)onButtonAcept
+{
+    if(_isSave)
+    {}
 }
 
 @end

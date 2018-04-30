@@ -15,7 +15,7 @@
     ParserRealm *parserRLM = [[ParserRealm alloc] init];
     switch (type) {
         case RealmUser:
-            return nil;
+            return [parserRLM getUserVOWithUserRLM:(UserRLM *)object];
             break;
         default:
             return nil;
@@ -28,12 +28,34 @@
     ParserRealm *parserRLM = [[ParserRealm alloc] init];
     switch (type) {
         case RealmUser:
-            return nil;
+            return [parserRLM getUserRLMWithUserVO:(UserVO *)object];
             break;
         default:
             return nil;
             break;
     }
+}
+
+#pragma mark - User
+
+-(UserVO*)getUserVOWithUserRLM:(UserRLM*)userRLM
+{
+    UserVO *userVO = [[UserVO alloc] init];
+    userVO.user = userRLM.user;
+    userVO.lastName = userRLM.lastName;
+    userVO.birthday = userRLM.birthday;
+    userVO.address = userRLM.address;
+    return userVO;
+}
+
+-(UserRLM*)getUserRLMWithUserVO:(UserVO*)userVO
+{
+    UserRLM *userRLM = [[UserRLM alloc] init];
+    userRLM.user = userVO.user;
+    userRLM.lastName = userVO.lastName;
+    userRLM.birthday = userVO.birthday;
+    userRLM.address = userVO.address;
+    return userRLM;
 }
 
 @end
