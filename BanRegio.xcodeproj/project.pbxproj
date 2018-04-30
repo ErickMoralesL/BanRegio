@@ -42,6 +42,8 @@
 		CC29D689209648D100B1E0DD /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29D687209648D100B1E0DD /* CalendarViewController.m */; };
 		CC29D68A209648D100B1E0DD /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC29D688209648D100B1E0DD /* CalendarViewController.xib */; };
 		CCE1DF7F209691B0008C50E6 /* RealmFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF7E209691B0008C50E6 /* RealmFacade.m */; };
+		CCE1DF82209692DB008C50E6 /* RealmInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF81209692DB008C50E6 /* RealmInteractor.m */; };
+		CCE1DF85209693C6008C50E6 /* ParserRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DF84209693C6008C50E6 /* ParserRealm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +113,10 @@
 		CC29D688209648D100B1E0DD /* CalendarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CalendarViewController.xib; path = BanRegio/ViewController/Home/CalendarViewController.xib; sourceTree = SOURCE_ROOT; };
 		CCE1DF7D209691B0008C50E6 /* RealmFacade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmFacade.h; sourceTree = "<group>"; };
 		CCE1DF7E209691B0008C50E6 /* RealmFacade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmFacade.m; sourceTree = "<group>"; };
+		CCE1DF80209692DB008C50E6 /* RealmInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmInteractor.h; sourceTree = "<group>"; };
+		CCE1DF81209692DB008C50E6 /* RealmInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmInteractor.m; sourceTree = "<group>"; };
+		CCE1DF83209693C6008C50E6 /* ParserRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParserRealm.h; sourceTree = "<group>"; };
+		CCE1DF84209693C6008C50E6 /* ParserRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParserRealm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -432,6 +438,10 @@
 			children = (
 				CCE1DF7D209691B0008C50E6 /* RealmFacade.h */,
 				CCE1DF7E209691B0008C50E6 /* RealmFacade.m */,
+				CCE1DF80209692DB008C50E6 /* RealmInteractor.h */,
+				CCE1DF81209692DB008C50E6 /* RealmInteractor.m */,
+				CCE1DF83209693C6008C50E6 /* ParserRealm.h */,
+				CCE1DF84209693C6008C50E6 /* ParserRealm.m */,
 			);
 			path = Realm;
 			sourceTree = "<group>";
@@ -536,8 +546,10 @@
 				CC29D6562092DA8300B1E0DD /* InternetResponse.m in Sources */,
 				CC29D67B20961FFB00B1E0DD /* AskPermissionsViewController.m in Sources */,
 				CC29D60C20901EC300B1E0DD /* LoginViewController.m in Sources */,
+				CCE1DF85209693C6008C50E6 /* ParserRealm.m in Sources */,
 				CC29D689209648D100B1E0DD /* CalendarViewController.m in Sources */,
 				CC29D627209036E300B1E0DD /* Colors.m in Sources */,
+				CCE1DF82209692DB008C50E6 /* RealmInteractor.m in Sources */,
 				CC29D6602094D11800B1E0DD /* WSFacade.m in Sources */,
 				CC29D61720901EC900B1E0DD /* main.m in Sources */,
 				CC29D62D2090390500B1E0DD /* Styles.m in Sources */,

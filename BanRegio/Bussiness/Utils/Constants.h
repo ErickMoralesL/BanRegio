@@ -68,4 +68,11 @@ typedef NS_ENUM(NSUInteger, ActionSheet)
     ActionSheetCancel
 };
 
+#pragma mark - RealmType
+typedef NS_ENUM(NSUInteger, RealmType)
+{
+    RealmUser
+};
+
+
 @end
